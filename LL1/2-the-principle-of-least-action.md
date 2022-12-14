@@ -88,7 +88,7 @@ This additivity of the Lagrangian expresses the fact that the equations of motio
 
 It is evident that the multiplication of the Lagrangian of a mechanical system by an arbitrary constant has no effect on the equations of motion.
 
-From this, it might seem, the following important property of arbitrariness can be deduced: the Lagrangians of different isolated mechanical systems may be multiplied by different arbitrary constants. The additive property, however, removes this indefiniteness, since it admits only the simultaneous multiplication of the Lagrangians of all the systems by the same constant.  This corresponds to the natural arbitrariness in the choice of the unit of measurement of the Lagrangian, a matter to which we shall return in §4 (TODO LINK).
+From this, it might seem, the following important property of arbitrariness can be deduced: the Lagrangians of different isolated mechanical systems may be multiplied by different arbitrary constants. The additive property, however, removes this indefiniteness, since it admits only the simultaneous multiplication of the Lagrangians of all the systems by the same constant.  This corresponds to the natural arbitrariness in the choice of the unit of measurement of the Lagrangian, a matter to which we shall return in `LL1/4`.
 
 One further general remark should be made. Let us consider two functions $L'(q,\dot{q},t) and $L(q,\dot{q},t)$, differing by the total derivative with respect to time of some function $f(q,t)$ of co-ordinates and time:
 
