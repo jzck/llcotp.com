@@ -1,0 +1,65 @@
+#container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 800px;
+  text-align: justify;
+}
+h1 {
+  text-transform: capitalize;
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #000000;
+    margin: 1em 0; padding: 0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {background: #DDDD}
+
+/* table, th, td */
+/* { */
+/*     border: none; */
+/* } */
