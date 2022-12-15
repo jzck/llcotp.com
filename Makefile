@@ -1,8 +1,11 @@
 MD = $(shell ls LL1/*.md)
-HTML = $(addprefix out/,$(MD:.md=.html))
+HTML = $(addprefix out/,$(MD:.md=.html)) out/LL1/index.html
 
 all: $(HTML) | out
 	cp tools/style.css out
+
+out/LL1/index.html:
+	./tools/gen_index.sh > $@
 
 out/%.html: %.md
 	mkdir -p $(dir $@)
