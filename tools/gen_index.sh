@@ -1,7 +1,7 @@
 #!/bin/bash
 
 book=LL1
-sections=$(find LL1 -name "*.md" | sort)
+sections=$(find LL1 -name "*.md" | sort -h)
 
 echo "<ul>"
 for s in $sections; do

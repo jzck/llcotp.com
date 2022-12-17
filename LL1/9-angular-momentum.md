@@ -104,3 +104,27 @@ LL1/9.6
 In other words, the angular momentum $\v{M}$ of a mechanical system consists of its "intrinsic angular momentum" in a frame in which it is at rest, and the angular momentum $\v{R}\times\v{P}$ due to its motion as a whole.
 
 Although the law of conservation of all three components of angular momentum (relative to an arbitrary origin) is valid only for a closed system, the law of conservation may hold in a more restricted form even for a system in an external field. It is evident from the above derivation that the component of angular momentum along an axis about which the field is symmetrical is always conserved, for the mechanical properties of the system are unaltered by any rotation about that axis. Here the angular momentum must, of course, be defined relative to an origin lying on the axis.
+
+The most important such case is that of a centrally symmetric field or central field, i.e. one in which the potential energy depends only on the distance from some particular point (the centre). It is evident that the component of angular momentum along any axis passing through the centre is conserved in motion in such a field. In other words, the angular momentum $\v{M}$ is conserved provided that it is defined with respect to the centre of the field.
+
+Another example is that of a homogeneous field in the z-direction; in such a field, the component $M_z$ of the angular momentum is conserved, whichever point is taken as the origin.
+
+The component of angular momentum along any axis (say the z-axis) can
+be found by differentiation of the Lagrangian:
+
+```load
+LL1/9.7
+```
+
+where the co-ordinate is the angle of rotation about the z-axis. This is evident from the above proof of the law of conservation of angular momentum, but can also be proved directly. In cylindrical co-ordinates $r, \phi, z$ we have (substituting $x_a = r_a\cos\phi_a, y_a = -r_a\sin\phi_a$
+
+$$
+M_z=\sum_a m_a(x_a\dot{y}_a-y_a\dot{x}_a)
+$$
+```load
+LL1/9.8
+```
+
+The Lagrangian is, in terms of these co-ordinates,
+
+and substitution of this in `LL1/9.7` gives `LL1/9.8`.
