@@ -1,5 +1,5 @@
 ---
-title: Mechanical similarity
+title: 10. Mechanical similarity
 ---
 
 Multiplication of the Lagrangian by any constant clearly does not affect the equations of motion. This fact (already mentioned in `LL1/2`) makes possible, in a number of important cases, some useful inferences concerning the properties of the motion, without the necessity of actually integrating the equations.
@@ -12,7 +12,7 @@ LL1/10.1
 
 where $\alpha$ is any constant and $k$ the degree of homogeneity of the function.
 
-Let us carry out a transformation in which the co-ordinates are changed by a factor $\alpha$ and the time by a factor $\beta: \v{r}_a\rightarrow \alpha\v{r}_a, t\rightarrow \beta t$. Then all the velocities $\v{v}a = \dd{\v{r}}_a/\dd{t} are changed by a factor $\alpha/\beta$, and the kinetic energy by a factor
+Let us carry out a transformation in which the co-ordinates are changed by a factor $\alpha$ and the time by a factor $\beta: \v{r}_a\rightarrow \alpha\v{r}_a, t\rightarrow \beta t$. Then all the velocities $\v{v}_a = \dd{\v{r}}_a/\dd{t}$ are changed by a factor $\alpha/\beta$, and the kinetic energy by a factor
 $\alpha^2/\beta^2$. The potential energy is multiplied by $\alpha^k$. If $\alpha$ and $\beta$ are such that $\alpha^2/\beta^2 = \alpha^k$, i.e. $\beta = \alpha^{1-k/2}$, then the result of the transformation is to multiply the Lagrangian by the constant factor $\alpha^k$, i.e. to leave the equations of motion unaltered.
 
 A change of all the co-ordinates of the particles by the same factor corresponds to the replacement of the paths of the particles by other paths, geometrically similar but differing in size. Thus we conclude that, if the potential energy of the system is a homogeneous function of degree k in the (Cartesian) co-ordinates, the equations of motion permit a series of geometrically similar paths, and the times of the motion between corresponding points are in the ratio

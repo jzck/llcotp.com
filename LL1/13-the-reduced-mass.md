@@ -1,5 +1,5 @@
 ---
-title: The reduced mass
+title: 13. The reduced mass
 ---
 
 A complete general solution can be obtained for an extremely important

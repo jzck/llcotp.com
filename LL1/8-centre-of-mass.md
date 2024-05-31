@@ -1,5 +1,5 @@
 ---
-title: Centre of mass
+title: 8. Centre of mass
 ---
 
 The momentum of a closed mechanical system has different values in different (inertial) frames of reference. If a frame $K'$ moves with velocity $\v{V}$ relative to another frame $K$, then the velocities $\v{v}_a'$ and $\v{v}_a$ of the particles relative to the two frames are such that $\v{v}_a = \v{v}_a' + \v{V}$. The momenta $P$ and $P'$ in the two frames are therefore related by

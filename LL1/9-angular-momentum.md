@@ -1,5 +1,5 @@
 ---
-title: Angular momentum
+title: 9. Angular momentum
 ---
 
 Let us now derive the conservation law which follows from the isotropy of space. This isotropy means that the mechanical properties of a closed system do not vary when it is rotated as a whole in any manner in space. Let us therefore consider an infinitesimal rotation of the system, and obtain the condition for the Lagrangian to remain unchanged.

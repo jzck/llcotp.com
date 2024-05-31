@@ -1,5 +1,5 @@
 ---
-title: Motion in a central field
+title: 14. Motion in a central field
 ---
 
 On reducing the two-body problem to one of the motion of a single body,

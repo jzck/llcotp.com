@@ -1,5 +1,5 @@
 ---
-title: Motion in one dimension
+title: 11. Motion in one dimension
 ---
 
 The motion of a system having one degree of freedom is said to take place in one dimension. The most general form of the Lagrangian of such a system in fixed external conditions is
@@ -13,7 +13,7 @@ where $a(q)$ is some function of the generalised co-ordinate $q$. In particular,
 if $q$ is a Cartesian co-ordinate ($x$, say) then
 
 ```load
-
+LL1/11.2
 ```
 
 The equations of motion corresponding to these Lagrangians can be integrated in a general form. It is not even necessary to write down the equation of motion; we can start from the first integral of this equation, which gives the law of conservation of energy. For the Lagrangian `LL1/11.2` (e.g.) we have $\mfrac{1}{2}m\dot{x}^2+U(x)=E$. This is a first-order differential equation, and can be inte- grated immediately. Since $\dd{x}/\dd{t} = \sqrt{2[E - U(x)]/m}$, it follows that

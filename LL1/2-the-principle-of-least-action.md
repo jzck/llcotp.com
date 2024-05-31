@@ -1,5 +1,5 @@
 ---
-title: The principle of least action
+title: 2. The principle of least action
 ---
 
 The most general formulation of the law governing the motion of mech-

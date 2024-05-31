@@ -1,11 +1,9 @@
 MD = $(shell ls LL1/*.md)
-HTML = $(addprefix out/,$(MD:.md=.html)) out/LL1/index.html
+HTML = $(addprefix out/,$(MD:.md=.html))
+GOATCOUNTER = $(or $(PROD),false)
 
 all: $(HTML) | out
-	cp tools/style.css out
-
-out/LL1/index.html:
-	./tools/gen_index.sh > $@
+	cp -r assets out
 
 out/%.html: %.md
 	mkdir -p $(dir $@)
@@ -26,3 +24,10 @@ clean:
 	rm -rf out
 
 re: clean all
+
+deploy:
+# make re with PROD=true
+	PROD=true $(MAKE) re
+	. <(pass export/RCLONE_CONFIG/cloudflare-god)
+# copy because sync would remove physics-notes
+	rclone -v sync out/ r2:llcotp/

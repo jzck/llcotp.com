@@ -1,5 +1,5 @@
 ---
-title: The Lagrangian for a free particle
+title: 4. The Lagrangian for a free particle
 ---
 
 Let us now go on to determine the form of the Lagrangian, and consider first of all the simplest case, that of the free motion of a particle relative to an inertial frame of reference. As we have already seen, the Lagrangian in this case can depend only on the square of the velocity. To discover the form of this dependence, we make use of Galileo's relativity principle. If an inertial frame $K$ is moving with an infinitesimal velocity $\v{\epsilon}$ relative to another inertial frame $K'$, then $\v{v}' = \v{v}+\v{\epsilon}$. Since the equations of motion must have the same form in every frame, the Lagrangian $L(v^2)$ must be converted by this transformation into a function $L'$ which differs from $L(v^2)$, if at all, only by the total time derivative of a function of co-ordinates and time (see the end of `LL1/2`).

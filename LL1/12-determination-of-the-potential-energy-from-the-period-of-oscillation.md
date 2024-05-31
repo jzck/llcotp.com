@@ -1,5 +1,5 @@
 ---
-title: Determination of the potential energy from the period of oscillation
+title: 12. Determination of the potential energy from the period of oscillation
 ---
 
 Let us consider to what extent the form of the potential energy U(x) of a

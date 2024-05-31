@@ -1,5 +1,5 @@
 ---
-title: The Lagrangian for a system of particles
+title: 5. The Lagrangian for a system of particles
 ---
 
 Let us now consider a system of particles which interact with one another but with no other bodies. This is called a closed system. It is found that the interaction between the particles can be described by adding to the Lagrangian `LL1/4.2` for non-interacting particles a certain function of the co-ordinates, which depends on the nature of the interaction[^1]. Denoting this function by $-U$, we have

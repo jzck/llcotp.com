@@ -1,5 +1,5 @@
 ---
-title: Galileo's relativity principle
+title: 3. Galileo's relativity principle
 ---
 
 In order to consider mechanical phenomena it is necessary to choose a frame of reference. The laws of motion are in general different in form for different frames of reference. When an arbitrary frame of reference is chosen, it may happen that the laws governing even very simple phenomena become very complex. The problem naturally arises of finding a frame of reference in which the laws of mechanics take their simplest form.

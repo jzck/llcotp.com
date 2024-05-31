@@ -25,7 +25,7 @@ def action(elem, doc):
             book, eq = elem.text.split('/')
             html = f'''
             <span class="tooltip" class="math inline">
-            \(({eq})\)
+            ({eq})
             <span class="tooltiptext">{tooltiptext}</span>
             </span>
             '''

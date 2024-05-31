@@ -1,5 +1,5 @@
 ---
-title: Energy
+title: 6. Energy
 ---
 
 During the motion of a mechanical system, the $2s$ quantities $q_i$ and $\dot{q}_i$, $(i = 1, 2, s)$ which specify the state of the system vary with time. There exist, however, functions of these quantities whose values remain constant during the motion, and depend only on the initial conditions. Such functions are called integrals of the motion.

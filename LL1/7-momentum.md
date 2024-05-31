@@ -1,5 +1,5 @@
 ---
-title: Momentum
+title: 7. Momentum
 ---
 
 A second conservation law follows from the homogeneity of space. By virtue of this homogeneity, the mechanical properties of a closed system are unchanged by any parallel displacement of the entire system in space. Let us therefore consider an infinitesimal displacement $\v{\epsilon}$, and obtain the condition for the Lagrangian to remain unchanged.
