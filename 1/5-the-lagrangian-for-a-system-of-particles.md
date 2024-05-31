@@ -2,40 +2,40 @@
 title: 5. The Lagrangian for a system of particles
 ---
 
-Let us now consider a system of particles which interact with one another but with no other bodies. This is called a closed system. It is found that the interaction between the particles can be described by adding to the Lagrangian `LL1/4.2` for non-interacting particles a certain function of the co-ordinates, which depends on the nature of the interaction[^1]. Denoting this function by $-U$, we have
+Let us now consider a system of particles which interact with one another but with no other bodies. This is called a closed system. It is found that the interaction between the particles can be described by adding to the Lagrangian `1/4.2` for non-interacting particles a certain function of the co-ordinates, which depends on the nature of the interaction[^1]. Denoting this function by $-U$, we have
 
 [^1]: This statement is valid in classical mechanics. Relativistic mechanics is not considered in this book. (See `LL2`)
 
 ```load
-LL1/5.1
+1/5.1
 ```
 
-where $\v{r}_a$ is the radius vector of the $a$th particle. This is the general form of the Lagrangian for a closed system. The sum $T=\sum\mfrac{1}{2}m_av_a^2$ is called the kinetic energy, and U the potential energy, of the system. The significance of these names is explained in `LL1/6`.
+where $\v{r}_a$ is the radius vector of the $a$th particle. This is the general form of the Lagrangian for a closed system. The sum $T=\sum\mfrac{1}{2}m_av_a^2$ is called the kinetic energy, and U the potential energy, of the system. The significance of these names is explained in `1/6`.
 
 The fact that the potential energy depends only on the positions of the particles at a given instant shows that a change in the position of any particle instantaneously affects all the other particles. We may say that the interactions are instantaneously propagated. The necessity for interactions in classical mechanics to be of this type is closely related to the premises upon which the subject is based, namely the absolute nature of time and Galileo's relativity principle. If the propagation of interactions were not instantaneous, but took place with a finite velocity, then that velocity would be different in different frames of reference in relative motion, since the absoluteness of time necessarily implies that the ordinary law of composition of velocities is applicable to all phenomena. The laws of motion for interacting bodies would then be different in different inertial frames, a result which would contradict the relativity principle.
 
-In `LL1/3` only the homogeneity of time has been spoken of. The form of the Lagrangian `LL1/5.1` shows that time is both homogeneous and isotropic, i.e. its properties are the same in both directions. For, if $t$ is replaced by $-t$, the Lagrangian is unchanged, and therefore so are the equations of motion. In other words, if a given motion is possible in a system, then so is the reverse motion (that is, the motion in which the system passes through the same states in
+In `1/3` only the homogeneity of time has been spoken of. The form of the Lagrangian `1/5.1` shows that time is both homogeneous and isotropic, i.e. its properties are the same in both directions. For, if $t$ is replaced by $-t$, the Lagrangian is unchanged, and therefore so are the equations of motion. In other words, if a given motion is possible in a system, then so is the reverse motion (that is, the motion in which the system passes through the same states in
 the reverse order). In this sense all motions which obey the laws of classical
 mechanics are reversible.  Knowing the Lagrangian, we can derive the equations of motion:
 
 ```load
-LL1/5.2
+1/5.2
 ```
 
-Substitution of `LL1/5.1` gives
+Substitution of `1/5.1` gives
 
 ```load
-LL1/5.3
+1/5.3
 ```
 
 In this form the equations of motion are called Newton's equations and form
 the basis of the mechanics of a system of interacting particles. The vector
 
 ```load
-LL1/5.4
+1/5.4
 ```
 
-which appears on the right-hand side of equation `LL1/5.3` is called the force on the $a$th particle. Like $U$, it depends only on the co-ordinates of the particles, and not on their velocities. The equation `LL1/5.3` therefore shows that the acceleration vectors of the particles are likewise functions of their co-ordinates only.
+which appears on the right-hand side of equation `1/5.3` is called the force on the $a$th particle. Like $U$, it depends only on the co-ordinates of the particles, and not on their velocities. The equation `1/5.3` therefore shows that the acceleration vectors of the particles are likewise functions of their co-ordinates only.
 
 The potential energy is defined only to within an additive constant, which has no effect on the equations of motion. This is a particular case of the nonuniqueness of the Lagrangian discussed at the end of §2 (todo link). The most natural and most usual way of choosing this constant is such that the potential energy tends to zero as the distances between the particles tend to infinity.
 
@@ -51,7 +51,7 @@ Substituting these expressions in the function $L=\mfrac{1}{2}\sum m_a(\dot{x}_a
 we obtain the required Lagrangian in the form
 
 ```load
-LL1/5.5
+1/5.5
 ```
 
 where the $a_{ik}$ are functions of the co-ordinates only. The kinetic energy in
@@ -68,23 +68,23 @@ U(q_A,q_B)$, where the first two terms are the kinetic energies of the systems $
 For example, when a single particle moves in an external field, the general form of the Lagrangian is
 
 ```load
-LL1/5.6
+1/5.6
 ```
 
 and the equation of motion is
 
 ```load
-LL1/5.7
+1/5.7
 ```
 
 A field such that the same force F acts on a particle at any point in the field
 is said to be uniform. The potential energy in such a field is evidently
 
 ```load
-LL1/5.8
+1/5.8
 ```
 
-To conclude this section, we may make the following remarks concerning the application of Lagrange's equations to various problems. It is often necessary to deal with mechanical systems in which the interaction between different bodies (or particles) takes the form of constraints, i.e. restrictions on their relative position. In practice, such constraints are effected by means of rods, strings, hinges and so on. This introduces a new factor into the problem, in that the motion of the bodies results in friction at their points of contact, and the problem in general ceases to be one of pure mechanics `LL1/25`. In many cases, however, the friction in the system is so slight that its effect on the motion is entirely negligible. If the masses of the constraining elements of the system are also negligible, the effect of the constraints is simply to reduce the number of degrees of freedom $S$ of the system to a value less than $3N$. To determine the motion of the system, the Lagrangian `LL1/5.5` can again be used, with a set of independent generalised co-ordinates equal in number to the actual degrees of freedom.
+To conclude this section, we may make the following remarks concerning the application of Lagrange's equations to various problems. It is often necessary to deal with mechanical systems in which the interaction between different bodies (or particles) takes the form of constraints, i.e. restrictions on their relative position. In practice, such constraints are effected by means of rods, strings, hinges and so on. This introduces a new factor into the problem, in that the motion of the bodies results in friction at their points of contact, and the problem in general ceases to be one of pure mechanics `1/25`. In many cases, however, the friction in the system is so slight that its effect on the motion is entirely negligible. If the masses of the constraining elements of the system are also negligible, the effect of the constraints is simply to reduce the number of degrees of freedom $S$ of the system to a value less than $3N$. To determine the motion of the system, the Lagrangian `1/5.5` can again be used, with a set of independent generalised co-ordinates equal in number to the actual degrees of freedom.
 
 ## Problems
 
@@ -92,5 +92,5 @@ Find the Lagrangian for each of the following systems when placed in a uniform g
 
 #### PROBLEM 1. A coplanar double pendulum
 
-`LL1/fig1`
+`1/fig1`
 

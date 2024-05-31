@@ -11,7 +11,7 @@ It is found, however, that a frame of reference can always be chosen in which sp
 We can now draw some immediate inferences concerning the form of the Lagrangian of a particle, moving freely, in an inertial frame of reference.  The homogeneity of space and time implies that the Lagrangian cannot contain explicitly either the radius vector $\v{r}$ of the particle or the time $t$, i.e. $L$ must be a function of the velocity $\v{v}$ only. Since space is isotropic, the Lagrangian must also be independent of the direction of $\v{v}$, and is therefore a function only of its magnitude, i.e. of $\v{v}^2 = v^2$.
 
 ```load
-LL1/3.1
+1/3.1
 ```
 
 Since the Lagrangian is independent of $\v{r}$, we have $\partial L/\partial\v{r} = 0$, and so Lagrange's equation is[^1]
@@ -23,7 +23,7 @@ $$
 whence $\partial L/\partial \v{v} = \text{constant}$. Since $\partial L/\partial \v{v}$ is a function of the velocity only, it follows that
 
 ```load
-LL1/3.2
+1/3.2
 ```
 
 Thus we conclude that, in an inertial frame, any free motion takes place with a velocity which is constant in both magnitude and direction. This is the law of inertia.
@@ -41,19 +41,19 @@ The complete mechanical equivalence of the infinity of such frames shows also th
 The co-ordinates $\v{r}$ and $\v{r}'$ of a given point in two different frames of reference $K$ and $K'$, of which the latter moves relative to the former with velocity $\v{V}$, are related by
 
 ```load
-LL1/3.3
+1/3.3
 ```
 
 Here it is understood that time is the same in the two frames:
 
 ```load
-LL1/3.4
+1/3.4
 ```
 
 The assumption that time is absolute is one of the foundations of classical
 mechanics[^2].
 
-Formulae `LL1/3.3` and `LL1/3.4` are called a Galilean transformation. Galileo's
+Formulae `1/3.3` and `1/3.4` are called a Galilean transformation. Galileo's
 relativity principle can be formulated as asserting the invariance of the mech-
 anical equations of motion under any such transformation.
 

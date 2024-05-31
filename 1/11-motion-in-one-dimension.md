@@ -5,20 +5,20 @@ title: 11. Motion in one dimension
 The motion of a system having one degree of freedom is said to take place in one dimension. The most general form of the Lagrangian of such a system in fixed external conditions is
 
 ```load
-LL1/11.1
+1/11.1
 ```
 
 where $a(q)$ is some function of the generalised co-ordinate $q$. In particular,
 if $q$ is a Cartesian co-ordinate ($x$, say) then
 
 ```load
-LL1/11.2
+1/11.2
 ```
 
-The equations of motion corresponding to these Lagrangians can be integrated in a general form. It is not even necessary to write down the equation of motion; we can start from the first integral of this equation, which gives the law of conservation of energy. For the Lagrangian `LL1/11.2` (e.g.) we have $\mfrac{1}{2}m\dot{x}^2+U(x)=E$. This is a first-order differential equation, and can be inte- grated immediately. Since $\dd{x}/\dd{t} = \sqrt{2[E - U(x)]/m}$, it follows that
+The equations of motion corresponding to these Lagrangians can be integrated in a general form. It is not even necessary to write down the equation of motion; we can start from the first integral of this equation, which gives the law of conservation of energy. For the Lagrangian `1/11.2` (e.g.) we have $\mfrac{1}{2}m\dot{x}^2+U(x)=E$. This is a first-order differential equation, and can be inte- grated immediately. Since $\dd{x}/\dd{t} = \sqrt{2[E - U(x)]/m}$, it follows that
 
 ```load
-LL1/11.3
+1/11.3
 ```
 
 The two arbitrary constants in the solution of the equations of motion are here represented by the total energy E and the constant of integration.
@@ -26,17 +26,17 @@ Since the kinetic energy is essentially positive, the total energy always exceed
 The points at which the potential energy equals the total energy,
 
 ```load
-LL1/11.4
+1/11.4
 ```
 
 give the limits of the motion. They are *turning points*, since the velocity there is zero. If the region of the motion is bounded by two such points, then the motion takes place in a finite region of space, and is said to be *finite*. If the region of the motion is limited on only one side, or on neither, then the
 motion is *infinite* and the particle goes to infinity.
 
 A finite motion in one dimension is oscillatory, the particle moving repeatedly back and forth between two points (in Fig. 6, in the potential well AB between the points X1 and x2). The period T of the oscillations, i.e. the time during which the particle passes from X1 to X2 and back, is twice the time
-from X1 to X2 (because of the reversibility property, `LL1/5`) or, by `LL1/11.3`),
+from X1 to X2 (because of the reversibility property, `1/5`) or, by `1/11.3`),
 
 ```load
-LL1/11.5
+1/11.5
 ```
 
-where $x_1$ and $x_2$ are roots of equation `LL1/11.4` for the given value of $E$. This formula gives the period of the motion as a function of the total energy of the particle.
+where $x_1$ and $x_2$ are roots of equation `1/11.4` for the given value of $E$. This formula gives the period of the motion as a function of the total energy of the particle.

@@ -4,7 +4,7 @@ title: 6. Energy
 
 During the motion of a mechanical system, the $2s$ quantities $q_i$ and $\dot{q}_i$, $(i = 1, 2, s)$ which specify the state of the system vary with time. There exist, however, functions of these quantities whose values remain constant during the motion, and depend only on the initial conditions. Such functions are called integrals of the motion.
 
-The number of independent integrals of the motion for a closed mechanical system with S degrees of freedom is $2s-1$. This is evident from the following simple arguments. The general solution of the equations of motion contains $2s$ arbitrary constants (see the discussion following equation `LL1/2.6`). Since the equations of motion for a closed system do not involve the time explicitly, the choice of the origin of time is entirely arbitrary, and one of the arbitrary constants in the solution of the equations can always be taken as an additive constant to in the time. Eliminating $t + t_0$ from the $2s$ functions $q_i = q_i(t+t_0, C_1, C_2, C_{2s_1})$, $\dot{q}_i = \dot{q}_i(t + t_0, C_1, C_2, ..., C_{2s-1})$, we can express the $2s-1$ arbitrary constants $C_1, C_2, C_{2s_1}$ as functions of $q$ and $\dot{q}$, and these functions will be integrals of the motion.
+The number of independent integrals of the motion for a closed mechanical system with S degrees of freedom is $2s-1$. This is evident from the following simple arguments. The general solution of the equations of motion contains $2s$ arbitrary constants (see the discussion following equation `1/2.6`). Since the equations of motion for a closed system do not involve the time explicitly, the choice of the origin of time is entirely arbitrary, and one of the arbitrary constants in the solution of the equations can always be taken as an additive constant to in the time. Eliminating $t + t_0$ from the $2s$ functions $q_i = q_i(t+t_0, C_1, C_2, C_{2s_1})$, $\dot{q}_i = \dot{q}_i(t + t_0, C_1, C_2, ..., C_{2s-1})$, we can express the $2s-1$ arbitrary constants $C_1, C_2, C_{2s_1}$ as functions of $q$ and $\dot{q}$, and these functions will be integrals of the motion.
 
 Not all integrals of the motion, however, are of equal importance in mechanics. There are some whose constancy is of profound significance, deriving from the fundamental homogeneity and isotropy of space and time. The quantities represented by such integrals of the motion are said to be conserved, and have an important common property of being additive: their values for a system composed of several parts whose interaction is negligible are equal to the sums of their values for the individual parts.
 
@@ -41,14 +41,14 @@ $$
 Hence we see that the quantity
 
 ```load
-LL1/6.1
+1/6.1
 ```
 
-remains constant during the motion of a closed system, i.e. it is an integral of the motion; it is called the energy of the system. The additivity of the energy follows immediately from that of the Lagrangian, since `LL1/6.1` shows that it is a linear function of the latter.
+remains constant during the motion of a closed system, i.e. it is an integral of the motion; it is called the energy of the system. The additivity of the energy follows immediately from that of the Lagrangian, since `1/6.1` shows that it is a linear function of the latter.
 
 The law of conservation of energy is valid not only for closed systems, but also for those in a constant external field (i.e. one independent of time): the only property of the Lagrangian used in the above derivation, namely that it does not involve the time explicitly, is still valid. Mechanical systems whose energy is conserved are sometimes called conservative systems.
 
-As we have seen in `LL1/5`, the Lagrangian of a closed system (or one in a
+As we have seen in `1/5`, the Lagrangian of a closed system (or one in a
 constant field) is of the form $L = T(q, \dot{q}) - U(q)$, where $T$ is a quadratic function of the velocities. Using Euler's theorem on homogeneous functions, we have
 
 $$
@@ -57,16 +57,16 @@ $$
 = 2T
 $$
 
-Substituting this in `LL1/6.1` gives
+Substituting this in `1/6.1` gives
 
 ```load
-LL1/6.2
+1/6.2
 ```
 
 in Cartesian co-ordinates,
 
 ```load
-LL1/6.3
+1/6.3
 ```
 
 Thus the energy of the system can be written as the sum of two quite different terms: the kinetic energy, which depends on the velocities, and the potential energy, which depends only on the co-ordinates of the particles.

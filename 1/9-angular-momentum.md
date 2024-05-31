@@ -9,13 +9,13 @@ We shall use the vector $\delta\v{\phi}$ of the infinitesimal rotation, whose ma
 Let us find, first of all, the resulting increment in the radius vector from an origin on the axis to any particle in the system undergoing rotation. The linear displacement of the end of the radius vector is related to the angle by $|\delta\v{r}|=r\sin\theta\delta\phi$ `TODO link to fig5`. The direction of $\delta\v{r}$ is perpendicular to the plane of $\v{r}$ and $\delta\v{\phi}$. Hence it is clear that
 
 ```load
-LL1/9.1
+1/9.1
 ```
 
 When the system is rotated, not only the radius vectors but also the velocities of the particles change direction, and all vectors are transformed in the same manner. The velocity increment relative to a fixed system of co-ordinates is
 
 ```load
-LL1/9.2
+1/9.2
 ```
 
 TODO [fig5]
@@ -56,7 +56,7 @@ $$
 Since $\delta\v{\phi}$ is arbitrary, it follows that $(\dd{}/\dd{t})\sum\v{r}_a\times\v{p}_a$, and we conclude that the vector
 
 ```load
-LL1/9.3
+1/9.3
 ```
 
 called the angular momentum or moment of momentum of the system, is conserved in the motion of a closed system. Like the linear momentum, it is additive, whether or not the particles in the system interact.
@@ -73,7 +73,7 @@ Since the definition of angular momentum involves the radius vectors of the part
 \end{align}
 
 ```load
-LL1/9.4
+1/9.4
 ```
 
 It is seen from this formula that the angular momentum depends on the choice of origin except when the system is at rest as a whole (i.e. $\v{P} = 0).  This indeterminacy, of course, does not affect the law of conservation of angular momentum, since momentum is also conserved in a closed system.
@@ -87,18 +87,18 @@ $$
 +\sum_a m_a\v{r}_a\times\v{V}
 $$
 
-The first sum on the right-hand side is the angular momentum $M'$ in the frame $K'$; using in the second sum the radius vector of the centre of mass `Ll1/8.3`, we obtain
+The first sum on the right-hand side is the angular momentum $M'$ in the frame $K'$; using in the second sum the radius vector of the centre of mass `1/8.3`, we obtain
 
 ```load
-LL1/9.5
+1/9.5
 ```
 
-This formula gives the law of transformation of angular momentum from one frame to another, corresponding to formula `LL1/8.1` for momentum and `LL1/8.5` for energy.
+This formula gives the law of transformation of angular momentum from one frame to another, corresponding to formula `1/8.1` for momentum and `1/8.5` for energy.
 
 If the frame $K'$ is that in which the system considered is at rest as a whole, then $\v{V}$ is the velocity of its centre of mass, $\mu\v{V}$ its total momentum $\v{P}$ relative to $K$, and
 
 ```load
-LL1/9.6
+1/9.6
 ```
 
 In other words, the angular momentum $\v{M}$ of a mechanical system consists of its "intrinsic angular momentum" in a frame in which it is at rest, and the angular momentum $\v{R}\times\v{P}$ due to its motion as a whole.
@@ -113,7 +113,7 @@ The component of angular momentum along any axis (say the z-axis) can
 be found by differentiation of the Lagrangian:
 
 ```load
-LL1/9.7
+1/9.7
 ```
 
 where the co-ordinate is the angle of rotation about the z-axis. This is evident from the above proof of the law of conservation of angular momentum, but can also be proved directly. In cylindrical co-ordinates $r, \phi, z$ we have (substituting $x_a = r_a\cos\phi_a, y_a = -r_a\sin\phi_a$
@@ -122,9 +122,9 @@ $$
 M_z=\sum_a m_a(x_a\dot{y}_a-y_a\dot{x}_a)
 $$
 ```load
-LL1/9.8
+1/9.8
 ```
 
 The Lagrangian is, in terms of these co-ordinates,
 
-and substitution of this in `LL1/9.7` gives `LL1/9.8`.
+and substitution of this in `1/9.7` gives `1/9.8`.
