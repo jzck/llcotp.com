@@ -42,11 +42,7 @@ def action(elem, doc):
             title = [l for l in open(f"{book}/{slug}", 'r').readlines() if l.startswith('title:')][0]
             title = title.strip("title: ")
             slug = slug.replace(".md", ".html")
-            html = f'''
-            <a href="{slug}">
-            §{title}
-            </a>
-            '''
+            html = f'<a href="{slug}">§{title.strip('\n')}</a>'
             elem = pf.RawInline(html, format='html')
             return elem
         else:

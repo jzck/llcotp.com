@@ -1,4 +1,4 @@
-MD = $(shell ls LL1/*.md)
+MD = $(shell ls 1/*.md)
 HTML = $(addprefix out/,$(MD:.md=.html))
 GOATCOUNTER = $(or $(PROD),false)
 

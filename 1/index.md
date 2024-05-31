@@ -1,6 +1,7 @@
 ---
 title: Mechanics
 subtitle: |
+    Course of Theoretical Physics, Volume 1  
     By L. D. Landau and E. M. Lifschitz  
     Translated from the Russian by J. B. Sykes and J. S. Bell
 ---
