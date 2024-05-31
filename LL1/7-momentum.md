@@ -45,7 +45,7 @@ The additivity of the momentum is evident. Moreover, unlike the energy, the mome
 
 The three components of the momentum vector are all conserved only in the absence of an external field. The individual components may be conserved even in the presence of a field, however, if the potential energy in the field does not depend on all the Cartesian co-ordinates. The mechanical properties of the system are evidently unchanged by a displacement along the axis of a co-ordinate which does not appear in the potential energy, and so the corresponding component of the momentum is conserved. For example, in a uniform field in the z-direction, the $x$ and $y$ components of momentum are conserved.
 
-The equation `LL1/7.1` has a simple physical meaning. The derivative $\partialL/\partial\v{r}_a = - \partial U\partial\v{r}_a$ is the force $\v{F}_a$ acting on the $a$th particle. Thus equation `LL1/7.1` signifies that the sum of the forces on all the particles in a closed system is zero:
+The equation `LL1/7.1` has a simple physical meaning. The derivative $\partial L/\partial\v{r}_a = - \partial U\partial\v{r}_a$ is the force $\v{F}_a$ acting on the $a$th particle. Thus equation `LL1/7.1` signifies that the sum of the forces on all the particles in a closed system is zero:
 
 ```load
 LL1/7.4

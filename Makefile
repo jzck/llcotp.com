@@ -9,7 +9,8 @@ out/%.html: %.md
 	mkdir -p $(dir $@)
 	pandoc	\
 		-s --filter tools/pf-filter.py \
-		--template tools/paragraph-template.html \
+		--template tools/template.html \
+		--metadata goatcounter=${GOATCOUNTER} \
 		--mathjax=https://cdn.jsdelivr.net/npm/mathjax@3.1/es5/tex-mml-chtml.js \
 		-f markdown+pipe_tables \
 		--resource-path .:equations \
@@ -26,8 +27,6 @@ clean:
 re: clean all
 
 deploy:
-# make re with PROD=true
 	PROD=true $(MAKE) re
 	. <(pass export/RCLONE_CONFIG/cloudflare-god)
-# copy because sync would remove physics-notes
 	rclone -v sync out/ r2:llcotp/

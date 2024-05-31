@@ -44,7 +44,7 @@ def action(elem, doc):
             slug = slug.replace(".md", ".html")
             html = f'''
             <a href="{slug}">
-            §{pnum} {title}
+            §{title}
             </a>
             '''
             elem = pf.RawInline(html, format='html')
