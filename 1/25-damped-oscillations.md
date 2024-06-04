@@ -1,0 +1,129 @@
+---
+title: 25-damped-oscillations
+---
+Hence we see that the co-ordinate Qa corresponds to a normal vibration antisymmetrical
+about the y-axis (x1 = x3, y1 = -y3; Fig. 29a) with frequency
+The co-ordinates qs1, qs2 together correspond to two vibrations symmetrical about the
+y-axis (x1 = -X3, y1 y3; Fig. 29b, c), whose frequencies Ws1, W82 are given by the roots
+of the quadratic (in w2) characteristic equation
+1
+When 2 x = 75, all three frequencies become equal to those derived in Problem 1.
+PROBLEM 3. The same as Problem 1, but for an unsymmetrical linear molecule ABC
+(Fig. 30).
+A
+FIG. 30
+SOLUTION. The longitudinal (x) and transverse (y) displacements of the atoms are related
+by
+mAX1+mBX2+mcx3 = 0, mAy1tmBy2+mcy3= 0,
+MAhy1 = mcl2y3.
+The potential energy of stretching and bending can be written
+where 2l = li+l2. Calculations similar to those in Problem 1 give
+for the transverse vibrations and the quadratic (in w2) equation
+=
+for the frequencies wil, W12 of the longitudinal vibrations.
+$25. Damped oscillations
+So far we have implied that all motion takes place in a vacuum, or else that
+the effect of the surrounding medium on the motion may be neglected. In
+reality, when a body moves in a medium, the latter exerts a resistance which
+tends to retard the motion. The energy of the moving body is finally dissipated
+by being converted into heat.
+Motion under these conditions is no longer a purely mechanical process,
+and allowance must be made for the motion of the medium itself and for the
+internal thermal state of both the medium and the body. In particular, we
+cannot in general assert that the acceleration of a moving body is a function
+only of its co-ordinates and velocity at the instant considered; that is, there
+are no equations of motion in the mechanical sense. Thus the problem of the
+motion of a body in a medium is not one of mechanics.
+There exists, however, a class of cases where motion in a medium can be
+approximately described by including certain additional terms in the
+§25
+Damped oscillations
+75
+mechanical equations of motion. Such cases include oscillations with fre-
+quencies small compared with those of the dissipative processes in the
+medium. When this condition is fulfilled we may regard the body as being
+acted on by a force of friction which depends (for a given homogeneous
+medium) only on its velocity.
+If, in addition, this velocity is sufficiently small, then the frictional force
+can be expanded in powers of the velocity. The zero-order term in the expan-
+sion is zero, since no friction acts on a body at rest, and so the first non-
+vanishing term is proportional to the velocity. Thus the generalised frictional
+force fir acting on a system executing small oscillations in one dimension
+(co-ordinate x) may be written fir = - ax, where a is a positive coefficient
+and the minus sign indicates that the force acts in the direction opposite to
+that of the velocity. Adding this force on the right-hand side of the equation
+of motion, we obtain (see (21.4))
+mx = -kx-ax.
+(25.1)
+We divide this by m and put
+k/m= wo2, a/m=2x; =
+(25.2)
+wo is the frequency of free oscillations of the system in the absence of friction,
+and A is called the damping coefficient or damping decrement.
+Thus the equation is
+(25.3)
+We again seek a solution x = exp(rt) and obtain r for the characteristic
+equation r2+2xr + wo2 = 0, whence ¥1,2 = The general
+solution of equation (25.3) is
+c1exp(rit)+c2 exp(r2t).
+Two cases must be distinguished. If   wo, we have two complex con-
+jugate values of r. The general solution of the equation of motion can then
+be written as
+where A is an arbitrary complex constant, or as
+= aexp(-Xt)cos(wta),
+(25.4)
+with w = V(w02-2) and a and a real constants. The motion described by
+these formulae consists of damped oscillations. It may be regarded as being
+harmonic oscillations of exponentially decreasing amplitude. The rate of
+decrease of the amplitude is given by the exponent X, and the "frequency"
+w is less than that of free oscillations in the absence of friction. For 1 wo,
+the difference between w and wo is of the second order of smallness. The
+decrease in frequency as a result of friction is to be expected, since friction
+retards motion.
+t The dimensionless product XT (where T = 2n/w is the period) is called the logarithmic
+damping decrement.
+76
+Small Oscillations
+§25
+If A < wo, the amplitude of the damped oscillation is almost unchanged
+during the period 2n/w. It is then meaningful to consider the mean values
+(over the period) of the squared co-ordinates and velocities, neglecting the
+change in exp( - At) when taking the mean. These mean squares are evidently
+proportional to exp(-2xt). Hence the mean energy of the system decreases
+as
+(25.5)
+where E0 is the initial value of the energy.
+Next, let A > wo. Then the values of r are both real and negative. The
+general form of the solution is
+-
+(25.6)
+We see that in this case, which occurs when the friction is sufficiently strong,
+the motion consists of a decrease in /x/, i.e. an asymptotic approach (as t ->
+00)
+to the equilibrium position. This type of motion is called aperiodic damping.
+Finally, in the special case where A = wo, the characteristic equation has
+the double root r = - 1. The general solution of the differential equation is
+then
+(25.7)
+This is a special case of aperiodic damping.
+For a system with more than one degree of freedom, the generalised
+frictional forces corresponding to the co-ordinates Xi are linear functions of
+the velocities, of the form
+=
+(25.8)
+From purely mechanical arguments we can draw no conclusions concerning
+the symmetry properties of the coefficients aik as regards the suffixes i and
+k, but the methods of statistical physics make it possible to demonstrate
+that in all cases
+aki.
+(25.9)
+Hence the expressions (25.8) can be written as the derivatives
+=
+(25.10)
+of the quadratic form
+(25.11)
+which is called the dissipative function.
+The forces (25.10) must be added to the right-hand side of Lagrange's
+equations:
+(25.12)
+t See Statistical Physics, $123, Pergamon Press, Oxford 1969.

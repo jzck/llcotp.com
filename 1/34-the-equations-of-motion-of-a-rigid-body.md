@@ -1,0 +1,130 @@
+---
+title: 34-the-equations-of-motion-of-a-rigid-body
+---
+The equations of motion of a rigid body
+107
+plane. That is, the axis of the top rotates uniformly (see below) about the
+direction of M, describing a circular cone. This is called regular precession
+of the top. At the same time the top rotates uniformly about its own axis.
+M
+n
+x3
+22pr
+x1
+FIG. 46
+The angular velocities of these two rotations can easily be expressed in
+terms of the given angular momentum M and the angle 0 between the axis
+of the top and the direction of M. The angular velocity of the top about its
+own axis is just the component S3 of the vector S along the axis:
+Q3 = M3/I3 = (M/I3) cos 0.
+(33.4)
+To determine the rate of precession Spr, the vector S must be resolved into
+components along X3 and along M. The first of these gives no displacement
+of the axis of the top, and the second component is therefore the required
+angular velocity of precession. Fig. 46 shows that Spr sin 0 = Q1, and, since
+S21 = M1/I1 = (M/I1) sin 0, we have
+Spr r=M/I1.
+(33.5)
+$34. The equations of motion of a rigid body
+Since a rigid body has, in general, six degrees of freedom, the general
+equations of motion must be six in number. They can be put in a form which
+gives the time derivatives of two vectors, the momentum and the angular
+momentum of the body.
+The first equation is obtained by simply summing the equations p = f
+for each particle in the body, p being the momentum of the particle and f the
+108
+Motion of a Rigid Body
+§34
+force acting on it. In terms of the total momentum of the body P =
+and total force acting on it F = Ef, we have
+dP/dt = F.
+(34.1)
+Although F has been defined as the sum of all the forces f acting on the
+various particles, including the forces due to other particles, F actually
+includes only external forces: the forces of interaction between the particles
+composing the body must cancel out, since if there are no external forces
+the momentum of the body, like that of any closed system, must be conserved,
+i.e. we must have F = 0.
+If U is the potential energy of a rigid body in an external field, the force
+F is obtained by differentiating U with respect to the co-ordinates of the
+centre of mass of the body:
+F = JUIR.
+(34.2)
+For, when the body undergoes a translation through a distance SR, the radius
+vector r of every point in the body changes by SR, and so the change in the
+potential energy is
+SU = (U/dr) Sr = RR Couldr = SR SR.
+It may be noted that equation (34.1) can also be obtained as Lagrange's
+equation for the co-ordinates of the centre of mass, (d/dt)àL/JV = aL/JR,
+with the Lagrangian (32.4), for which
+OL/OV=,MV=P, 0L/JR = JU/OR = F.
+Let us now derive the second equation of motion, which gives the time
+derivative of the angular momentum M. To simplify the derivation, it is
+convenient to choose the "fixed" (inertial) frame of reference in such a way
+that the centre of mass is at rest in that frame at the instant considered.
+We have M = (d/dt) Erxp = Eixp+. Our choice of the frame of
+reference (with V = 0) means that the value of i at the instant considered is
+the same as V = i. Since the vectors V and p = mv are parallel, ixp = 0.
+Replacing p by the force f, we have finally
+dM/dt = K,
+(34.3)
+where
+K = .
+(34.4)
+Since M has been defined as the angular momentum about the centre of
+mass (see the beginning of $33), it is unchanged when we go from one inertial
+frame to another. This is seen from formula (9.5) with R = 0. We can there-
+fore deduce that the equation of motion (34.3), though derived for a particular
+frame of reference, is valid in any other inertial frame, by Galileo's relativity
+principle.
+The vector rxf is called the moment of the force f, and so K is the total
+torque, i.e. the sum of the moments of all the forces acting on the body. Like
+§34
+The equations of motion of a rigid body
+109
+the total force F, the sum (34.4) need include only the external forces: by
+the law of conservation of angular momentum, the sum of the moments of
+the internal forces in a closed system must be zero.
+The moment of a force, like the angular momentum, in general depends on
+the choice of the origin about which it is defined. In (34.3) and (34.4) the
+moments are defined with respect to the centre of mass of the body.
+When the origin is moved a distance a, the new radius vector r' of each
+point in the body is equal to r-a. Hence K = Erxf = Er'xf+ Eaxf or
+K = K'+axF.
+(34.5)
+Hence we see, in particular, that the value of the torque is independent of
+the choice of origin if the total force F = 0. In this case the body is said to
+be acted on by a couple.
+Equation (34.3) may be regarded as Lagrange's equation (d/dt) OL/OS
+= 0L/dd for the "rotational co-ordinates". Differentiating the Lagrangian
+(32.4) with respect to the components of the vector S2, we obtain
+= IikOk = Mi. The change in the potential energy resulting from an
+infinitesimal rotation SO of the body is SU = - Ef.Sr = -
+= So. Erxf = -K.SO, whence
+K =-20/00, =
+(34.6)
+so that aL/dd = 00/08 = K.
+Let us assume that the vectors F and K are perpendicular. Then a vector a
+can always be found such that K' given by formula (34.5) is zero and
+K a x F.
+(34.7)
+The choice of a is not unique, since the addition to a of any vector parallel
+to F does not affect equation (34.7). The condition K' = 0 thus gives a straight
+line, not a point, in the moving system of co-ordinates. When K is perpendi-
+cular to F, the effect of all the applied forces can therefore be reduced to that
+of a single force F acting along this line.
+Such a case is that of a uniform field of force, in which the force on a particle
+is f = eE, with E a constant vector characterising the field and e characterising
+the properties of a particle with respect to the field. Then F = Ee,
+K = erxE. Assuming that # 0, we define a radius vector ro such that
+(34.8)
+Then the total torque is simply
+=roxF
+(34.9)
+Thus, when a rigid body moves in a uniform field, the effect of the field
+reduces to the action of a single force F applied at the point whose radius
+vector is (34.8). The position of this point is entirely determined by the
+t For example, in a uniform electric field E is the field strength and e the charge; in a
+uniform gravitational field E is the acceleration g due to gravity and e is the mass m.
+110
+Motion of a Rigid Body

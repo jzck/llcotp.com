@@ -1,0 +1,91 @@
+---
+title: 47-the-hamilton-jacobi-equations
+---
+The Hamilton-Jacobi equation
+147
+in which these repeated quantities are regarded as constant in carrying out
+the differentiations. Hence
+(46.4)
+P=constant
+q=constant
+The Jacobian in the numerator is, by definition, a determinant of order s
+whose element in the ith row and kth column is Representing the
+canonical transformation in terms of the generating function (q, P) as in
+(45.8), we have = In the same way we find that the
+ik-element of the determinant in the denominator of (46.4) is
+This means that the two determinants differ only by the interchange of rows
+and columns; they are therefore equal, so that the ratio (46.4) is equal to
+unity. This completes the proof.
+Let us now suppose that each point in the region of phase space considered
+moves in the course of time in accordance with the equations of motion of the
+mechanical system. The region as a whole therefore moves also, but its volume
+remains unchanged:
+f dr = constant.
+(46.5)
+This result, known as Liouville's theorem, follows at once from the invariance
+of the volume in phase space under canonical transformations and from the
+fact that the change in p and q during the motion may, as we showed at the end
+of §45, be regarded as a canonical transformation.
+In an entirely similar manner the integrals
+11 2 dae dph
+,
+in which the integration is over manifolds of two, four, etc. dimensions in
+phase space, may be shown to be invariant.
+47. The Hamilton-Jacobi equation
+In §43 the action has been considered as a function of co-ordinates and
+time, and it has been shown that the partial derivative with respect to time
+of this function S(q, t) is related to the Hamiltonian by
+and its partial derivatives with respect to the co-ordinates are the momenta.
+Accordingly replacing the momenta P in the Hamiltonian by the derivatives
+as/aq, we have the equation
+(47.1)
+which must be satisfied by the function S(q, t). This first-order partial
+differential equation is called the Hamilton-Jacobi equation.
+148
+The Canonical Equations
+§47
+Like Lagrange's equations and the canonical equations, the Hamilton-
+Jacobi equation is the basis of a general method of integrating the equations
+of motion.
+Before describing this method, we should recall the fact that every first-
+order partial differential equation has a solution depending on an arbitrary
+function; such a solution is called the general integral of the equation. In
+mechanical applications, the general integral of the Hamilton-Jacobi equation
+is less important than a complete integral, which contains as many independent
+arbitrary constants as there are independent variables.
+The independent variables in the Hamilton-Jacobi equation are the time
+and the co-ordinates. For a system with s degrees of freedom, therefore, a
+complete integral of this equation must contain s+1 arbitrary constants.
+Since the function S enters the equation only through its derivatives, one
+of these constants is additive, so that a complete integral of the Hamilton-
+Jacobi equation is
+Sft,q,saas)+
+(47.2)
+where X1, ..., as and A are arbitrary constants.
+Let us now ascertain the relation between a complete integral of the
+Hamilton-Jacobi equation and the solution of the equations of motion which
+is of interest. To do this, we effect a canonical transformation from the
+variables q, P to new variables, taking the function f (t, q; a) as the
+generating function, and the quantities a1, A2, ..., as as the new momenta.
+Let the new co-ordinates be B1, B2, ..., Bs. Since the generating function
+depends on the old co-ordinates and the new momenta, we use formulae
+(45.8): Pi = af/dqi, Bi = af/dar, H' = H+dfdd. But since the function f
+satisfies the Hamilton-Jacobi equation, we see that the new Hamiltonian is
+zero: H' = H+af/dt = H+as/t = 0. Hence the canonical equations in
+the new variables are di = 0, Bi = 0, whence
+ay=constant,
+Bi = constant.
+(47.3)
+By means of the S equations af/dai = Bi, the S co-ordinates q can be expressed
+in terms of the time and the 2s constants a and B. This gives the general
+integral of the equations of motion.
+t Although the general integral of the Hamilton-Jacobi equation is not needed here, we
+may show how it can be found from a complete integral. To do this, we regard A as an arbi-
+trary function of the remaining constants: S = f(t, q1, ..., q8; a1, as) +A(a1, as). Re-
+placing the Ai by functions of co-ordinates and time given by the S conditions asidar = 0,
+we obtain the general integral in terms of the arbitrary function A(a1,..., as). For, when the
+function S is obtained in this manner, we have
+as
+The quantities (as/dqs)a satisfy the Hamilton-Jacobi equation, since the function S(t, q; a)
+is assumed to be a complete integral of that equation. The quantities asida therefore satisfy
+the same equation.

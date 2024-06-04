@@ -1,3 +1,26 @@
+---
+title: 17-elastic-collisions
+---
+form the sum of their squares, which is unity. Since V10/2.20 = m2/m1, we have finally, using
+(16.2),
+(m2/m1) sin202+(m1/m2) sin201-2 sin O1 sin O2 cos(A1+6
+PROBLEM 2. Find the angular distribution of the resulting particles in the L system.
+SOLUTION. When vo > V, we substitute (16.6), with the plus sign of the radical, in (16.7),
+obtaining
+(0  .
+When vo < V, both possible relations between Oo and 0 must be taken into account. Since,
+when 0 increases, one value of Oo increases and the other decreases, the difference (not the
+sum) of the expressions d cos Oo with the two signs of the radical in (16.6) must be taken.
+The result is
+(0    max).
+PROBLEM 3. Determine the range of possible values of the angle 0 between the directions
+of motion of the two resulting particles in the L system.
+SOLUTION. The angle 0 = 01+02, where 01 and O2 are the angles defined by formula (16.5)
+(see Problem 1), and it is simplest to calculate the tangent of 0. A consideration of the extrema
+of the resulting expression gives the following ranges of 0, depending on the relative magni-
+tudes of V, V10 and V20 (for definiteness, we assume V20 > V10): 0 0 77 if V10
+< 0 < TT if V V V10, 0 < Oo if V > U20. The value of Oo is given by
+sin =
 §17. Elastic collisions
 A collision between two particles is said to be elastic if it involves no change
 in their internal state. Accordingly, when the law of conservation of energy
@@ -138,3 +161,5 @@ SOLUTION. From Fig. 16 we have P2' = 20B cos O2 or V2' = 2v(m/m2) cos O2. The mo
 tum P1' = AC is given by OC2 = AO2tp12-2AO.p cos or
 Hence
 for m1 > M2 the radical may have either sign, but for M2 > M1 it must be taken positive.
+48
+Collisions Between Particles

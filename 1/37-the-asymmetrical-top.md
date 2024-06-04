@@ -1,0 +1,251 @@
+---
+title: 37-the-asymmetrical-top
+---
+This result shows that the component of the angular velocity perpendicular
+to the axis of the top rotates with an angular velocity w, remaining of constant
+magnitude A = Since the component S3 along the axis of the
+top is also constant, we conclude that the vector S rotates uniformly with
+angular velocity w about the axis of the top, remaining unchanged in magni-
+tude. On account of the relations M1 = , M2 = I2O2, M3 = I3O3 be-
+tween the components of S and M, the angular momentum vector M evidently
+executes a similar motion with respect to the axis of the top.
+This description is naturally only a different view of the motion already
+discussed in §33 and §35, where it was referred to the fixed system of co-
+ordinates. In particular, the angular velocity of the vector M (the Z-axis in
+Fig. 48, $35) about the x3-axis is, in terms of Eulerian angles, the same as
+the angular velocity - 4. Using equations (35.4), we have
+cos
+or - is = I23(I3-I1)/I1, in agreement with (36.6).
+§37. The asymmetrical top
+We shall now apply Euler's equations to the still more complex problem
+of the free rotation of an asymmetrical top, for which all three moments of
+inertia are different. We assume for definiteness that
+I3 > I2 I.
+(37.1)
+Two integrals of Euler's equations are known already from the laws of
+conservation of energy and angular momentum:
+= 2E,
+(37.2)
+= M2,
+where the energy E and the magnitude M of the angular momentum are given
+constants. These two equations, written in terms of the components of the
+vector M, are
+(37.3)
+M2.
+(37.4)
+From these equations we can already draw some conclusions concerning
+the nature of the motion. To do so, we notice that equations (37.3) and (37.4),
+regarded as involving co-ordinates M1, M2, M3, are respectively the equation
+of an ellipsoid with semiaxes (2EI1), (2EI2), (2EI3) and that of a sphere
+of radius M. When the vector M moves relative to the axes of inertia of the
+top, its terminus moves along the line of intersection of these two surfaces.
+Fig. 51 shows a number of such lines of intersection of an ellipsoid with
+§37
+The asymmetrical top
+117
+spheres of various radii. The existence of an intersection is ensured by the
+obviously valid inequalities
+2EI1 < M2 < 2EI3,
+(37.5)
+which signify that the radius of the sphere (37.4) lies between the least and
+greatest semiaxes of the ellipsoid (37.3).
+x1
+X2
+FIG. 51
+Let us examine the way in which these "paths"t of the terminus of the
+vector M change as M varies (for a given value of E). When M2 is only slightly
+greater than 2EI1, the sphere intersects the ellipsoid in two small closed curves
+round the x1-axis near the corresponding poles of the ellipsoid; as M2 2EI1,
+these curves shrink to points at the poles. When M2 increases, the curves
+become larger, and for M2 = 2EI2 they become two plane curves (ellipses)
+which intersect at the poles of the ellipsoid on the x2-axis. When M2 increases
+further, two separate closed paths again appear, but now round the poles on
+the
+x3-axis; as M2 2EI3 they shrink to points at these poles.
+First of all, we may note that, since the paths are closed, the motion of the
+vector M relative to the top must be periodic; during one period the vector
+M describes some conical surface and returns to its original position.
+Next, an essential difference in the nature of the paths near the various
+poles of the ellipsoid should be noted. Near the x1 and X3 axes, the paths lie
+entirely in the neighbourhood of the corresponding poles, but the paths which
+pass near the poles on the x2-axis go elsewhere to great distances from those
+poles. This difference corresponds to a difference in the stability of the rota-
+tion of the top about its three axes of inertia. Rotation about the x1 and X3
+axes (corresponding to the least and greatest of the three moments of inertia)
+t The corresponding curves described by the terminus of the vector Ca are called polhodes.
+118
+Motion of a Rigid Body
+§37
+is stable, in the sense that, if the top is made to deviate slightly from such a
+state, the resulting motion is close to the original one. A rotation about the
+x2-axis, however, is unstable: a small deviation is sufficient to give rise to a
+motion which takes the top to positions far from its original one.
+To determine the time dependence of the components of S (or of the com-
+ponents of M, which are proportional to those of (2) we use Euler's equations
+(36.5). We express S1 and S3 in terms of S2 by means of equations (37.2)
+and (37.3):
+S21 =
+(37.6)
+Q32 =
+and substitute in the second equation (36.5), obtaining
+dSQ2/dt (I3-I1)21-23/I2
+= V{[(2EI3-M2-I2(I3-I2)22]
+(37.7)
+Integration of this equation gives the function t(S22) as an elliptic integral.
+In reducing it to a standard form we shall suppose for definiteness that
+M2 > 2EI2; if this inequality is reversed, the suffixes 1 and 3 are interchanged
+in the following formulae. Using instead of t and S2 the new variables
+(37.8)
+S = S2V[I2(I3-I2)/(2EI3-M2)],
+and defining a positive parameter k2 < 1 by
+(37.9)
+we obtain
+ds
+the origin of time being taken at an instant when S2 = 0. When this integral
+is inverted we have a Jacobian elliptic function S = sn T, and this gives O2
+as a function of time; S-1(t) and (33(t) are algebraic functions of 22(t) given
+by (37.6). Using the definitions cn T = V(1-sn2r), dn T =
+we find
+Superscript(2) = [(2EI3-M2/I1(I3-I1)] CNT,
+O2 =
+(37.10)
+O3 = dn T.
+These are periodic functions, and their period in the variable T is 4K,
+where K is a complete elliptic integral of the first kind:
+=
+(37.11)
+§37
+The asymmetrical top
+119
+The period in t is therefore
+T =
+(37.12)
+After a time T the vector S returns to its original position relative to the
+axes of the top. The top itself, however, does not return to its original position
+relative to the fixed system of co-ordinates; see below.
+For I = I2, of course, formulae (37.10) reduce to those obtained in §36
+for a symmetrical top: as I I2, the parameter k2 0, and the elliptic
+functions degenerate to circular functions: sn -> sin T, cn T cos
+T,
+dn T -> 1, and we return to formulae (36.7).
+When M2 = 2EI3 we have Superscript(1) = S2 = 0, S3 = constant, i.e. the vector S
+is always parallel to the x3-axis. This case corresponds to uniform rotation of
+the top about the x3-axis. Similarly, for M2 = 2EI1 (when T III 0) we have
+uniform rotation about the x1-axis.
+Let us now determine the absolute motion of the top in space (i.e. its
+motion relative to the fixed system of co-ordinates X, Y, Z). To do so, we
+use the Eulerian angles 2/5, o, 0, between the axes X1, X2, X3 of the top and the
+axes X, Y, Z, taking the fixed Z-axis in the direction of the constant vector M.
+Since the polar angle and azimuth of the Z-axis with respect to the axes
+x1, X2, X3 are respectively 0 and 1/77 - is (see the footnote to $35), we obtain on
+taking the components of M along the axes X1, X2, X3
+M sin 0 sin y = M1 = ,
+M sin A cos is = M2 = I2O2,
+(37.13)
+M cos 0 = M3 = I3S23.
+Hence
+cos 0 = I3S3/M,
+tan / =
+(37.14)
+and from formulae (37.10)
+COS 0 = dn T,
+(37.15)
+tan 4 = cn r/snt,
+which give the angles 0 and is as functions of time; like the components of the
+vector S, they are periodic functions, with period (37.12).
+The angle does not appear in formulae (37.13), and to calculate it we
+must return to formulae (35.1), which express the components of S in terms
+of the time derivatives of the Eulerian angles. Eliminating O from the equa-
+tions S1 = sin 0 sin 4 + O cos 2/5, S2 = sin 0 cos 4-0 - sin 2/5, we obtain
+& = (Superscript(2) sin 4+S2 cos 4)/sin 0, and then, using formulae (37.13),
+do/dt =
+(37.16)
+The function (t) is obtained by integration, but the integrand involves
+elliptic functions in a complicated way. By means of some fairly complex
+120
+Motion of a Rigid Body
+§37
+transformations, the integral can be expressed in terms of theta functions;
+we shall not give the calculations, but only the final result.
+The function (t) can be represented (apart from an arbitrary additive
+constant) as a sum of two terms:
+$(t) = (11(t)++2(t),
+(37.17)
+one of which is given by
+(37.18)
+where D01 is a theta function and a a real constant such that
+sn(2ixK) = iv[I3(M2-2I1)/I1(2EI3-M2]
+(37.19)
+K and Tare given by (37.11) and (37.12). The function on the right-hand side
+of (37.18) is periodic, with period 1T, so that 01(t) varies by 2n during a time
+T. The second term in (37.17) is given by
+(37.20)
+This function increases by 2nr during a time T'. Thus the motion in is a
+combination of two periodic motions, one of the periods (T) being the same
+as the period of variation of the angles 4 and 0, while the other (T') is incom-
+mensurable with T. This incommensurability has the result that the top does
+not at any time return exactly to its original position.
+PROBLEMS
+PROBLEM 1. Determine the free rotation of a top about an axis near the x3-axis or the
+x1-axis.
+SOLUTION. Let the x3-axis be near the direction of M. Then the components M1 and M2
+are small quantities, and the component M3 = M (apart from quantities of the second and
+higher orders of smallness). To the same accuracy the first two Euler's equations (36.5) can
+be written dM1/dt = DoM2(1-I3/I2), dM2/dt = QOM1(I3/I1-1), where So = M/I3. As
+usual we seek solutions for M1 and M2 proportional to exp(iwt), obtaining for the frequency w
+(1)
+The values of M1 and M2 are
+cos wt, sin wt,
+(2)
+where a is an arbitrary small constant. These formulae give the motion of the vector M
+relative to the top. In Fig. 51, the terminus of the vector M describes, with frequency w,
+a small ellipse about the pole on the x3-axis.
+To determine the absolute motion of the top in space, we calculate its Eulerian angles.
+In the present case the angle 0 between the x3-axis and the Z-axis (direction of M) is small,
+t These are given by E. T. WHITTAKER, A Treatise on the Analytical Dynamics of Particles
+and Rigid Bodies, 4th ed., Chapter VI, Dover, New York 1944.
+§37
+The asymmetrical top
+121
+and by formulae (37.14) tan of = M1/M2, cos 0) 2(1 (M3/M) 22
+substituting (2), we obtain
+tan 4 = V[I(I3-I2)/I2(I3-I1)] cot wt,
+(3)
+To find , we note that, by the third formula (35.1), we have, for 0 1,
+Hence
+= lot
+(4)
+omitting an arbitrary constant of integration.
+A clearer idea of the nature of the motion of the top is obtained if we consider the change
+in direction of the three axes of inertia. Let n1, n2, n3 be unit vectors along these axes. The
+vectors n1 and n2 rotate uniformly in the XY-plane with frequency So, and at the same time
+execute small transverse oscillations with frequency w. These oscillations are given by the
+Z-components of the vectors:
+22 M1/M = av(I3/I2-1) cos wt,
+N2Z 22 M2/M = av(I3/I1-1) sin wt.
+For the vector n3 we have, to the same accuracy, N3x 22 0 sin , N3y 22 -0 cos , n3z 1.
+(The polar angle and azimuth of n3 with respect to the axes X, Y, Z are 0 and -; see
+the footnote to 35.) We also write, using formulae (37.13),
+naz=0sin(Qot-4)
+= Asin Sot cos 4-0 cos lot sin 4
+= (M 2/M) sin Dot-(M1/M) cos Sot
+sin Sot sin N/1-1) cos Not cos wt
+cos(so
+Similarly
+From this we see that the motion of n3 is a superposition of two rotations about the Z-axis
+with frequencies So + w.
+PROBLEM 2. Determine the free rotation of a top for which M2 = 2EI2.
+SOLUTION. This case corresponds to the movement of the terminus of M along a curve
+through the pole on the x2-axis (Fig. 51). Equation (37.7) becomes ds/dr = 1-s2,
+= S = I2/20, where So = M/I2 = 2E|M. Integration of
+this equation and the use of formulae (37.6) gives
+sech T,
+}
+(1)
+sech T.
+To describe the absolute motion of the top, we use Eulerian angles, defining 0 as the angle
+between the Z-axis (direction of M) and the x2-axis (not the x3-axis as previously). In formulae
+(37.14) and (37.16), which relate the components of the vector CA to the Eulerian angles, we
+5
+122
+Motion of a Rigid Body

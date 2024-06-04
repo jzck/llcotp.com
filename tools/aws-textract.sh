@@ -59,6 +59,12 @@ batch_seq() {
         echo "  $CHAPTER_FILE"
         set -x
         sed "1,/^§$chapter/d;/^§$((chapter+1))/,\$d" $FILE > $CHAPTER_FILE
+        cat <<EOF > $BOOK/$CHAPTER_NAME.md
+---
+title: $CHAPTER_NAME
+---
+EOF
+        cat $CHAPTER_FILE >> $BOOK/$CHAPTER_NAME.md
     done
 }
 

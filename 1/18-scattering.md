@@ -1,4 +1,6 @@
-§18
+---
+title: 18-scattering
+---
 §18. Scattering
 As already mentioned in §17, a complete calculation of the result of a
 collision between two particles (i.e. the determination of the angle x) requires
@@ -115,3 +117,80 @@ do1,
 where do1 = 2n sin 01 d01. If, on the other hand, M2 < M1, then
 For m1 = M2, we have do = a²|cos 01| do1, which can also be obtained directly by sub-
 stituting X = 201 from (17.9) in (1).
+§18
+Scattering
+51
+For a sphere originally at rest, X = n-202 in all cases, and substitution in (1) gives
+do2 = a2|cos 02 do2.
+PROBLEM 2. Express the effective cross-section (Problem 1) as a function of the energy E
+lost by a scattered particle.
+SOLUTION. The energy lost by a particle of mass M1 is equal to that gained by the sphere of
+mass M2. From (17.5) and (17.7), € = E2' = [2m22m2/(m1+m2)2] voo2 sin21x = Emax sin21x,
+whence de = 1 mex sin X dx; substituting in (1), Problem 1, we have do = na2 de/emax. The
+scattered particles are uniformly distributed with respect to € in the range from zero to
+Emax.
+PROBLEM 3. Find the effective cross-section as a function of the velocity Uoo for particles
+scattered in a field U -rrn.
+SOLUTION. According to (10.3), if the potential energy is a homogeneous function of order
+k = -n, then similar paths are such that p ~v-2/n, or p = Voo-2/nf(x), the angles of deflec-
+tion X being equal for similar paths. Substitution in (18.6) gives do ~ Voo-4/n do.
+PROBLEM 4. Determine the effective cross-section for a particle to "fall" to the centre of
+a field U = -a/r2.
+SOLUTION. The particles which "fall" to the centre are those for which 2a > mp20002 (see
+(14.11)), i.e. for which the impact parameter does not exceed Pmax = (2a/mvoo). The
+effective cross-section is therefore o = Pmax2 = 2na/mvo².
+PROBLEM 5. The same as Problem 4, but for a field U = -a/rn (n 2, a > 0).
+SOLUTION. The effective potential energy Ueff = depends on r in the
+manner shown in Fig. 20. Its maximum value is
+Ueff
+U0
+FIG. 20
+The particles which "fall" to the centre are those for which U0 < E. The condition U0 = E
+gives Pmax, whence
+=
+PROBLEM 6. Determine the effective cross-section for particles of mass m1 to strike a sphere
+of mass m2 and radius R to which they are attracted in accordance with Newton's law.
+SOLUTION. The condition for a particle to reach the sphere is that rmin < R, where r'min
+is the point on the path which is nearest to the centre of the sphere. The greatest possible
+value of P is given by rmin = R; this is equivalent to Ueff(R) = E or
+= , where a = ymim2 (2 being the gravitational constant) and we have put m 22 M1 on
+the assumption that m2 > M1. Solving for pmax2, we finally obtain o = mR2(1+2ym2/Rvv3).
+52
+Collisions Between Particles
+§18
+When
+Voo
+8 the effective cross-section tends, of course, to the geometrical cross-section
+of the sphere.
+PROBLEM 7. Deduce the form of a scattering field U(r), given the effective cross-section
+as a function of the angle of scattering for a given energy E. It is assumed that U(r) decreases
+monotonically with r (a repulsive field), with U(0) > E and U(00) = 0 (O. B. FIRSOV 1953).
+SOLUTION. Integration of do with respect to the scattering angle gives, according to the
+formula
+(1)
+the square of the impact parameter, so that p(x) (and therefore x(p)) is known.
+We put
+s=1/r,
+=1/p2,
+[[1-(U|E)]
+(2)
+Then formulae (18.1), (18.2) become
+1/
+(3)
+where so(x) is the root of the equation xw2(so)-so2 = 0.
+Equation (3) is an integral equation for the function w(s), and may be solved by a method
+similar to that used in $12. Dividing both sides of (3) by (a-x) and integrating with respect
+to x from zero to a, we find
+so(a)
+dx ds
+so(a)
+ds
+or, integrating by parts on the left-hand side,
+This relation is differentiated with respect to a, and then so(a) is replaced by s simply;
+accordingly a is replaced by s2/w2, and the result is, in differential form,
+=
+(11/20)
+or
+dx
+This equation can be integrated immediately if the order of integration on the right-hand
+side is inverted. Since for S = 0 (i.e. r oo) we must have W = 1 (i.e. U = 0), we have,

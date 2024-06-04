@@ -1,0 +1,193 @@
+---
+title: 48-separation-of-the-variables
+---
+Separation of the variables
+149
+Thus the solution of the problem of the motion of a mechanical system by
+the Hamilton-Jacobi method proceeds as follows. From the Hamiltonian,
+we form the Hamilton-Jacobi equation, and find its complete integral (47.2).
+Differentiating this with respect to the arbitrary constants a and equating
+the derivatives to new constants B, we obtain S algebraic equations
+asidar=Bt,
+(47.4)
+whose solution gives the co-ordinates q as functions of time and of the 2s
+arbitrary constants. The momenta as functions of time may then be found
+from the equations Pi = aslaqi.
+If we have an incomplete integral of the Hamilton-Jacobi equation, depend-
+ing on fewer than S arbitrary constants, it cannot give the general integral
+of the equations of motion, but it can be used to simplify the finding of the
+general integral. For example, if a function S involving one arbitrary con-
+stant a is known, the relation asida = constant gives one equation between
+q1, ..., qs and t.
+The Hamilton-Jacobi equation takes a somewhat simpler form if the func-
+tion H does not involve the time explicitly, i.e. if the system is conservative.
+The time-dependence of the action is given by a term -Et:
+S = So(g)-Et
+(47.5)
+(see 44), and substitution in (47.1) gives for the abbreviated action So(q)
+the Hamilton-Jacobi equation in the form
+(47.6)
+$48. Separation of the variables
+In a number of important cases, a complete integral of the Hamilton-
+Jacobi equation can be found by "separating the variables", a name given to
+the following method.
+Let us assume that some co-ordinate, q1 say, and the corresponding
+derivative asia appear in the Hamilton-Jacobi equation only in some
+combination (q1, which does not involve the other co-ordinates, time,
+or derivatives, i.e. the equation is of the form
+(48.1)
+where qi denotes all the co-ordinates except q1.
+We seek a solution in the form of a sum:
+(48.2)
+150
+The Canonical Equations
+§48
+substituting this in equation (48.1), we obtain
+(48.3)
+Let us suppose that the solution (48.2) has been found. Then, when it is
+substituted in equation (48.3), the latter must become an identity, valid (in
+particular) for any value of the co-ordinate q1. When q1 changes, only the
+function is affected, and so, if equation (48.3) is an identity, must be a
+constant. Thus equation (48.3) gives the two equations
+(48.4)
+= 0,
+(48.5)
+where a1 is an arbitrary constant. The first of these is an ordinary differential
+equation, and the function S1(q1) is obtained from it by simple integration.
+The remaining partial differential equation (48.5) involves fewer independent
+variables.
+If we can successively separate in this way all the S co-ordinates and the
+time, the finding of a complete integral of the Hamilton-Jacobi equation is
+reduced to quadratures. For a conservative system we have in practice to
+separate only S variables (the co-ordinates) in equation (47.6), and when this
+separation is complete the required integral is
+(48.6)
+where each of the functions Sk depends on only one co-ordinate; the energy
+E, as a function of the arbitrary constants A1, As, is obtained by substituting
+So = in equation (47.6).
+A particular case is the separation of a cyclic variable. A cyclic co-ordinate
+q1 does not appear explicitly in the Hamiltonian, nor therefore in the Hamilton-
+Jacobi equation. The function (91, reduces to as/da simply, and
+from equation (48.4) we have simply S1 = x1q1, so that
+(48.7)
+The constant a1 is just the constant value of the momentum P1 = asida
+corresponding to the cyclic co-ordinate.
+The appearance of the time in the term - Et for a conservative system
+corresponds to the separation of the "cyclic variable" t.
+Thus all the cases previously considered of the simplification of the integra-
+tion of the equations of motion by the use of cyclic variables are embraced
+by the method of separating the variables in the Hamilton-Jacobi equation.
+To those cases are added others in which the variables can be separated even
+though they are not cyclic. The Hamilton-Jacobi treatment is consequently
+the most powerful method of finding the general integral of the equations of
+motion.
+§48
+Separation of the variables
+151
+To make the variables separable in the Hamilton-Jacobi equation the
+co-ordinates must be appropriately chosen. We shall consider some examples
+of separating the variables in different co-ordinates, which may be of
+physical interest in connection with problems of the motion of a particle in
+various external fields.
+(1) Spherical co-ordinates. In these co-ordinates (r, 0, ), the Hamiltonian is
+and the variables can be separated if
+U
+=
+where a(r), b(a), c(b) are arbitrary functions. The last term in this expression
+for U is unlikely to be of physical interest, and we shall therefore take
+U = a(r)+b(8)/r2.
+(48.8)
+In this case the Hamilton-Jacobi equation for the function So is
+1
+Since the co-ordinate is cyclic, we seek a solution in the form So
+Pot+S1(T)+S2(9), obtaining for the functions S1(r) andS 2(0) the equations
+(day)
+=
+E.
+Integration gives finally
+S = -
+(48.9)
+The arbitrary constants in (48.9) are Pp, B and E; on differentiating with
+respect to these and equating the results to other constants, we have the
+general solution of the equations of motion.
+(2) Parabolic co-ordinates. The passage from cylindrical co-ordinates
+(here denoted by p, o, 2) to parabolic co-ordinates E, N, o is effected by the
+formulae
+1(-n),pv(En).
+(48.10)
+The co-ordinates & and n take values from 0 to 00; the surfaces of constant
+$ and n are easily seen to be two families of paraboloids of revolution, with
+152
+The Canonical Equations
+§48
+the z-axis as the axis of symmetry. The equations (48.10) can also be written,
+in terms of
+r = =
+(48.11)
+(i.e. the radius in spherical co-ordinates), as
+$ = r++,
+= r Z.
+(48.12)
+Let us now derive the Lagrangian of a particle in the co-ordinates $, n, o.
+Differentiating the expressions (48.10) with respect to time and substituting
+in the Lagrangian in cylindrical co-ordinates
+L =
+we obtain
+L
+=
+(48.13)
+The = and
+the Hamiltonian is
+(48.14)
+The physically interesting cases of separable variables in these co-ordinates
+correspond to a potential energy of the form
+(48.15)
+The equation for So is
+2
+=
+E.
+The cyclic co-ordinate can be separated as a term PoO. Multiplying the equa-
+tion by m(s+n) and rearranging, we then have
+Putting So = P&O + S2(n), we obtain the two equations
+-B,
+§48
+Separation of the variables
+153
+integration of which gives finally
+S
+=
+dn.
+(48.16)
+Here the arbitrary constants are Ps, B and E.
+(3) Elliptic co-ordinates. These are E, n, o, defined by
+(48.17)
+The constant o is a parameter of the transformation. The co-ordinate $ takes
+values from 1 to 80, and n from - 1 to + 1. The definitions which are geo-
+metrically clearest+ are obtained in terms of the distances r1 and r2 to points
+A1 and A2 on the z-axis for which 2 = to: r1 = V[(2-0)2+p2],
+r2 = Substitution of (48.17) gives
+= o(s-n), r2 = o(+n),
+(48.18)
+& = (r2+r1)/2o, n = (r2-r1)/2o. =
+Transforming the Lagrangian from cylindrical to elliptic co-ordinates, we
+find
+L
+=
+(48.19)
+The Hamiltonian is therefore
+H
+=
+(48.20)
+The physically interesting cases of separable variables correspond to a
+potential energy
+(48.21)
+where a() and b(n) are arbitrary functions. The result of separating the
+variables in the Hamilton-Jacobi equation is
+S
+=
+1-n2
+t The surfaces of constant $ are the ellipsoids = 1, of which A1 and
+A2 are the foci; the surfaces of constant n are the hyperboloids 22/02/2-22/02(1-n2 = 1,
+also with foci A1 and A2.
+154
+The Canonical Equations
