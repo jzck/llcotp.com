@@ -30,3 +30,4 @@ deploy:
 	PROD=true $(MAKE) re
 	. <(pass export/RCLONE_CONFIG/cloudflare-god)
 	rclone -v sync out/ r2:llcotp/
+	make clean
