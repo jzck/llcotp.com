@@ -82,3 +82,11 @@ which express $\bar{U}$ and $\bar{T}$ in terms of the total energy of the system
 In particular, for small oscillations ($k=2$) we have $\bar{T} = \bar{U}$, i.e. the mean values of the kinetic and potential energies are equal. For a Newtonian interaction $(k = - 1)$, $2\bar{T} = - \bar{U}$, and $E=-\bar{T}$, in accordance with the fact that, in such an interaction, the motion takes place in a finite region of space only if the total energy is negative (see `1/15`).
 
 [^1]: The expression on the right of `1/10.5` is sometimes called the virial of the system.
+
+<!-- PROBLEMS -->
+<!-- PROBLEM 1. Find the ratio of the times in the same path for particles having different -->
+<!-- masses but the same potential energy. -->
+<!-- SOLUTION. t'/t = (m'/m). -->
+<!-- PROBLEM 2. Find the ratio of the times in the same path for particles having the same mass -->
+<!-- but potential energies differing by a constant factor. -->
+<!-- SOLUTION. I'/t -->

@@ -1,0 +1,406 @@
+
+CHAPTER VII
+THE CANONICAL EQUATIONS
+§40. Hamilton's equations
+THE formulation of the laws of mechanics in terms of the Lagrangian, and
+of Lagrange's equations derived from it, presupposes that the mechanical
+state of a system is described by specifying its generalised co-ordinates and
+velocities. This is not the only possible mode of description, however. A
+number of advantages, especially in the study of certain general problems of
+mechanics, attach to a description in terms of the generalised co-ordinates
+and momenta of the system. The question therefore arises of the form of
+the equations of motion corresponding to that formulation of mechanics.
+The passage from one set of independent variables to another can be
+effected by means of what is called in mathematics Legendre's transformation.
+In the present case this transformation is as follows. The total differential
+of the Lagrangian as a function of co-ordinates and velocities is
+dL =
+This expression may be written
+(40.1)
+since the derivatives aL/dqi are, by definition, the generalised momenta, and
+aL/dqi = pi by Lagrange's equations. Writing the second term in (40.1) as
+= - Eqi dpi, taking the differential d(piqi) to the left-hand
+side, and reversing the signs, we obtain from (40.1)
+The argument of the differential is the energy of the system (cf. §6);
+expressed in terms of co-ordinates and momenta, it is called the Hamilton's
+function or Hamiltonian of the system:
+(40.2)
+t The reader may find useful the following table showing certain differences between the
+nomenclature used in this book and that which is generally used in the English literature.
+Here
+Elsewhere
+Principle of least action
+Hamilton's principle
+Maupertuis' principle
+Principle of least action
+Maupertuis' principle
+Action
+Hamilton's principal function
+Abbreviated action
+Action
+- -Translators.
+131
+132
+The Canonical Equations
+§40
+From the equation in differentials
+dH =
+(40.3)
+in which the independent variables are the co-ordinates and momenta, we
+have the equations
+=
+(40.4)
+These are the required equations of motion in the variables P and q, and
+are called Hamilton's equations. They form a set of 2s first-order differential
+equations for the 2s unknown functions Pi(t) and qi(t), replacing the S second-
+order equations in the Lagrangian treatment. Because of their simplicity and
+symmetry of form, they are also called canonical equations.
+The total time derivative of the Hamiltonian is
+Substitution of qi and pi from equations (40.4) shows that the last two terms
+cancel, and so
+dH/dt==Hoo.
+(40.5)
+In particular, if the Hamiltonian does not depend explicitly on time, then
+dH/dt = 0, and we have the law of conservation of energy.
+As well as the dynamical variables q, q or q, P, the Lagrangian and the
+Hamiltonian involve various parameters which relate to the properties of the
+mechanical system itself, or to the external forces on it. Let A be one such
+parameter. Regarding it as a variable, we have instead of (40.1)
+dL
+and (40.3) becomes
+dH =
+Hence
+(40.6)
+which relates the derivatives of the Lagrangian and the Hamiltonian with
+respect to the parameter A. The suffixes to the derivatives show the quantities
+which are to be kept constant in the differentiation.
+This result can be put in another way. Let the Lagrangian be of the form
+L = Lo + L', where L' is a small correction to the function Lo. Then the
+corresponding addition H' in the Hamiltonian H = H + H' is related to L'
+by
+(H')p,a - (L')
+(40.7)
+It may be noticed that, in transforming (40.1) into (40.3), we did not
+include a term in dt to take account of a possible explicit time-dependence
+§41
+The Routhian
+133
+of the Lagrangian, since the time would there be only a parameter which
+would not be involved in the transformation. Analogously to formula (40.6),
+the partial time derivatives of L and H are related by
+(40.8)
+PROBLEMS
+PROBLEM 1. Find the Hamiltonian for a single particle in Cartesian, cylindrical and
+spherical co-ordinates.
+SOLUTION. In Cartesian co-ordinates x, y, 2,
+in cylindrical co-ordinates r, , z,
+in spherical co-ordinates r, 0, ,
+PROBLEM 2. Find the Hamiltonian for a particle in a uniformly rotating frame of reference.
+SOLUTION. Expressing the velocity V in the energy (39.11) in terms of the momentum p
+by (39.10), we have H = p2/2m-S rxp+U.
+PROBLEM 3. Find the Hamiltonian for a system comprising one particle of mass M and n
+particles each of mass m, excluding the motion of the centre of mass (see §13, Problem).
+SOLUTION. The energy E is obtained from the Lagrangian found in §13, Problem, by
+changing the sign of U. The generalised momenta are
+Pa = OL/OV
+Hence
+-
+= (mM/14)
+=
+=
+Substitution in E gives
+41. The Routhian
+In some cases it is convenient, in changing to new variables, to replace
+only some, and not all, of the generalised velocities by momenta. The trans-
+formation is entirely similar to that given in 40.
+To simplify the formulae, let us at first suppose that there are only two
+co-ordinates q and E, say, and transform from the variables q, $, q, $ to
+q, $, p, & where P is the generalised momentum corresponding to the co-
+ordinate q.
+134
+The Canonical Equations
+§42
+The differential of the Lagrangian L(q, $, q, §) is
+dL = dq + (al/dg) ds (0L/as) d
+d,
+whence
+= (0L/d) d.
+If we define the Routhian as
+= pq-L,
+(41.1)
+in which the velocity q is expressed in terms of the momentum P by means
+of the equation P = 0L/dq, then its differential is
+dR = - ds - (aL/a)
+(41.2)
+Hence
+DRIP, p = OR/dq,
+(41.3)
+(41.4)
+Substituting these equations in the Lagrangian for the co-ordinate $, we have
+(41.5)
+Thus the Routhian is a Hamiltonian with respect to the co-ordinate q
+(equations (41.3)) and a Lagrangian with respect to the co-ordinate $ (equation
+(41.5)).
+According to the general definition the energy of the system is
+E -p-L =
+In terms of the Routhian it is
+E=R-R,
+(41.6)
+as we find by substituting (41.1) and (41.4).
+The generalisation of the above formulae to the case of several co-ordinates
+q and & is evident.
+The use of the Routhian may be convenient, in particular, when some of
+the co-ordinates are cyclic. If the co-ordinates q are cyclic, they do not appear
+in the Lagrangian, nor therefore in the Routhian, so that the latter is a func-
+tion of P, $ and $. The momenta P corresponding to cyclic co-ordinates are
+constant, as follows also from the second equation (41.3), which in this sense
+contains no new information. When the momenta P are replaced by their
+given constant values, equations (41.5) (d/dt) JR(p, $, 5)108 = JR(P, &, §) 128
+become equations containing only the co-ordinates $, so that the cyclic co-
+ordinates are entirely eliminated. If these equations are solved for the func-
+tions (t), substitution of the latter on the right-hand sides of the equations
+q = JR(p, $, E) gives the functions q(t) by direct integration.
+PROBLEM
+Find the Routhian for a symmetrical top in an external field U(, 0), eliminating the cyclic
+co-ordinate 4 (where 4, , 0 are Eulerian angles).
+§42
+Poisson brackets
+135
+SOLUTION. The Lagrangian is = see
+§35, Problem 1. The Routhian is
+R = cos 0);
+the first term is a constant and may be omitted.
+42. Poisson brackets
+Let f (p, q, t) be some function of co-ordinates, momenta and time. Its
+total time derivative is
+df
+Substitution of the values of and Pk given by Hamilton's equations (40.4)
+leads to the expression
+(42.1)
+where
+(42.2)
+dqk
+This expression is called the Poisson bracket of the quantities H and f.
+Those functions of the dynamical variables which remain constant during
+the motion of the system are, as we know, called integrals of the motion.
+We see from (42.1) that the condition for the quantity f to be an integral of
+the motion (df/dt = 0) can be written
+af(dt+[H,f]=0
+(42.3)
+If the integral of the motion is not explicitly dependent on the time, then
+[H,f] = 0,
+(42.4)
+i.e. the Poisson bracket of the integral and the Hamiltonian must be zero.
+For any two quantities f and g, the Poisson bracket is defined analogously
+to (42.2):
+(42.5)
+The Poisson bracket has the following properties, which are easily derived
+from its definition.
+If the two functions are interchanged, the bracket changes sign; if one of
+the functions is a constant c, the bracket is zero:
+(42.6)
+[f,c]=0.
+(42.7)
+Also
+[f1+f2,g]=[f1,g)+[f2,g]
+(42.8)
+[f1f2,g] ]=fi[fa,8]+f2[f1,8] =
+(42.9)
+Taking the partial derivative of (42.5) with respect to time, we obtain
+(42.10)
+136
+The Canonical Equations
+§42
+If one of the functions f and g is one of the momenta or co-ordinates, the
+Poisson bracket reduces to a partial derivative:
+(42.11)
+(42.12)
+Formula (42.11), for example, may be obtained by putting g = qk in (42.5);
+the sum reduces to a single term, since dqk/dqi = 8kl and dqk/dpi = 0. Put-
+ting in (42.11) and (42.12) the function f equal to qi and Pi we have, in parti-
+cular,
+[qi,qk] = [Pi, Pk] =0, [Pi, 9k] = Sik.
+(42.13)
+The relation
+[f,[g,h]]+[g,[h,f]]+[h,[f,g]] = 0,
+(42.14)
+known as Jacobi's identity, holds between the Poisson brackets formed from
+three functions f, g and h. To prove it, we first note the following result.
+According to the definition (42.5), the Poisson bracket [f,g] is a bilinear
+homogeneous function of the first derivatives of f and g. Hence the bracket
+[h,[f,g]], for example, is a linear homogeneous function of the second
+derivatives of f and g. The left-hand side of equation (42.14) is therefore a
+linear homogeneous function of the second derivatives of all three functions
+f, g and h. Let us collect the terms involving the second derivatives of f.
+The first bracket contains no such terms, since it involves only the first
+derivatives of f. The sum of the second and third brackets may be symboli-
+cally written in terms of the linear differential operators D1 and D2, defined by
+D1() = [g, ], D2(b) = [h, ]. Then
+3,[h,f]]+[h,[f,g]] = [g, [h,f]]-[h,[g,f]
+= D1[D2(f)]-D2[D1(f)]
+= (D1D2-D2D1)f.
+It is easy to see that this combination of linear differential operators cannot
+involve the second derivatives of f. The general form of the linear differential
+operators is
+where & and Nk are arbitrary functions of the variables .... Then
+and the difference of these,
+§42
+Poisson brackets
+137
+is again an operator involving only single differentiations. Thus the terms in
+the second derivatives of f on the left-hand side of equation (42.14) cancel
+and, since the same is of course true of g and h, the whole expression is identi-
+cally zero.
+An important property of the Poisson bracket is that, if f and g are two
+integrals of the motion, their Poisson bracket is likewise an integral of the
+motion:
+[f,g] = constant. =
+(42.15)
+This is Poisson's theorem. The proof is very simple if f and g do not depend
+explicitly on the time. Putting h = H in Jacobi's identity, we obtain
+[H,[f,g]]+[f,[g,H]]+[g,[H,fl]=0.
+Hence, if [H, g] =0 and [H,f] = 0, then [H,[f,g]] = 0, which is the
+required result.
+If the integrals f and g of the motion are explicitly time-dependent, we
+put, from (42.1),
+Using formula (42.10) and expressing the bracket [H, [f,g]] in terms of two
+others by means of Jacobi's identity, we find
+d
+[
+(42.16)
+which evidently proves Poisson's theorem.
+Of course, Poisson's theorem does not always supply further integrals of
+the motion, since there are only 2s-1 - of these (s being the number of degrees
+of freedom). In some cases the result is trivial, the Poisson bracket being a
+constant. In other cases the integral obtained is simply a function of the ori-
+ginal integrals f and g. If neither of these two possibilities occurs, however,
+then the Poisson bracket is a further integral of the motion.
+PROBLEMS
+PROBLEM 1. Determine the Poisson brackets formed from the Cartesian components of
+the momentum p and the angular momentum M = rxp of a particle.
+SOLUTION. Formula (42.12) gives [Mx, Py] = -MM/Dy = -d(yp:-2py)/dy
+=
+-Pz,
+and similarly [Mx, Px] = 0, [Mx, P2] = Py. The remaining brackets are obtained by cyclically
+permuting the suffixes x, y, Z.
+6
+138
+The Canonical Equations
+§43
+PROBLEM 2. Determine the Poisson brackets formed from the components of M.
+SOLUTION. A direct calculation from formula (42.5) gives [Mx, My] = -M2, [My, M]
+= -Mx, [Mz, Mx] = -My.
+Since the momenta and co-ordinates of different particles are mutually independent variables,
+it is easy to see that the formulae derived in Problems 1 and 2 are valid also for the total
+momentum and angular momentum of any system of particles.
+PROBLEM 3. Show that [, M2] = 0, where is any function, spherically symmetrical
+about the origin, of the co-ordinates and momentum of a particle.
+SOLUTION. Such a function can depend on the components of the vectors r and p only
+through the combinations r2, p2, r. p. Hence
+and similarly for The required relation may be verified by direct calculation from
+formula (42.5), using these formulae for the partial derivatives.
+PROBLEM 4. Show that [f, M] = n xf, where f is a vector function of the co-ordinates
+and momentum of a particle, and n is a unit vector parallel to the z-axis.
+SOLUTION. An arbitrary vector f(r,p) may be written as f = where
+01, O2, 03 are scalar functions. The required relation may be verified by direct calculation
+from formulae (42.9), (42.11), (42.12) and the formula of Problem 3.
+$43. The action as a function of the co-ordinates
+In formulating the principle of least action, we have considered the integral
+(43.1)
+taken along a path between two given positions q(1) and q(2) which the system
+occupies at given instants t1 and t2. In varying the action, we compared the
+values of this integral for neighbouring paths with the same values of q(t1)
+and q(t2). Only one of these paths corresponds to the actual motion, namely
+the path for which the integral S has its minimum value.
+Let us now consider another aspect of the concept of action, regarding S
+as a quantity characterising the motion along the actual path, and compare
+the values of S for paths having a common beginning at q(t1) = q(1), but
+passing through different points at time t2. In other words, we consider the
+action integral for the true path as a function of the co-ordinates at the upper
+limit of integration.
+The change in the action from one path to a neighbouring path is given
+(if there is one degree of freedom) by the expression (2.5):
+8S =
+Since the paths of actual motion satisfy Lagrange's equations, the integral
+in 8S is zero. In the first term we put Sq(t1) = 0, and denote the value of
+§43
+The action as a function of the co-ordinates
+139
+8q(t2) by 8q simply. Replacing 0L/dq by p, we have finally 8S = pdq or, in
+the general case of any number of degrees of freedom,
+ES==Pisqu-
+(43.2)
+From this relation it follows that the partial derivatives of the action with
+respect to the co-ordinates are equal to the corresponding momenta:
+=
+(43.3)
+The action may similarly be regarded as an explicit function of time, by
+considering paths starting at a given instant t1 and at a given point q(1), and
+ending at a given point q(2) at various times t2 = t. The partial derivative
+asiat thus obtained may be found by an appropriate variation of the integral.
+It is simpler, however, to use formula (43.3), proceeding as follows.
+From the definition of the action, its total time derivative along the path is
+dS/dt = L.
+(43.4)
+Next, regarding S as a function of co-ordinates and time, in the sense des-
+cribed above, and using formula (43.3), we have
+dS
+A comparison gives asid = L- or
+(43.5)
+Formulae (43.3) and (43.5) may be represented by the expression
+(43.6)
+for the total differential of the action as a function of co-ordinates and time
+at the upper limit of integration in (43.1). Let us now suppose that the co-
+ordinates (and time) at the beginning of the motion, as well as at the end,
+are variable. It is evident that the corresponding change in S will be given
+by the difference of the expressions (43.6) for the beginning and end of the
+path, i.e.
+dsp
+(43.7)
+This relation shows that, whatever the external forces on the system during
+its motion, its final state cannot be an arbitrary function of its initial state;
+only those motions are possible for which the expression on the right-hand
+side of equation (43.7) is a perfect differential. Thus the existence of the
+principle of least action, quite apart from any particular form of the Lagran-
+gian, imposes certain restrictions on the range of possible motions. In parti-
+cular, it is possible to derive a number of general properties, independent
+of the external fields, for beams of particles diverging from given points in
+140
+The Canonical Equations
+§44
+space. The study of these properties forms a part of the subject of geometrical
+optics.+
+It is of interest to note that Hamilton's equations can be formally derived
+from the condition of minimum action in the form
+(43.8)
+which follows from (43.6), if the co-ordinates and momenta are varied inde-
+pendently. Again assuming for simplicity that there is only one co-ordinate
+and momentum, we write the variation of the action as
+= dt - (OH/dp)8p dt].
+An integration by parts in the second term gives
+At the limits of integration we must put 8q = 0, so that the integrated term
+is zero. The remaining expression can be zero only if the two integrands
+vanish separately, since the variations Sp and 8q are independent and arbitrary
+dq = (OH/OP) dt, dp = - (dH/dq) dt, which, after division by dt, are
+Hamilton's equations.
+$44. Maupertuis' principle
+The motion of a mechanical system is entirely determined by the principle
+of least action: by solving the equations of motion which follow from that
+principle, we can find both the form of the path and the position on the path
+as a function of time.
+If the problem is the more restricted one of determining only the path,
+without reference to time, a simplified form of the principle of least action
+may be used. We assume that the Lagrangian, and therefore the Hamilton-
+ian, do not involve the time explicitly, SO that the energy of the system is
+conserved: H(p, q) = E = constant. According to the principle of least action,
+the variation of the action, for given initial and final co-ordinates and times
+(to and t, say), is zero. If, however, we allow a variation of the final time t,
+the initial and final co-ordinates remaining fixed, we have (cf.(43.7))
+8S = -Hot.
+(44.1)
+We now compare, not all virtual motions of the system, but only those
+which satisfy the law of conservation of energy. For such paths we can
+replace H in (44.1) by a constant E, which gives
+SS+Est=0.
+(44.2)
+t See The Classical Theory of Fields, Chapter 7, Pergamon Press, Oxford 1962.

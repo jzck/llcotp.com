@@ -1,0 +1,400 @@
+
+§37
+The asymmetrical top
+121
+and by formulae (37.14) tan of = M1/M2, cos 0) 2(1 (M3/M) 22
+substituting (2), we obtain
+tan 4 = V[I(I3-I2)/I2(I3-I1)] cot wt,
+(3)
+To find , we note that, by the third formula (35.1), we have, for 0 1,
+Hence
+= lot
+(4)
+omitting an arbitrary constant of integration.
+A clearer idea of the nature of the motion of the top is obtained if we consider the change
+in direction of the three axes of inertia. Let n1, n2, n3 be unit vectors along these axes. The
+vectors n1 and n2 rotate uniformly in the XY-plane with frequency So, and at the same time
+execute small transverse oscillations with frequency w. These oscillations are given by the
+Z-components of the vectors:
+22 M1/M = av(I3/I2-1) cos wt,
+N2Z 22 M2/M = av(I3/I1-1) sin wt.
+For the vector n3 we have, to the same accuracy, N3x 22 0 sin , N3y 22 -0 cos , n3z 1.
+(The polar angle and azimuth of n3 with respect to the axes X, Y, Z are 0 and -; see
+the footnote to 35.) We also write, using formulae (37.13),
+naz=0sin(Qot-4)
+= Asin Sot cos 4-0 cos lot sin 4
+= (M 2/M) sin Dot-(M1/M) cos Sot
+sin Sot sin N/1-1) cos Not cos wt
+cos(so
+Similarly
+From this we see that the motion of n3 is a superposition of two rotations about the Z-axis
+with frequencies So + w.
+PROBLEM 2. Determine the free rotation of a top for which M2 = 2EI2.
+SOLUTION. This case corresponds to the movement of the terminus of M along a curve
+through the pole on the x2-axis (Fig. 51). Equation (37.7) becomes ds/dr = 1-s2,
+= S = I2/20, where So = M/I2 = 2E|M. Integration of
+this equation and the use of formulae (37.6) gives
+sech T,
+}
+(1)
+sech T.
+To describe the absolute motion of the top, we use Eulerian angles, defining 0 as the angle
+between the Z-axis (direction of M) and the x2-axis (not the x3-axis as previously). In formulae
+(37.14) and (37.16), which relate the components of the vector CA to the Eulerian angles, we
+5
+122
+Motion of a Rigid Body
+§38
+must cyclically permute the suffixes 1, 2, 3 to 3, 1, 2. Substitution of (1) in these formulae
+then gives cos 0 = tanh T, = lot + constant, tan =
+It is seen from these formulae that, as t 8, the vector SC asymptotically approaches the
+x2-axis, which itself asymptotically approaches the Z-axis.
+$38. Rigid bodies in contact
+The equations of motion (34.1) and (34.3) show that the conditions of
+equilibrium for a rigid body can be written as the vanishing of the total force
+and total torque on the body:
+F = f = 0 ,
+K ==~rxf=0. =
+(38.1)
+Here the summation is over all the external forces acting on the body, and r
+is the radius vector of the "point of application"; the origin with respect to
+which the torque is defined may be chosen arbitrarily, since if F = 0 the
+value of K does not depend on this choice (see (34.5)).
+If we have a system of rigid bodies in contact, the conditions (38.1) for
+each body separately must hold in equilibrium. The forces considered must
+include those exerted on each body by those with which it is in contact. These
+forces at the points of contact are called reactions. It is obvious that the mutual
+reactions of any two bodies are equal in magnitude and opposite in direction.
+In general, both the magnitudes and the directions of the reactions are
+found by solving simultaneously the equations of equilibrium (38.1) for all the
+bodies. In some cases, however, their directions are given by the conditions
+of the problem. For example, if two bodies can slide freely on each other, the
+reaction between them is normal to the surface.
+If two bodies in contact are in relative motion, dissipative forces of friction
+arise, in addition to the reaction.
+There are two possible types of motion of bodies in contact-sliding and
+rolling. In sliding, the reaction is perpendicular to the surfaces in contact,
+and the friction is tangential. Pure rolling, on the other hand, is characterised
+by the fact that there is no relative motion of the bodies at the point of
+contact; that is, a rolling body is at every instant as it were fixed to the point
+of contact. The reaction may be in any direction, i.e. it need not be normal
+to the surfaces in contact. The friction in rolling appears as an additional
+torque which opposes rolling.
+If the friction in sliding is negligibly small, the surfaces concerned are
+said to be perfectly smooth. If, on the other hand, only pure rolling without
+sliding is possible, and the friction in rolling can be neglected, the surfaces
+are said to be perfectly rough.
+In both these cases the frictional forces do not appear explicitly in the pro-
+blem, which is therefore purely one of mechanics. If, on the other hand, the
+properties of the friction play an essential part in determining the motion,
+then the latter is not a purely mechanical process (cf. $25).
+Contact between two bodies reduces the number of their degrees of freedom
+as compared with the case of free motion. Hitherto, in discussing such
+§38
+Rigid bodies in contact
+123
+problems, we have taken this reduction into account by using co-ordinates
+which correspond directly to the actual number of degrees of freedom. In
+rolling, however, such a choice of co-ordinates may be impossible.
+The condition imposed on the motion of rolling bodies is that the velocities
+of the points in contact should be equal; for example, when a body rolls on a
+fixed surface, the velocity of the point of contact must be zero. In the general
+case, this condition is expressed by the equations of constraint, of the form
+E caide = 0,
+(38.2)
+where the Cai are functions of the co-ordinates only, and the suffix a denumer-
+ates the equations. If the left-hand sides of these equations are not the total
+time derivatives of some functions of the co-ordinates, the equations cannot
+be integrated. In other words, they cannot be reduced to relations between the
+co-ordinates only, which could be used to express the position of the bodies
+in terms of fewer co-ordinates, corresponding to the actual number of degrees
+of freedom. Such constraints are said to be non-holonomic, as opposed to
+holonomic constraints, which impose relations between the co-ordinates only.
+Let us consider, for example, the rolling of a sphere on a plane. As usual,
+we denote by V the translational velocity (the velocity of the centre of the
+sphere), and by Sa the angular velocity of rotation. The velocity of the point
+of contact with the plane is found by putting r = - an in the general formula
+V = +SXR; a is the radius of the sphere and n a unit vector along the
+normal to the plane. The required condition is that there should be no sliding
+at the point of contact, i.e.
+V-aSxxn = 0.
+(38.3)
+This cannot be integrated: although the velocity V is the total time derivative
+of the radius vector of the centre of the sphere, the angular velocity is not in
+general the total time derivative of any co-ordinate. The constraint (38.3) is
+therefore non-holonomic.t
+Since the equations of non-holonomic constraints cannot be used to reduce
+the number of co-ordinates, when such constraints are present it is necessary
+to use co-ordinates which are not all independent. To derive the correspond-
+ing Lagrange's equations, we return to the principle of least action.
+The existence of the constraints (38.2) places certain restrictions on the
+possible values of the variations of the co-ordinates: multiplying equations
+(38.2) by St, we find that the variations dqi are not independent, but are
+related by
+(38.4)
+t It may be noted that the similar constraint in the rolling of a cylinder is holonomic. In
+that case the axis of rotation has a fixed direction in space, and hence la = do/dt is the total
+derivative of the angle of rotation of the cylinder about its axis. The condition (38.3) can
+therefore be integrated, and gives a relation between the angle and the co-ordinate of the
+centre of mass.
+124
+Motion of a Rigid Body
+§38
+This must be taken into account in varying the action. According to
+Lagrange's method of finding conditional extrema, we must add to the inte-
+grand in the variation of the action
+=
+the left-hand sides of equations (38.4) multiplied by undetermined coeffici-
+ents da (functions of the co-ordinates), and then equate the integral to zero.
+In SO doing the variations dqi are regarded as entirely independent, and the
+result is
+(38.5)
+These equations, together with the constraint equations (38.2), form a com-
+plete set of equations for the unknowns qi and da.
+The reaction forces do not appear in this treatment, and the contact of
+the bodies is fully allowed for by means of the constraint equations. There
+is, however, another method of deriving the equations of motion for bodies in
+contact, in which the reactions are introduced explicitly. The essential feature
+of this method, which is sometimes called d'Alembert's principle, is to write
+for each of the bodies in contact the equations.
+dP/dt==f,
+(38.6)
+wherein the forces f acting on each body include the reactions. The latter
+are initially unknown and are determined, together with the motion of the
+body, by solving the equations. This method is equally applicable for both
+holonomic and non-holonomic constraints.
+PROBLEMS
+PROBLEM 1. Using d'Alembert's principle, find the equations of motion of a homogeneous
+sphere rolling on a plane under an external force F and torque K.
+SOLUTION. The constraint equation is (38.3). Denoting the reaction force at the point of
+contact between the sphere and the plane by R, we have equations (38.6) in the form
+u dV/dt = F+R,
+(1)
+dSu/dt = K-an xR,
+(2)
+where we have used the facts that P = V and, for a spherical top, M = ISE. Differentiating
+the constraint equation (38.3) with respect to time, we have V = aS2xn. Substituting in
+equation (1) and eliminating S by means of (2), we obtain (I/au)(F+R) = Kxn-aR+
++an(n . R), which relates R, F and K. Writing this equation in components and substitut-
+ing I = zua2 (§32, Problem 2(b)), we have
+R2 = -F2,
+where the plane is taken as the xy-plane. Finally, substituting these expressions in (1), we
+§38
+Rigid bodies in contact
+125
+obtain the equations of motion involving only the given external force and torque:
+dVx dt 7u 5 Ky
+dt
+The components Ox, Q2 y of the angular velocity are given in terms of Vx, Vy by the constraint
+equation (38.3); for S2 we have the equation 2 dQ2/dt = K2, the z-component of equa-
+tion (2).
+PROBLEM 2. A uniform rod BD of weight P and length l rests against a wall as shown in
+Fig. 52 and its lower end B is held by a string AB. Find the reaction of the wall and the ten-
+sion in the string.
+Rc
+h
+P
+RB
+T
+A
+B
+FIG. 52
+SOLUTION. The weight of the rod can be represented by a force P vertically downwards,
+applied at its midpoint. The reactions RB and Rc are respectively vertically upwards and
+perpendicular to the rod; the tension T in the string is directed from B to A. The solution
+of the equations of equilibrium gives Rc = (Pl/4h) sin 2a, RB = P-Rcsin x, T = Rc cos a.
+PROBLEM 3. A rod of weight P has one end A on a vertical plane and the other end B on
+a horizontal plane (Fig. 53), and is held in position by two horizontal strings AD and BC,
+RB
+TA
+A
+RA
+C
+FIG. 53
+126
+Motion of a Rigid Body
+§39
+the latter being in the same vertical plane as AB. Determine the reactions of the planes and
+the tensions in the strings.
+SOLUTION. The tensions TA and TB are from A to D and from B to C respectively. The
+reactions RA and RB are perpendicular to the corresponding planes. The solution of the
+equations of equilibrium gives RB = P, TB = 1P cot a, RA = TB sin B, TA = TB cos B.
+PROBLEM 4. Two rods of length l and negligible weight are hinged together, and their ends
+are connected by a string AB (Fig. 54). They stand on a plane, and a force F is applied
+at the midpoint of one rod. Determine the reactions.
+RC
+C
+PA
+F
+1
+RB
+T
+T
+A
+B
+FIG. 54
+SOLUTION. The tension T acts at A from A to B, and at B from B to A. The reactions RA
+and RB at A and B are perpendicular to the plane. Let Rc be the reaction on the rod AC at
+the hinge; then a reaction - -Rc acts on the rod BC. The condition that the sum of the moments
+of the forces RB, T and - -Rc acting on the rod BC should be zero shows that Rc acts along
+BC. The remaining conditions of equilibrium (for the two rods separately) give RA = 1F,
+RB = 1F, Rc = 1F cosec a, T = 1F cot a, where a is the angle CAB.
+§39. Motion in a non-inertial frame of reference
+Up to this point we have always used inertial frames of reference in discuss-
+ing the motion of mechanical systems. For example, the Lagrangian
+L = 1mvo2- U,
+(39.1)
+and the corresponding equation of motion m dvo/dt = - au/dr, for a single
+particle in an external field are valid only in an inertial frame. (In this section
+the suffix 0 denotes quantities pertaining to an inertial frame.)
+Let us now consider what the equations of motion will be in a non-inertial
+frame of reference. The basis of the solution of this problem is again the
+principle of least action, whose validity does not depend on the frame of
+reference chosen. Lagrange's equations
+(39.2)
+are likewise valid, but the Lagrangian is no longer of the form (39.1), and to
+derive it we must carry out the necessary transformation of the function Lo.
+§39
+Motion in a non-inertial frame of reference
+127
+This transformation is done in two steps. Let us first consider a frame of
+reference K' which moves with a translational velocity V(t) relative to the
+inertial frame K0. The velocities V0 and v' of a particle in the frames Ko and
+K' respectively are related by
+vo = v'+ V(t).
+(39.3)
+Substitution of this in (39.1) gives the Lagrangian in K':
+L' = 1mv2+mv.+1mV2-U
+Now V2(t) is a given function of time, and can be written as the total deriva-
+tive with respect to t of some other function; the third term in L' can there-
+fore be omitted. Next, v' = dr'/dt, where r' is the radius vector of the par-
+ticle in the frame K'. Hence
+mV(t)+v'= mV.dr/'dt = d(mV.r')/dt-mr'.dV/dt.
+Substituting in the Lagrangian and again omitting the total time derivative,
+we have finally
+L' =
+(39.4)
+where W = dV/dt is the translational acceleration of the frame K'.
+The Lagrange's equation derived from (39.4) is
+(39.5)
+Thus an accelerated translational motion of a frame of reference is equivalent,
+as regards its effect on the equations of motion of a particle, to the application
+of a uniform field of force equal to the mass of the particle multiplied by the
+acceleration W, in the direction opposite to this acceleration.
+Let us now bring in a further frame of reference K, whose origin coincides
+with that of K', but which rotates relative to K' with angular velocity Su(t).
+Thus K executes both a translational and a rotational motion relative to the
+inertial frame Ko.
+The velocity v' of the particle relative to K' is composed of its velocity
+V
+relative to K and the velocity Sxr of its rotation with K: v' = Lxr
+(since the radius vectors r and r' in the frames K and K' coincide). Substitut-
+ing this in the Lagrangian (39.4), we obtain
+L = +mv.Sx+1m(xr)2-mW.r-
+(39.6)
+This is the general form of the Lagrangian of a particle in an arbitrary, not
+necessarily inertial, frame of reference. The rotation of the frame leads to the
+appearance in the Lagrangian of a term linear in the velocity of the particle.
+To calculate the derivatives appearing in Lagrange's equation, we write
+128
+Motion of a Rigid Body
+§39
+the total differential
+dL = mv.dv+mdv.Sxr+mv.Sxdr+
+=
+v.dv+mdv.xr+mdr.vxR+
+The terms in dv and dr give
+0L/dr X Q-mW-dU/0r. - -
+Substitution of these expressions in (39.2) gives the required equation of
+motion:
+mdv/dt = (39.7)
+We see that the "inertia forces" due to the rotation of the frame consist
+of three terms. The force mrxo is due to the non-uniformity of the rotation,
+but the other two terms appear even if the rotation is uniform. The force
+2mvxs is called the Coriolis force; unlike any other (non-dissipative) force
+hitherto considered, it depends on the velocity of the particle. The force
+mSX(rxS) is called the centrifugal force. It lies in the plane through r and
+S, is perpendicular to the axis of rotation (i.e. to S2), and is directed away
+from the axis. The magnitude of this force is mpO2, where P is the distance
+of the particle from the axis of rotation.
+Let us now consider the particular case of a uniformly rotating frame with
+no translational acceleration. Putting in (39.6) and (39.7) S = constant,
+W = 0, we obtain the Lagrangian
+L
+=
+(39.8)
+and the equation of motion
+mdv/dt = -
+(39.9)
+The energy of the particle in this case is obtained by substituting
+p =
+(39.10)
+in E = p.v-L, which gives
+E =
+(39.11)
+It should be noticed that the energy contains no term linear in the velocity.
+The rotation of the frame simply adds to the energy a term depending only
+on the co-ordinates of the particle and proportional to the square of the
+angular velocity. This additional term - 1m(Sxr)2 is called the centrifugal
+potential energy.
+The velocity V of the particle relative to the uniformly rotating frame of
+reference is related to its velocity V0 relative to the inertial frame Ko by
+(39.12)
+§39
+Motion in a non-inertial frame of reference
+129
+The momentum p (39.10) of the particle in the frame K is therefore the same
+as its momentum Po = MVO in the frame K0. The angular momenta
+M = rxpo and M = rxp are likewise equal. The energies of the particle
+in the two frames are not the same, however. Substituting V from (39.12) in
+(39.11), we obtain E = 1mv02-mvo Sxr+U = 1mvo2 + mrxvo S.
+The first two terms are the energy E0 in the frame K0. Using the angular
+momentum M, we have
+E = E0 n-M.S.
+(39.13)
+This formula gives the law of transformation of energy when we change to a
+uniformly rotating frame. Although it has been derived for a single particle,
+the derivation can evidently be generalised immediately to any system of
+particles, and the same formula (39.13) is obtained.
+PROBLEMS
+PROBLEM 1. Find the deflection of a freely falling body from the vertical caused by the
+Earth's rotation, assuming the angular velocity of this rotation to be small.
+SOLUTION. In a gravitational field U = -mg. r, where g is the gravity acceleration
+vector; neglecting the centrifugal force in equation (39.9) as containing the square of S, we
+have the equation of motion
+v = 2vxSu+g.
+(1)
+This equation may be solved by successive approximations. To do so, we put V = V1+V2,
+where V1 is the solution of the equation V1 = g, i.e. V1 = gt+ (Vo being the initial velocity).
+Substituting V = V1+v2in (1) and retaining only V1 on the right, we have for V2 the equation
+V2 = 2v1xSc = 2tgxSt+2voxS. Integration gives
+(2)
+where h is the initial radius vector of the particle.
+Let the z-axis be vertically upwards, and the x-axis towards the pole; then gx = gy = 0,
+n sin 1, where A is the latitude (which for definite-
+ness we take to be north). Putting V0 = 0 in (2), we find x = 0, =-1t300 cos A. Substitu-
+tion of the time of fall t 22 (2h/g) gives finally x = 0,3 = - 1(2h/g)3/2 cos A, the negative
+value indicating an eastward deflection.
+PROBLEM 2. Determine the deflection from coplanarity of the path of a particle thrown
+from the Earth's surface with velocity Vo.
+SOLUTION. Let the xx-plane be such as to contain the velocity Vo. The initial altitude
+h = 0. The lateral deviation is given by (2), Problem 1: y =
+or, substituting the time of flight t 22 2voz/g, y =
+PROBLEM 3. Determine the effect of the Earth's rotation on small oscillations of a pendulum
+(the problem of Foucault's pendulum).
+SOLUTION. Neglecting the vertical displacement of the pendulum, as being a quantity
+of the second order of smallness, we can regard the motion as taking place in the horizontal
+xy-plane. Omitting terms in N°, we have the equations of motion x+w2x = 20zy, j+w2y
+= -20zx, where w is the frequency of oscillation of the pendulum if the Earth's rotation is
+neglected. Multiplying the second equation by i and adding, we obtain a single equation
+130
+Motion of a Rigid Body
+§39
++2i02s+w28 = 0 for the complex quantity $ = xtiy. For I2<<, the solution of this
+equation is
+$ = exp(-is2t) [A1 exp(iwt) +A2 exp(-iwt)]
+or
+xtiy = (xo+iyo) exp(-is2zt),
+where the functions xo(t), yo(t) give the path of the pendulum when the Earth's rotation is
+neglected. The effect of this rotation is therefore to turn the path about the vertical with
+angular velocity Qz.

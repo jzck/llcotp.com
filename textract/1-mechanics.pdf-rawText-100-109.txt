@@ -1,0 +1,413 @@
+
+§29
+Resonance in non-linear oscillations
+91
+This equation, however, does not suffice to determine the resulting ampli-
+tude of the oscillations. The attainment of a finite amplitude involves non-
+linear effects, and to include these in the equation of motion we must retain
+also the terms non-linear in x(2):
+= cos(2wo+e)t. (29.11)
+The problem can be considerably simplified by virtue of the following fact.
+Putting on the right-hand side of (29.11) x(2) = b cos[(wo++)+8], where
+b is the required amplitude of the resonance oscillations and 8 a constant
+phase difference which is of no importance in what follows, and writing the
+product of cosines as a sum, we obtain a term (afb/3mwo2)
+of the ordinary resonance type (with respect to the eigenfrequency wo of the
+system). The problem thus reduces to that considered at the beginning of
+this section, namely ordinary resonance in a non-linear system, the only
+differences being that the amplitude of the external force is here represented
+by afb/3wo2, and E is replaced by 1/6. Making this change in equation (29.4),
+we have
+Solving for b, we find the possible values of the amplitude:
+b=0,
+(29.12)
+(29.13)
+1
+(29.14)
+Figure 33 shows the resulting dependence of b on € for K > 0; for K < 0
+the curves are the reflections (in the b-axis) of those shown. The points B
+and C correspond to the values E = To the left of
+B, only the value b = 0 is possible, i.e. there is no resonance, and oscillations
+of frequency near wo are not excited. Between B and C there are two roots,
+b = 0(BC) and (29.13) (BE). Finally, to the right of C there are three roots
+(29.12)-(29.14). Not all these, however, correspond to stable oscillations.
+The value b = 0 is unstable on BC, and it can also be shown that the middle
+root (29.14) always gives instability. The unstable values of b are shown in
+Fig. 33 by dashed lines.
+Let us examine, for example, the behaviour of a system initially "at rest"
+as the frequency of the external force is gradually diminished. Until the point
+t This segment corresponds to the region of parametric resonance (27.12), and a com-
+parison of (29.10) and (27.8) gives 1h = 2af/3mwo4. The condition 12af/3mwo3 > 4X for
+which the phenomenon can exist corresponds to h > hk.
++ It should be recalled that only resonance phenomena are under consideration. If these
+phenomena are absent, the system is not literally at rest, but executes small forced oscillations
+of frequency y.
+92
+Small Oscillations
+§29
+C is reached, b = 0, but at C the state of the system passes discontinuously
+to the branch EB. As € decreases further, the amplitude of the oscillations
+decreases to zero at B. When the frequency increases again, the amplitude
+increases along BE.-
+b
+E
+E
+A
+B
+C D
+FIG. 33
+The cases of resonance discussed above are the principal ones which may
+occur in a non-linear oscillating system. In higher approximations, resonances
+appear at other frequencies also. Strictly speaking, a resonance must occur
+at every frequency y for which ny + mwo = wo with n and m integers, i.e. for
+every y = pwo/q with P and q integers. As the degree of approximation
+increases, however, the strength of the resonances, and the widths of the
+frequency ranges in which they occur, decrease so rapidly that in practice
+only the resonances at frequencies y 2 pwo/q with small P and q can be ob-
+served.
+PROBLEM
+Determine the function b(e) for resonance at frequencies y 22 3 wo.
+SOLUTION. In the first approximation, x(1) = -(f/8mwo2) cos(3wo+t) For the second
+approximation x(2) we have from (29.1) the equation
+= -3,8x(1)x(2)2,
+where only the term which gives the required resonance has been retained on the right-hand
+side. Putting x(2) = b cos[(wo+)+8] and taking the resonance term out of the product
+of three cosines, we obtain on the right-hand side the expression
+(3,3b2f(32mwo2) cos[(wotle)t-28].
+Hence it is evident that b(e) is obtained by replacing f by 3,8b2f/32wo², and E by JE, in
+(29.4):
+Ab4.
+The roots of this equation are
+b=0,
+Fig. 34 shows a graph of the function b(e) for k>0. Only the value b=0 (the e-axis) and
+the branch AB corresponds to stability. The point A corresponds to EK = 3(4x2)2-A3)/4kA,
+t It must be noticed, however, that all the formulae derived here are valid only when the
+amplitude b (and also E) is sufficiently small. In reality, the curves BE and CF meet, and at
+their point of intersection the oscillation ceases; thereafter, b = 0.
+§30
+Motion in a rapidly oscillating field
+93
+bk2 = Oscillations exist only for € > Ek, and then b > bk. Since the state
+b = 0 is always stable, an initial "push" is necessary in order to excite oscillations.
+The formulae given above are valid only for small E. This condition is satisfied if 1 is small
+and also the amplitude of the force is such that 2/wo < A KWO.
+b
+B
+A
+€
+FIG. 34
+§30. Motion in a rapidly oscillating field
+Let us consider the motion of a particle subject both to a time-independent
+field of potential U and to a force
+f=f1coswt+fasin.ou
+(30.1)
+which varies in time with a high frequency w (f1, f2 being functions of the
+co-ordinates only). By a "high" frequency we mean one such that w > 1/T,
+where T is the order of magnitude of the period of the motion which the
+particle would execute in the field U alone. The magnitude of f is not assumed
+small in comparison with the forces due to the field U, but we shall assume
+that the oscillation (denoted below by $) of the particle as a result of this
+force is small.
+To simplify the calculations, let us first consider motion in one dimension
+in a field depending only on the space co-ordinate X. Then the equation of
+motion of the particle ist
+mx = -dU/dx+f.
+(30.2)
+It is evident, from the nature of the field in which the particle moves, that
+it will traverse a smooth path and at the same time execute small oscillations
+of frequency w about that path. Accordingly, we represent the function x(t)
+as a sum:
+(30.3)
+where (t) corresponds to these small oscillations.
+The mean value of the function (t) over its period 2n/w is zero, and the
+function X(t) changes only slightly in that time. Denoting this average by a
+bar, we therefore have x = X(t), i.e. X(t) describes the "smooth" motion of
+t The co-ordinate x need not be Cartesian, and the coefficient m is therefore not neces-
+sarily the mass of the particle, nor need it be constant as has been assumed in (30.2). This
+assumption, however, does not affect the final result (see the last footnote to this section).
+94
+Small Oscillations
+§30
+the particle averaged over the rapid oscillations. We shall derive an equation
+which determines the function X(t).t
+Substituting (30.3) in (30.2) and expanding in powers of & as far as the
+first-order terms, we obtain
+(30.4)
+This equation involves both oscillatory and "smooth" terms, which must
+evidently be separately equal. For the oscillating terms we can put simply
+mg = f(X, t);
+(30.5)
+the other terms contain the small factor & and are therefore of a higher order
+of smallness (but the derivative sur is proportional to the large quantity w2
+and so is not small). Integrating equation (30.5) with the function f given by
+(30.1) (regarding X as a constant), we have
+& = -f/mw2.
+(30.6)
+Next, we average equation (30.4) with respect to time (in the sense discussed
+above). Since the mean values of the first powers of f and $ are zero, the result
+is
+dX
+which involves only the function X(t). This equation can be written
+mX = dUeff/dX,
+(30.7)
+where the "effective potential energy" is defined ast
+Ueff = U+f2/2mw2
+=
+(30.8)
+Comparing this expression with (30.6), we easily see that the term added to
+U is just the mean kinetic energy of the oscillatory motion:
+Ueff= U+1mg2
+(30.9)
+Thus the motion of the particle averaged over the oscillations is the same
+as if the constant potential U were augmented by a constant quantity pro-
+portional to the squared amplitude of the variable field.
+t The principle of this derivation is due to P. L. KAPITZA (1951).
+++ By means of somewhat more lengthy calculations it is easy to show that formulae (30.7)
+and (30.8) remain valid even if m is a function of X.
+§30
+Motion in a rapidly oscillating field
+95
+The result can easily be generalised to the case of a system with any number
+of degrees of freedom, described by generalised co-ordinates qi. The effective
+potential energy is then given not by (30.8), but by
+Unt = Ut
+= U+  ,
+(30.10)
+where the quantities a-1ik, which are in general functions of the co-ordinates,
+are the elements of the matrix inverse to the matrix of the coefficients aik in
+the kinetic energy (5.5) of the system.
+PROBLEMS
+PROBLEM 1. Determine the positions of stable equilibrium of a pendulum whose point of
+support oscillates vertically with a high frequency y
+(g/l)).
+SOLUTION. From the Lagrangian derived in §5, Problem 3(c), we see that in this case the
+variable force is f = -mlay2 cos yt sin (the quantity x being here represented by the angle
+b). The "effective potential energy" is therefore Ueff = mgl[-cos - & st(a2y2/4gl) sin2]. The
+positions of stable equilibrium correspond to the minima of this function. The vertically
+downward position ( = 0) is always stable. If the condition a2y2 > 2gl holds, the vertically
+upward position ( = ) is also stable.
+PROBLEM 2. The same as Problem 1, but for a pendulum whose point of support oscillates
+horizontally.
+SOLUTION. From the Lagrangian derived in §5, Problem 3(b), we find f = mlay2 cos yt
+cos and Uell = mgl[-cos 3+(a2y2/4gl) cos2]. If a2y2 < 2gl, the position = 0 is stable.
+If a2y2 > 2gl, on the other hand, the stable equilibrium position is given by cos = 2gl/a22.
+CHAPTER VI
+MOTION OF A RIGID BODY
+$31. Angular velocity
+A rigid body may be defined in mechanics as a system of particles such that
+the distances between the particles do not vary. This condition can, of course,
+be satisfied only approximately by systems which actually exist in nature.
+The majority of solid bodies, however, change so little in shape and size
+under ordinary conditions that these changes may be entirely neglected in
+considering the laws of motion of the body as a whole.
+In what follows, we shall often simplify the derivations by regarding a
+rigid body as a discrete set of particles, but this in no way invalidates the
+assertion that solid bodies may usually be regarded in mechanics as continu-
+ous, and their internal structure disregarded. The passage from the formulae
+which involve a summation over discrete particles to those for a continuous
+body is effected by simply replacing the mass of each particle by the mass
+P dV contained in a volume element dV (p being the density) and the sum-
+mation by an integration over the volume of the body.
+To describe the motion of a rigid body, we use two systems of co-ordinates:
+a "fixed" (i.e. inertial) system XYZ, and a moving system X1 = x, X2 = y,
+X3 = 2 which is supposed to be rigidly fixed in the body and to participate
+in its motion. The origin of the moving system may conveniently be taken
+to coincide with the centre of mass of the body.
+The position of the body with respect to the fixed system of co-ordinates
+is completely determined if the position of the moving system is specified.
+Let the origin O of the moving system have the radius vector R (Fig. 35).
+The orientation of the axes of that system relative to the fixed system is given
+by three independent angles, which together with the three components of
+the vector R make six co-ordinates. Thus a rigid body is a mechanical system
+with six degrees of freedom.
+Let us consider an arbitrary infinitesimal displacement of a rigid body.
+It can be represented as the sum of two parts. One of these is an infinitesimal
+translation of the body, whereby the centre of mass moves to its final position,
+but the orientation of the axes of the moving system of co-ordinates is un-
+changed. The other is an infinitesimal rotation about the centre of mass,
+whereby the remainder of the body moves to its final position.
+Let r be the radius vector of an arbitrary point P in a rigid body in the
+moving system, and r the radius vector of the same point in the fixed system
+(Fig. 35). Then the infinitesimal displacement dr of P consists of a displace-
+ment dR, equal to that of the centre of mass, and a displacement doxr
+96
+§31
+Angular velocity
+97
+relative to the centre of mass resulting from a rotation through an infinitesimal
+angle do (see (9.1)): dr = dR + do xr. Dividing this equation by the time
+dt during which the displacement occurs, and putting
+dr/dt = V,
+dR/dt =
+do/dt = La
+(31.1)
+we obtain the relation
+V = V+Sxr.
+(31.2)
+Z
+X3
+P
+X2
+r
+o
+R
+X1
+Y
+X
+FIG. 35
+The vector V is the velocity of the centre of mass of the body, and is also
+the translational velocity of the body. The vector S is called the angular
+velocity of the rotation of the body; its direction, like that of do, is along the
+axis of rotation. Thus the velocity V of any point in the body relative to the
+fixed system of co-ordinates can be expressed in terms of the translational
+velocity of the body and its angular velocity of rotation.
+It should be emphasised that, in deriving formula (31.2), no use has been
+made of the fact that the origin is located at the centre of mass. The advan-
+tages of this choice of origin will become evident when we come to calculate
+the energy of the moving body.
+Let us now assume that the system of co-ordinates fixed in the body is
+such that its origin is not at the centre of mass O, but at some point O' at
+a distance a from O. Let the velocity of O' be V', and the angular velocity
+of the new system of co-ordinates be S'. We again consider some point P
+in the body, and denote by r' its radius vector with respect to O'. Then
+= r'+a, and substitution in (31.2) gives V = V+2xa+2xr'. The
+definition of V' and S' shows that V = Hence it follows that
+(31.3)
+The second of these equations is very important. We see that the angular
+velocity of rotation, at any instant, of a system of co-ordinates fixed in
+the body is independent of the particular system chosen. All such systems
+t
+To avoid any misunderstanding, it should be noted that this way of expressing the angular
+velocity is somewhat arbitrary: the vector so exists only for an infinitesimal rotation, and not
+for all finite rotations.
+4*
+98
+Motion of a Rigid Body
+§32
+rotate with angular velocities S which are equal in magnitude and parallel
+in direction. This enables us to call S the angular velocity of the body. The
+velocity of the translational motion, however, does not have this "absolute"
+property.
+It is seen from the first formula (31.3) that, if V and S are, at any given
+instant, perpendicular for some choice of the origin O, then V' and SS are
+perpendicular for any other origin O'. Formula (31.2) shows that in this case
+the velocities V of all points in the body are perpendicular to S. It is then
+always possible+ to choose an origin O' whose velocity V' is zero, SO that the
+motion of the body at the instant considered is a pure rotation about an axis
+through O'. This axis is called the instantaneous axis of rotation.t
+In what follows we shall always suppose that the origin of the moving
+system is taken to be at the centre of mass of the body, and so the axis of
+rotation passes through the centre of mass. In general both the magnitude
+and the direction of S vary during the motion.
+$32. The inertia tensor
+To calculate the kinetic energy of a rigid body, we may consider it as a
+discrete system of particles and put T = mv2, where the summation is
+taken over all the particles in the body. Here, and in what follows, we simplify
+the notation by omitting the suffix which denumerates the particles.
+Substitution of (31.2) gives
+T = Sxx+
+The velocities V and S are the same for every point in the body. In the first
+term, therefore, V2 can be taken outside the summation sign, and Em is
+just the mass of the body, which we denote by u. In the second term we put
+EmV Sxr = Emr VxS = VxS Emr. Since we take the origin of the
+moving system to be at the centre of mass, this term is zero, because Emr = 0.
+Finally, in the third term we expand the squared vector product. The result
+is
+(32.1)
+Thus the kinetic energy of a rigid body can be written as the sum of two
+parts. The first term in (32.1) is the kinetic energy of the translational motion,
+and is of the same form as if the whole mass of the body were concentrated
+at the centre of mass. The second term is the kinetic energy of the rotation
+with angular velocity S about an axis passing through the centre of mass.
+It should be emphasised that this division of the kinetic energy into two parts
+is possible only because the origin of the co-ordinate system fixed in the
+body has been taken to be at its centre of mass.
+t O' may, of course, lie outside the body.
++ In the general case where V and SC are not perpendicular, the origin may be chosen so
+as to make V and S parallel, i.e. so that the motion consists (at the instant in question) of a
+rotation about some axis together with a translation along that axis.
+§32
+The inertia tensor
+99
+We may rewrite the kinetic energy of rotation in tensor form, i.e. in terms
+of the components Xi and O of the vectors r and L. We have
+Here we have used the identity Oi = SikOk, where dik is the unit tensor,
+whose components are unity for i = k and zero for i # k. In terms of the
+tensor
+(32.2)
+we have finally the following expression for the kinetic energy of a rigid
+body:
+T =
+(32.3)
+The Lagrangian for a rigid body is obtained from (32.3) by subtracting
+the potential energy:
+L =
+(32.4)
+The potential energy is in general a function of the six variables which define
+the position of the rigid body, e.g. the three co-ordinates X, Y, Z of the
+centre of mass and the three angles which specify the relative orientation of
+the moving and fixed co-ordinate axes.
+The tensor Iik is called the inertia tensor of the body. It is symmetrical,
+i.e.
+Ik=Iki
+(32.5)
+as is evident from the definition (32.2). For clarity, we may give its com-
+ponents explicitly:
+TEST
+(32.6)
+m(x2+y2)
+The components Ixx, Iyy, Izz are called the moments of inertia about the
+corresponding axes.
+The inertia tensor is evidently additive: the moments of inertia of a body
+are the sums of those of its parts.
+t In this chapter, the letters i, k, l are tensor suffixes and take the values 1, 2, 3. The
+summation rule will always be used, i.e. summation signs are omitted, but summation over
+the values 1, 2, 3 is implied whenever a suffix occurs twice in any expression. Such a suffix is
+called a dummy suffix. For example, AiBi = A . B, Ai2 = AiA1 = A², etc. It is obvious that
+dummy suffixes can be replaced by any other like suffixes, except ones which already appear
+elsewhere in the expression concerned.
+100
+Motion of a Rigid Body
+§32
+If the body is regarded as continuous, the sum in the definition (32.2)
+becomes an integral over the volume of the body:
+(32.7)
+Like any symmetrical tensor of rank two, the inertia tensor can be reduced
+to diagonal form by an appropriate choice of the directions of the axes
+X1, x2, X3. These directions are called the principal axes of inertia, and the
+corresponding values of the diagonal components of the tensor are called the
+principal moments of inertia; we shall denote them by I, I2, I3. When the
+axes X1, X2, X3 are so chosen, the kinetic energy of rotation takes the very
+simple form
+=
+(32.8)
+None of the three principal moments of inertia can exceed the sum of the
+other two. For instance,
+m(x12+x22) = I3.
+(32.9)
+A body whose three principal moments of inertia are all different is called
+an asymmetrical top. If two are equal (I1 = I2 # I3), we have a symmetrical
+top. In this case the direction of one of the principal axes in the x1x2-plane
+may be chosen arbitrarily. If all three principal moments of inertia are equal,
+the body is called a spherical top, and the three axes of inertia may be chosen
+arbitrarily as any three mutually perpendicular axes.
+The determination of the principal axes of inertia is much simplified if
+the body is symmetrical, for it is clear that the position of the centre of mass
+and the directions of the principal axes must have the same symmetry as
+the body. For example, if the body has a plane of symmetry, the centre of
+mass must lie in that plane, which also contains two of the principal axes of
+inertia, while the third is perpendicular to the plane. An obvious case of this
+kind is a coplanar system of particles. Here there is a simple relation between
+the three principal moments of inertia. If the plane of the system is taken as
+the x1x2-plane, then X3 = 0 for every particle, and so I = mx22, I2 = 12,
+I3 = (12+x2)2, whence
+(32.10)
+If a body has an axis of symmetry of any order, the centre of mass must lie
+on that axis, which is also one of the principal axes of inertia, while the other
+two are perpendicular to it. If the axis is of order higher than the second,
+the body is a symmetrical top. For any principal axis perpendicular to the
+axis of symmetry can be turned through an angle different from 180° about the
+latter, i.e. the choice of the perpendicular axes is not unique, and this can
+happen only if the body is a symmetrical top.
+A particular case here is a collinear system of particles. If the line of the
+system is taken as the x3-axis, then X1 = X2 = 0 for every particle, and so

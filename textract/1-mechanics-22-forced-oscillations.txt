@@ -1,0 +1,168 @@
+Forced oscillations
+61
+SOLUTION. In this case the extension of the spring is (if
+= cos
+The kinetic energy is T = 1mr2o2, and the frequency is therefore w = V[F(++1)/mrl].
+PROBLEM 5. Find the frequency of oscillations of the pendulum shown in Fig. 2 (§5),
+whose point of support carries a mass M1 and is free to move horizontally.
+SOLUTION. For < 1 the formula derived in $14, Problem 3 gives
+T
+Hence
+PROBLEM 6. Determine the form of a curve such that the frequency of oscillations of a
+particle on it under the force of gravity is independent of the amplitude.
+SOLUTION. The curve satisfying the given condition is one for which the potential energy
+of a particle moving on it is U = 1ks2, where s is the length of the arc from the position of
+equilibrium. The kinetic energy T = 1ms2, where m is the mass of the particle, and the fre-
+quency is then w = (k/m) whatever the initial value of S.
+In a gravitational field U = mgy, where y is the vertical co-ordinate. Hence we have
+1ks2 = mgy or y = w2s2/2g. But ds2 = dx2+dy², whence
+dy = SV[(g/2w2y)-1] dy.
+The integration is conveniently effected by means of the substitution y = g(1-cos E)/4ww,
+which yields x = g(s+sin 5)/4w2. These two equations give, in parametric form, the equation
+of the required curve, which is a cycloid.
+$22. Forced oscillations
+Let us now consider oscillations of a system on which a variable external
+force acts. These are called forced oscillations, whereas those discussed in
+§21 are free oscillations. Since the oscillations are again supposed small, it
+is implied that the external field is weak, because otherwise it could cause the
+displacement x to take too large values.
+The system now has, besides the potential energy 1kx2, the additional
+potential energy Ue(x, t) resulting from the external field. Expanding this
+additional term as a series of powers of the small quantity x, we have
+Ue(x, t) 12 x[dUe/dx]x_0. The first term is a function of time only,
+and may therefore be omitted from the Lagrangian, as being the total time
+derivative of another function of time. In the second term - [dUe/dx]x_0 is
+the external "force" acting on the system in the equilibrium position, and
+is a given function of time, which we denote by F(t). Thus the potential
+energy involves a further term -xF(t), and the Lagrangian of the system
+is
+L
+=
+(22.1)
+The corresponding equation of motion is m+kx = F(t) or
+(22.2)
+where we have again introduced the frequency w of the free oscillations.
+The general solution of this inhomogeneous linear differential equation
+with constant coefficients is x = xo+x1, where xo is the general solution of
+62
+Small Oscillations
+§22
+the corresponding homogeneous equation and X1 is a particular integral of
+the inhomogeneous equation. In the present case xo represents the free
+oscillations discussed in $21.
+Let us consider a case of especial interest, where the external force is itself
+a simple periodic function of time, of some frequency y:
+F(t) = f cos(yt+)).
+(22.3)
+We seek a particular integral of equation (22.2) in the form X1 = b cos(yt+B),
+with the same periodic factor. Substitution in that equation gives
+b = f/m(w2-r2); adding the solution of the homogeneous equation, we
+obtain the general integral in the form
+(22.4)
+The arbitrary constants a and a are found from the initial conditions.
+Thus a system under the action of a periodic force executes a motion which
+is a combination of two oscillations, one with the intrinsic frequency w of
+the system and one with the frequency y of the force.
+The solution (22.4) is not valid when resonance occurs, i.e. when the fre-
+quency y of the external force is equal to the intrinsic frequency w of the
+system. To find the general solution of the equation of motion in this case,
+we rewrite (22.4) as
+x
+=
+a
+where a now has a different value. Asy->w, the second term is indetermin-
+ate, of the form 0/0. Resolving the indeterminacy by L'Hospital's rule, we
+have
+x = acos(wt+a)+(f/2mw)tsin(wt+B). =
+(22.5)
+Thus the amplitude of oscillations in resonance increases linearly with the
+time (until the oscillations are no longer small and the whole theory given
+above becomes invalid).
+Let us also ascertain the nature of small oscillations near resonance, when
+y w+E with E a small quantity. We put the general solution in the com-
+plex form
+= A exp(iwt) exp[i(w+t)) = [A+B exp(iet)]exp(ist)
+(22.6)
+Since the quantity A+B exp(iet) varies only slightly over the period 2n/w
+of the factor exp(iwt), the motion near resonance may be regarded as small
+oscillations of variable amplitude.t Denoting this amplitude by C, we have
+= A B exp(iet)|. Writing A and B in the form a exp(ix) and b exp(iB)
+respectively, we obtain
+(22.7)
+t The "constant" term in the phase of the oscillation also varies.
+§22
+Forced oscillations
+63
+Thus the amplitude varies periodically with frequency E between the limits
+|a-b a+b. This phenomenon is called beats.
+The equation of motion (22.2) can be integrated in a general form for an
+arbitrary external force F(t). This is easily done by rewriting the equation
+as
+or
+=
+(22.8)
+where
+s=xtiwx
+(22.9)
+is a complex quantity. Equation (22.8) is of the first order. Its solution when
+the right-hand side is replaced by zero is $ = A exp(iwt) with constant A.
+As before, we seek a solution of the inhomogeneous equation in the form
+$ = A(t) exp(iwt), obtaining for the function A(t) the equation À(t)
+= F(t) exp(-iwt)/m. Integration gives the solution of (22.9):
+& = -
+(22.10)
+where the constant of integration so is the value of $ at the instant t = 0.
+This is the required general solution; the function x(t) is given by the imagin-
+ary part of (22.10), divided by w.t
+The energy of a system executing forced oscillations is naturally not con-
+served, since the system gains energy from the source of the external field.
+Let us determine the total energy transmitted to the system during all time,
+assuming its initial energy to be zero. According to formula (22.10), with
+the lower limit of integration - 00 instead of zero and with ( - 00) = 0,
+we have for t
+00
+exp(-iwt)dt|
+The energy of the system is
+E = 1m(x2+w2x2)= = 1ME2.
+(22.11)
+Substituting we obtain the energy transferred
+(22.12)
+t The force F(t) must, of course, be written in real form.
+64
+Small Oscillations
+§22
+it is determined by the squared modulus of the Fourier component of the
+force F(t) whose frequency is the intrinsic frequency of the system.
+In particular, if the external force acts only during a time short in com-
+parison with 1/w, we can put exp(-iwt) Ill 1. Then
+This result is obvious: it expresses the fact that a force of short duration
+gives the system a momentum I F dt without bringing about a perceptible
+displacement.
+PROBLEMS
+PROBLEM 1. Determine the forced oscillations of a system under a force F(t) of the follow-
+ing forms, if at time t = 0 the system is at rest in equilibrium (x = x = 0): (a) F = Fo,
+a constant, (b) F = at, (c) F = Fo exp(-at), (d) F = Fo exp(-at) cos Bt.
+SOLUTION. (a) x = (Fo/mw2)(1-cos wt). The action of the constant force results in a dis-
+placement of the position of equilibrium about which the oscillations take place.
+(b) x = (a/mw3)(wt-sin wt).
+(c) x = - cos wt +(a/w) sin wt].
+(d) x = wt + sin wt +
++exp(-at)[(wpta2-B2) cos Bt-2aB sin
+This last case is conveniently treated by writing the force in the complex form
+F=Foexp(-ati)t].
+PROBLEM 2. Determine the final amplitude for the oscillations of a system under a force
+which is zero for t<0, Fot/T for 0 <t<<, and Fo for t > T (Fig. 24), if up to time
+t = 0 the system is at rest in equilibrium.
+F
+Fo
+,
+T
+FIG. 24
+SOLUTION. During the interval 0<+<T the oscillations are determined by the initial
+condition as x = (Fo/mTw3)(wt-sin wt). For t > T we seek a solution in the form
+=c1w(t-T)+c2 sin w(t - T)+Fo/mw2
+The continuity of x and x at t = T gives C1 = -(Fo/mTw3) sin wT, C2 = (Fo/mTw3 X
+X (1 - cos wT). The amplitude is a = = (2Fo/mTw3) sin twT. This is the smaller,
+the more slowly the force Fo is applied (i.e. the greater T).
+PROBLEM 3. The same as Problem 2, but for a constant force Fo which acts for a finite
+time T (Fig. 25).

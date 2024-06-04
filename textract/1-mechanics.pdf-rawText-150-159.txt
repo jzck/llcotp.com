@@ -1,0 +1,415 @@
+
+§44
+Maupertuis' principle
+141
+Writing the action in the form (43.8) and again replacing H by E, we have
+(44.3)
+The first term in this expression,
+(44.4)
+is sometimes called the abbreviated action.
+Substituting (44.3) in (44.2), we find that
+8S0=0.
+(44.5)
+Thus the abbreviated action has a minimum with respect to all paths which
+satisfy the law of conservation of energy and pass through the final point
+at any instant. In order to use such a variational principle, the momenta
+(and so the whole integrand in (44.4)) must be expressed in terms of the
+co-ordinates q and their differentials dq. To do this, we use the definition of
+momentum:
+(44.6)
+and the law of conservation of energy:
+E(g)
+(44.7)
+Expressing the differential dt in terms of the co-ordinates q and their differen-
+tials dq by means of (44.7) and substituting in (44.6), we have the momenta
+in terms of q and dq, with the energy E as a parameter. The variational prin-
+ciple so obtained determines the path of the system, and is usually called
+Maupertuis' principle, although its precise formulation is due to EULER and
+LAGRANGE.
+The above calculations may be carried out explicitly when the Lagrangian
+takes its usual form (5.5) as the difference of the kinetic and potential energies:
+The momenta are
+and the energy is
+The last equation gives
+dt
+(44.8)
+142
+The Canonical Equations
+§44
+substituting this in
+Epides
+we find the abbreviated action:
+(44.9)
+In particular, for a single particle the kinetic energy is T = 1/2 m(dl/dt)2,
+where m is the mass of the particle and dl an element of its path; the variational
+principle which determines the path is
+${/[2m(B-U)]dl=0
+(44.10)
+where the integral is taken between two given points in space. This form is
+due to JACOBI.
+In free motion of the particle, U = 0, and (44.10) gives the trivial result
+8 I dl = 0, i.e. the particle moves along the shortest path between the two
+given points, i.e. in a straight line.
+Let us return now to the expression (44.3) for the action and vary it with
+respect to the parameter E. We have
+substituting in (44.2), we obtain
+(44.11)
+When the abbreviated action has the form (44.9), this gives
+=
+(44.12)
+which is just the integral of equation (44.8). Together with the equation of
+the path, it entirely determines the motion.
+PROBLEM
+Derive the differential equation of the path from the variational principle (44.10).
+SOLUTION. Effecting the variation, we have
+f
+In the second term we have used the fact that dl2 = dr2 and therefore dl d8l = dr. d&r.
+Integrating this term by parts and then equating to zero the coefficient of Sr in the integrand,
+we obtain the differential equation of the path:
+§45
+Canonical transformations
+143
+Expanding the derivative on the left-hand side and putting the force F = - auld gives
+d2r/dl2=[F-(F.t)t]/2(E-U),
+where t = dr/dl is a unit vector tangential to the path. The difference F-(F. t)t is the com-
+ponent Fn of the force normal to the path. The derivative d2r/dl2 = dt/dl is known from
+differential geometry to be n/R, where R is the radius of curvature of the path and n the unit
+vector along the principal normal. Replacing E-U by 1mv2, we have (mv2/R)n = Fn, in
+agreement with the familar expression for the normal acceleration in motion in a curved
+path.
+$45. Canonical transformations
+The choice of the generalised co-ordinates q is subject to no restriction;
+they may be any S quantities which uniquely define the position of the system
+in space. The formal appearance of Lagrange's equations (2.6) does not
+depend on this choice, and in that sense the equations may be said to be
+invariant with respect to a transformation from the co-ordinates q1, q2,
+to any other independent quantities Q1, Q2, The new co-ordinates Q are
+functions of q, and we shall assume that they may explicitly depend on the
+time, i.e. that the transformation is of the form
+Qi=Qi(q,t)
+(45.1)
+(sometimes called a point transformation).
+Since Lagrange's equations are unchanged by the transformation (45.1),
+Hamilton's equations (40.4) are also unchanged. The latter equations, how-
+ever, in fact allow a much wider range of transformations. This is, of course,
+because in the Hamiltonian treatment the momenta P are variables inde-
+pendent of and on an equal footing with the co-ordinates q. Hence the trans-
+formation may be extended to include all the 2s independent variables P
+and q:
+Qt=Qi(p,q,t),
+Pi = Pi(p, q,t).
+(45.2)
+This enlargement of the class of possible transformations is one of the im-
+portant advantages of the Hamiltonian treatment.
+The equations of motion do not, however, retain their canonical form
+under all transformations of the form (45.2). Let us derive the conditions
+which must be satisfied if the equations of motion in the new variables P, Q
+are to be of the form
+(45.3)
+with some Hamiltonian H'(P,Q). When this happens the transformation is
+said to be canonical.
+The formulae for canonical transformations can be obtained as follows. It
+has been shown at the end of §43 that Hamilton's equations can be derived
+from the principle of least action in the form
+(45.4)
+144
+The Canonical Equations
+§45
+in which the variation is applied to all the co-ordinates and momenta inde-
+pendently. If the new variables P and Q also satisfy Hamilton's equations,
+the principle of least action
+0
+(45.5)
+must hold. The two forms (45.4) and (45.5) are equivalent only if their inte-
+grands are the same apart from the total differential of some function F of
+co-ordinates, momenta and time.t The difference between the two integrals
+is then a constant, namely the difference of the values of F at the limits of
+integration, which does not affect the variation. Thus we must have
+=
+Each canonical transformation is characterised by a particular function F,
+called the generating function of the transformation.
+Writing this relation as
+(45.6)
+we see that
+Pi = 0F/dqi, =-0F/JQi H' = H+0F/dt;
+(45.7)
+here it is assumed that the generating function is given as a function of the
+old and new co-ordinates and the time: F = F(q, Q, t). When F is known,
+formulae (45.7) give the relation between p, q and P, Q as well as the new
+Hamiltonian.
+It may be convenient to express the generating function not in terms of the
+variables q and Q but in terms of the old co-ordinates q and the new momenta
+P. To derive the formulae for canonical transformations in this case, we must
+effect the appropriate Legendre's transformation in (45.6), rewriting it as
+=
+The argument of the differential on the left-hand side, expressed in terms of
+the variables q and P, is a new generating function (q, P, t), say. Thent
+= Qi = ID/OPi, H' = H+d
+(45.8)
+We can similarly obtain the formulae for canonical transformations in-
+volving generating functions which depend on the variables P and Q, or
+p and P.
+t We do not consider such trivial transformations as Pi = api, Qi = qt,H' = aH, with a an
+arbitrary constant, whereby the integrands in (45.4) and (45.5) differ only by a constant
+factor.
++ If the generating function is = fi(q, t)Pi, where the ft are arbitrary functions, we
+obtain a transformation in which the new co-ordinates are Q = fi(q, t), i.e. are expressed
+in terms of the old co-ordinates only (and not the momenta). This is a point transformation,
+and is of course a particular canonical transformation.
+§45
+Canonical transformations
+145
+The relation between the two Hamiltonians is always of the same form:
+the difference H' - H is the partial derivative of the generating function with
+respect to time. In particular, if the generating function is independent of
+time, then H' = H, i.e. the new Hamiltonian is obtained by simply substitut-
+ing for P, q in H their values in terms of the new variables P, Q.
+The wide range of the canonical transformations in the Hamiltonian treat-
+ment deprives the generalised co-ordinates and momenta of a considerable
+part of their original meaning. Since the transformations (45.2) relate each
+of the quantities P, Q to both the co-ordinates q and the momenta P, the
+variables Q are no longer purely spatial co-ordinates, and the distinction
+between Q and P becomes essentially one of nomenclature. This is very
+clearly seen, for example, from the transformation Q = Pi, Pi = -qi,
+which obviously does not affect the canonical form of the equations and
+amounts simply to calling the co-ordinates momenta and vice versa.
+On account of this arbitrariness of nomenclature, the variables P and q in
+the Hamiltonian treatment are often called simply canonically conjugate
+quantities. The conditions relating such quantities can be expressed in terms
+of Poisson brackets. To do this, we shall first prove a general theorem on the
+invariance of Poisson brackets with respect to canonical transformations.
+Let [f,g]p,a be the Poisson bracket, for two quantities f and g, in which
+the differentiation is with respect to the variables P and q, and [f,g]p,Q that
+in which the differentiation is with respect to P and Q. Then
+(45.9)
+The truth of this statement can be seen by direct calculation, using the for-
+mulae of the canonical transformation. It can also be demonstrated by the
+following argument.
+First of all, it may be noticed that the time appears as a parameter in the
+canonical transformations (45.7) and (45.8). It is therefore sufficient to prove
+(45.9) for quantities which do not depend explicitly on time. Let us now
+formally regard g as the Hamiltonian of some fictitious system. Then, by
+formula (42.1), [f,g]p,a = df/dt. The derivative df/dt can depend only on
+the properties of the motion of the fictitious system, and not on the particular
+choice of variables. Hence the Poisson bracket [f,g] is unaltered by the
+passage from one set of canonical variables to another.
+Formulae (42.13) and (45.9) give
+[Qi, Qk]p,a = 0, [Pi,Pk]p,a = 0,
+(45.10)
+These are the conditions, written in terms of Poisson brackets, which must
+be satisfied by the new variables if the transformation P, q P, Q is canonical.
+It is of interest to observe that the change in the quantities P, q during the
+motion may itself be regarded as a series of canonical transformations. The
+meaning of this statement is as follows. Let qt, Pt be the values of the canonical
+t Whose generating function is
+6*
+146
+The Canonical Equations
+§46
+variables at time t, and qt+r, Pt+r their values at another time t +T. The latter
+are some functions of the former (and involve T as a parameter):
+If these formulae are regarded as a transformation from the variables Qt, Pt
+to qt+r, Pttr, then this transformation is canonical. This is evident from the
+expression ds = for the differential of the action S(qt++,
+qt) taken along the true path, passing through the points qt and qt++ at given
+times t and t + T (cf. (43.7)). A comparison of this formula with (45.6) shows
+that - S is the generating function of the transformation.
+46. Liouville's theorem
+For the geometrical interpretation of mechanical phenomena, use is often
+made of phase space. This is a space of 2s dimensions, whose co-ordinate axes
+correspond to the S generalised co-ordinates and S momenta of the system
+concerned. Each point in phase space corresponds to a definite state of the
+system. When the system moves, the point representing it describes a curve
+called the phase path.
+The product of differentials dT = dq1 ... dqsdp1 dps may be regarded
+as an element of volume in phase space. Let us now consider the integral
+I dT taken over some region of phase space, and representing the volume of
+that region. We shall show that this integral is invariant with respect to
+canonical transformations; that is, if the variables P, q are replaced by
+P, Q by a canonical transformation, then the volumes of the corresponding
+regions of the spaces of P, and P, Q are equal:
+...dqsdp1...dps =
+(46.1)
+The transformation of variables in a multiple integral is effected by the
+formula I .jdQ1...dQsdP1...dPz = S... I Ddq1 dp1...dps,
+where
+(46.2)
+is the Jacobian of the transformation. The proof of (46.1) therefore amounts
+to proving that the Jacobian of every canonical transformation is unity:
+D=1.
+(46.3)
+We shall use a well-known property of Jacobians whereby they can be
+treated somewhat like fractions. "Dividing numerator and denominator" by
+0(91, ..., qs, P1, Ps), we obtain
+Another property of Jacobians is that, when the same quantities appear in
+both the partial differentials, the Jacobian reduces to one in fewer variables,
+§47
+The Hamilton-Jacobi equation
+147
+in which these repeated quantities are regarded as constant in carrying out
+the differentiations. Hence
+(46.4)
+P=constant
+q=constant
+The Jacobian in the numerator is, by definition, a determinant of order s
+whose element in the ith row and kth column is Representing the
+canonical transformation in terms of the generating function (q, P) as in
+(45.8), we have = In the same way we find that the
+ik-element of the determinant in the denominator of (46.4) is
+This means that the two determinants differ only by the interchange of rows
+and columns; they are therefore equal, so that the ratio (46.4) is equal to
+unity. This completes the proof.
+Let us now suppose that each point in the region of phase space considered
+moves in the course of time in accordance with the equations of motion of the
+mechanical system. The region as a whole therefore moves also, but its volume
+remains unchanged:
+f dr = constant.
+(46.5)
+This result, known as Liouville's theorem, follows at once from the invariance
+of the volume in phase space under canonical transformations and from the
+fact that the change in p and q during the motion may, as we showed at the end
+of §45, be regarded as a canonical transformation.
+In an entirely similar manner the integrals
+11 2 dae dph
+,
+in which the integration is over manifolds of two, four, etc. dimensions in
+phase space, may be shown to be invariant.
+47. The Hamilton-Jacobi equation
+In §43 the action has been considered as a function of co-ordinates and
+time, and it has been shown that the partial derivative with respect to time
+of this function S(q, t) is related to the Hamiltonian by
+and its partial derivatives with respect to the co-ordinates are the momenta.
+Accordingly replacing the momenta P in the Hamiltonian by the derivatives
+as/aq, we have the equation
+(47.1)
+which must be satisfied by the function S(q, t). This first-order partial
+differential equation is called the Hamilton-Jacobi equation.
+148
+The Canonical Equations
+§47
+Like Lagrange's equations and the canonical equations, the Hamilton-
+Jacobi equation is the basis of a general method of integrating the equations
+of motion.
+Before describing this method, we should recall the fact that every first-
+order partial differential equation has a solution depending on an arbitrary
+function; such a solution is called the general integral of the equation. In
+mechanical applications, the general integral of the Hamilton-Jacobi equation
+is less important than a complete integral, which contains as many independent
+arbitrary constants as there are independent variables.
+The independent variables in the Hamilton-Jacobi equation are the time
+and the co-ordinates. For a system with s degrees of freedom, therefore, a
+complete integral of this equation must contain s+1 arbitrary constants.
+Since the function S enters the equation only through its derivatives, one
+of these constants is additive, so that a complete integral of the Hamilton-
+Jacobi equation is
+Sft,q,saas)+
+(47.2)
+where X1, ..., as and A are arbitrary constants.
+Let us now ascertain the relation between a complete integral of the
+Hamilton-Jacobi equation and the solution of the equations of motion which
+is of interest. To do this, we effect a canonical transformation from the
+variables q, P to new variables, taking the function f (t, q; a) as the
+generating function, and the quantities a1, A2, ..., as as the new momenta.
+Let the new co-ordinates be B1, B2, ..., Bs. Since the generating function
+depends on the old co-ordinates and the new momenta, we use formulae
+(45.8): Pi = af/dqi, Bi = af/dar, H' = H+dfdd. But since the function f
+satisfies the Hamilton-Jacobi equation, we see that the new Hamiltonian is
+zero: H' = H+af/dt = H+as/t = 0. Hence the canonical equations in
+the new variables are di = 0, Bi = 0, whence
+ay=constant,
+Bi = constant.
+(47.3)
+By means of the S equations af/dai = Bi, the S co-ordinates q can be expressed
+in terms of the time and the 2s constants a and B. This gives the general
+integral of the equations of motion.
+t Although the general integral of the Hamilton-Jacobi equation is not needed here, we
+may show how it can be found from a complete integral. To do this, we regard A as an arbi-
+trary function of the remaining constants: S = f(t, q1, ..., q8; a1, as) +A(a1, as). Re-
+placing the Ai by functions of co-ordinates and time given by the S conditions asidar = 0,
+we obtain the general integral in terms of the arbitrary function A(a1,..., as). For, when the
+function S is obtained in this manner, we have
+as
+The quantities (as/dqs)a satisfy the Hamilton-Jacobi equation, since the function S(t, q; a)
+is assumed to be a complete integral of that equation. The quantities asida therefore satisfy
+the same equation.
+§48
+Separation of the variables
+149
+Thus the solution of the problem of the motion of a mechanical system by
+the Hamilton-Jacobi method proceeds as follows. From the Hamiltonian,
+we form the Hamilton-Jacobi equation, and find its complete integral (47.2).
+Differentiating this with respect to the arbitrary constants a and equating
+the derivatives to new constants B, we obtain S algebraic equations
+asidar=Bt,
+(47.4)
+whose solution gives the co-ordinates q as functions of time and of the 2s
+arbitrary constants. The momenta as functions of time may then be found
+from the equations Pi = aslaqi.
+If we have an incomplete integral of the Hamilton-Jacobi equation, depend-
+ing on fewer than S arbitrary constants, it cannot give the general integral
+of the equations of motion, but it can be used to simplify the finding of the
+general integral. For example, if a function S involving one arbitrary con-
+stant a is known, the relation asida = constant gives one equation between
+q1, ..., qs and t.
+The Hamilton-Jacobi equation takes a somewhat simpler form if the func-
+tion H does not involve the time explicitly, i.e. if the system is conservative.
+The time-dependence of the action is given by a term -Et:
+S = So(g)-Et
+(47.5)
+(see 44), and substitution in (47.1) gives for the abbreviated action So(q)
+the Hamilton-Jacobi equation in the form
+(47.6)
+$48. Separation of the variables
+In a number of important cases, a complete integral of the Hamilton-
+Jacobi equation can be found by "separating the variables", a name given to
+the following method.
+Let us assume that some co-ordinate, q1 say, and the corresponding
+derivative asia appear in the Hamilton-Jacobi equation only in some
+combination (q1, which does not involve the other co-ordinates, time,
+or derivatives, i.e. the equation is of the form
+(48.1)
+where qi denotes all the co-ordinates except q1.
+We seek a solution in the form of a sum:
+(48.2)
+150
+The Canonical Equations
+§48
+substituting this in equation (48.1), we obtain
+(48.3)
+Let us suppose that the solution (48.2) has been found. Then, when it is
+substituted in equation (48.3), the latter must become an identity, valid (in
+particular) for any value of the co-ordinate q1. When q1 changes, only the
+function is affected, and so, if equation (48.3) is an identity, must be a
+constant. Thus equation (48.3) gives the two equations
+(48.4)
+= 0,
+(48.5)
+where a1 is an arbitrary constant. The first of these is an ordinary differential
+equation, and the function S1(q1) is obtained from it by simple integration.
+The remaining partial differential equation (48.5) involves fewer independent
+variables.
+If we can successively separate in this way all the S co-ordinates and the
+time, the finding of a complete integral of the Hamilton-Jacobi equation is
+reduced to quadratures. For a conservative system we have in practice to
+separate only S variables (the co-ordinates) in equation (47.6), and when this
+separation is complete the required integral is
+(48.6)
+where each of the functions Sk depends on only one co-ordinate; the energy
+E, as a function of the arbitrary constants A1, As, is obtained by substituting
+So = in equation (47.6).
+A particular case is the separation of a cyclic variable. A cyclic co-ordinate
+q1 does not appear explicitly in the Hamiltonian, nor therefore in the Hamilton-
+Jacobi equation. The function (91, reduces to as/da simply, and
+from equation (48.4) we have simply S1 = x1q1, so that
+(48.7)
+The constant a1 is just the constant value of the momentum P1 = asida
+corresponding to the cyclic co-ordinate.
+The appearance of the time in the term - Et for a conservative system
+corresponds to the separation of the "cyclic variable" t.
+Thus all the cases previously considered of the simplification of the integra-
+tion of the equations of motion by the use of cyclic variables are embraced
+by the method of separating the variables in the Hamilton-Jacobi equation.
+To those cases are added others in which the variables can be separated even
+though they are not cyclic. The Hamilton-Jacobi treatment is consequently
+the most powerful method of finding the general integral of the equations of
+motion.

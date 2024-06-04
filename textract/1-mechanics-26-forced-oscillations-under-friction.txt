@@ -1,0 +1,126 @@
+Forced oscillations under friction
+77
+The dissipative function itself has an important physical significance: it
+gives the rate of dissipation of energy in the system. This is easily seen by
+calculating the time derivative of the mechanical energy of the system. We
+have
+aL
+=
+Since F is a quadratic function of the velocities, Euler's theorem on homo-
+geneous functions shows that the sum on the right-hand side is equal to 2F.
+Thus
+dE/dt==2-2F,
+(25.13)
+i.e. the rate of change of the energy of the system is twice the dissipative
+function. Since dissipative processes lead to loss of energy, it follows that
+F > 0, i.e. the quadratic form (25.11) is positive definite.
+The equations of small oscillations under friction are obtained by adding
+the forces (25.8) to the right-hand sides of equations (23.5):
+=
+(25.14)
+Putting in these equations XK = Ak exp(rt), we obtain, on cancelling exp(rt),
+a set of linear algebraic equations for the constants Ak:
+(25.15)
+Equating to zero their determinant, we find the characteristic equation, which
+determines the possible values of r:
+(25.16)
+This is an equation in r of degree 2s. Since all the coefficients are real,
+its roots are either real, or complex conjugate pairs. The real roots must be
+negative, and the complex roots must have negative real parts, since other-
+wise the co-ordinates, velocities and energy of the system would increase
+exponentially with time, whereas dissipative forces must lead to a decrease
+of the energy.
+§26. Forced oscillations under friction
+The theory of forced oscillations under friction is entirely analogous to
+that given in §22 for oscillations without friction. Here we shall consider
+in detail the case of a periodic external force, which is of considerable interest.
+78
+Small Oscillations
+§26
+Adding to the right-hand side of equation (25.1) an external force f cos st
+and dividing by m, we obtain the equation of motion:
++2*+wox=(fm)cos = yt.
+(26.1)
+The solution of this equation is more conveniently found in complex form,
+and so we replace cos st on the right by exp(iyt):
+exp(iyt).
+We seek a particular integral in the form x = B exp(iyt), obtaining for B
+the value
+(26.2)
+Writing B = exp(i8), we have
+b tan 8 = 2xy/(y2-wo2).
+(26.3)
+Finally, taking the real part of the expression B exp(iyt) = b exp[i(yt+8)],
+we find the particular integral of equation (26.1); adding to this the general
+solution of that equation with zero on the right-hand side (and taking for
+definiteness the case wo > 1), we have
+x = a exp( - At) cos(wtta)+bcos(yt+8)
+(26.4)
+The first term decreases exponentially with time, so that, after a sufficient
+time, only the second term remains:
+x = b cos(yt+8).
+(26.5)
+The expression (26.3) for the amplitude b of the forced oscillation increases
+as y approaches wo, but does not become infinite as it does in resonance
+without friction. For a given amplitude f of the force, the amplitude of the
+oscillations is greatest when y = V(w02-2)2); for A < wo, this differs from
+wo only by a quantity of the second order of smallness.
+Let us consider the range near resonance, putting y = wote with E small,
+and suppose also that A < wo. Then we can approximately put, in (26.2),
+22 =(y+wo)(y-wo) 22 2woe, 2ixy 22 2ixwo, SO that
+B = -f/2m(e-ii))wo
+(26.6)
+or
+b f/2mw01/(22+12),
+tan 8 = N/E.
+(26.7)
+A property of the phase difference 8 between the oscillation and the external
+force is that it is always negative, i.e. the oscillation "lags behind" the force.
+Far from resonance on the side < wo, 8 0; on the side y > wo, 8
+-77.
+The change of 8 from zero to - II takes place in a frequency range near wo
+which is narrow (of the order of A in width); 8 passes through - 1/2 when
+y = wo. In the absence of friction, the phase of the forced oscillation changes
+discontinuously by TT at y = wo (the second term in (22.4) changes sign);
+when friction is allowed for, this discontinuity is smoothed out.
+§26
+Forced oscillations under friction
+79
+In steady motion, when the system executes the forced oscillations given
+by (26.5), its energy remains unchanged. Energy is continually absorbed by
+the system from the source of the external force and dissipated by friction.
+Let I(y) be the mean amount of energy absorbed per unit time, which depends
+on the frequency of the external force. By (25.13) we have I(y) = 2F, where
+F is the average value (over the period of oscillation) of the dissipative func-
+tion. For motion in one dimension, the expression (25.11) for the dissipative
+function becomes F = 1ax2 = Amx2. Substituting (26.5), we have
+F = mb22 sin2(yt+8).
+The time average of the squared sine is 1/2 so that
+I(y) = Mmb2y2. =
+(26.8)
+Near resonance we have, on substituting the amplitude of the oscillation
+from (26.7),
+I(e) =
+(26.9)
+This is called a dispersion-type frequency dependence of the absorption.
+The half-width of the resonance curve (Fig. 31) is the value of E for which
+I(e) is half its maximum value (E = 0). It is evident from (26.9) that in the
+present case the half-width is just the damping coefficient A. The height of
+the maximum is I(0) = f2/4mx, and is inversely proportional to . Thus,
+I/I(O)
+/2
+€
+-1
+a
+FIG. 31
+when the damping coefficient decreases, the resonance curve becomes more
+peaked. The area under the curve, however, remains unchanged. This area
+is given by the integral
+[ ((7) dy = [ I(e) de.
+Since I(e) diminishes rapidly with increasing E, the region where |el is
+large is of no importance, and the lower limit may be replaced by - 80, and
+I(e) taken to have the form given by (26.9). Then we have
+"
+(26.10)
+80
+Small Oscillations

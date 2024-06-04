@@ -1,0 +1,122 @@
+which includes terms of the first two orders. To determine the limits of instability, we again
+treat the coefficients as constants, obtaining
+cos(wote)t-
++[-2woebo+thwo861] sin(wo+e)t.
++[-30002a1+thanoPao] cos 2(wote)t+
+sin 2(wote)t+[c1wo+thwo2ao] 0.
+Hence a1 = hao/6, b1 = hbo/6, C1 = -thao, and the limits aret € = -5h2wo/24, € = h2wo/24.
+PROBLEM 3. Find the conditions for parametric resonance in small oscillations of a simple
+pendulum whose point of support oscillates vertically.
+SOLUTION. The Lagrangian derived in §5, Problem 3(c), gives for small oscillations
+( < 1) the equation of motion + wo2[1+(4a/1) cos(2wo+t)) = 0, where wo2 = g/l.
+Hence we see that the parameter h is here represented by 4all. The condition (27.11), for
+example, becomes |
+§28. Anharmonic oscillations
+The whole of the theory of small oscillations discussed above is based on
+the expansion of the potential and kinetic energies of the system in terms of
+the co-ordinates and velocities, retaining only the second-order terms. The
+equations of motion are then linear, and in this approximation we speak of
+linear oscillations. Although such an expansion is entirely legitimate when
+the amplitude of the oscillations is sufficiently small, in higher approxima-
+tions (called anharmonic or non-linear oscillations) some minor but qualitatively
+different properties of the motion appear.
+Let us consider the expansion of the Lagrangian as far as the third-order
+terms. In the potential energy there appear terms of degree three in the co-
+ordinates Xi, and in the kinetic energy terms containing products of velocities
+and co-ordinates, of the form XEXKXI. This difference from the previous
+expression (23.3) is due to the retention of terms linear in x in the expansion
+of the functions aik(q). Thus the Lagrangian is of the form
+(28.1)
+where Nikl, liki are further constant coefficients.
+If we change from arbitrary co-ordinates Xi to the normal co-ordinates Qx
+of the linear approximation, then, because this transformation is linear, the
+third and fourth sums in (28.1) become similar sums with Qx and Qa in place
+t
+Generally, the width AE of the region of instability in resonance near the frequency
+2wo/n is given by
+AE =
+a result due to M. BELL (Proceedings of the Glasgow Mathematical Association 3, 132, 1957).
+§28
+Anharmonic oscillations
+85
+of the co-ordinates Xi and the velocities Xr. Denoting the coefficients in these
+new sums by dapy and Hapy's we have the Lagrangian in the form
+(28.2)
+a
+a,B,Y
+We shall not pause to write out in their entirety the equations of motion
+derived from this Lagrangian. The important feature of these equations is
+that they are of the form
+(28.3)
+where fa are homogeneous functions, of degree two, of the co-ordinates Q
+and their time derivatives.
+Using the method of successive approximations, we seek a solution of
+these equations in the form
+(28.4)
+where Qa2, and the Qx(1) satisfy the "unperturbed" equations
+i.e. they are ordinary harmonic oscillations:
+(28.5)
+Retaining only the second-order terms on the right-hand side of (28.3) in
+the next approximation, we have for the Qx(2) the equations
+(28.6)
+where (28.5) is to be substituted on the right. This gives a set of inhomo-
+geneous linear differential equations, in which the right-hand sides can be
+represented as sums of simple periodic functions. For example,
+cos(wpt + ag)
+Thus the right-hand sides of equations (28.6) contain terms corresponding
+to oscillations whose frequencies are the sums and differences of the eigen-
+frequencies of the system. The solution of these equations must be sought
+in a form involving similar periodic factors, and so we conclude that, in the
+second approximation, additional oscillations with frequencies
+wa+w
+(28.7)
+including the double frequencies 2wa and the frequency zero (corresponding
+to a constant displacement), are superposed on the normal oscillations of the
+system. These are called combination frequencies. The corresponding ampli-
+tudes are proportional to the products Axap (or the squares aa2) of the cor-
+responding normal amplitudes.
+In higher approximations, when further terms are included in the expan-
+sion of the Lagrangian, combination frequencies occur which are the sums
+and differences of more than two Wa; and a further phenomenon also appears.
+86
+Small Oscillations
+§28
+In the third approximation, the combination frequencies include some which
+coincide with the original frequencies W Wa+wp-wp). When the method
+described above is used, the right-hand sides of the equations of motion there-
+fore include resonance terms, which lead to terms in the solution whose
+amplitude increases with time. It is physically evident, however, that the
+magnitude of the oscillations cannot increase of itself in a closed system
+with no external source of energy.
+In reality, the fundamental frequencies Wa in higher approximations are
+not equal to their "unperturbed" values wa(0) which appear in the quadratic
+expression for the potential energy. The increasing terms in the solution
+arise from an expansion of the type
+which is obviously not legitimate when t is sufficiently large.
+In going to higher approximations, therefore, the method of successive
+approximations must be modified so that the periodic factors in the solution
+shall contain the exact and not approximate values of the frequencies. The
+necessary changes in the frequencies are found by solving the equations and
+requiring that resonance terms should not in fact appear.
+We may illustrate this method by taking the example of anharmonic oscil-
+lations in one dimension, and writing the Lagrangian in the form
+L =
+(28.8)
+The corresponding equation of motion is
+(28.9)
+We shall seek the solution as a series of successive approximations:
+where
+x(1) = a cos wt,
+(28.10)
+with the exact value of w, which in turn we express as w=wotw1)+w(2)+....
+(The initial phase in x(1) can always be made zero by a suitable choice of the
+origin of time.) The form (28.9) of the equation of motion is not the most
+convenient, since, when (28.10) is substituted in (28.9), the left-hand side is
+not exactly zero. We therefore rewrite it as
+(28.11)
+Putting x(1)+x(2), w wotwi and omitting terms of above the
+second order of smallness, we obtain for x(2) the equation
+= aa2 cos2wt+2wowlda cos wt
+= 1xa2-1xa2 cos 2wt + 2wow1)a cos wt.
+The condition for the resonance term to be absent from the right-hand side
+is simply w(1) = 0, in agreement with the second approximation discussed

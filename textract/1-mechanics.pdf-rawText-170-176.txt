@@ -1,0 +1,446 @@
+
+§50
+General properties of motion in S dimensions
+161
+ordinates. For the quantities Ii are one-valued integrals of the motion in
+co-ordinates which allow separation of the variables. When degeneracy occurs,
+the number of one-valued integrals exceeds S, and so the choice of those
+which are the desired I is no longer unique.
+As an example, we may again mention Keplerian motion, which allows
+separation of the variables in both spherical and parabolic co-ordinates.
+In §49 it has been shown that, for finite motion in one dimension, the
+action variable is an adiabatic invariant. This statement holds also for systems
+with more than one degree of freedom. Here we shall give a proof valid
+for the general case.
+Let X(t) be again a slowly varying parameter of the system. In the canonical
+transformation from the variables P, q to I, W, the generating function is, as we
+know, the action So(q, I). This depends on A as a parameter and, if A is a func-
+tion of time, the function So(q, I; X(t)) depends explicitly on time. In such a
+case the new Hamiltonian H' is not the same as H, i.e. the energy E(I), and
+by the general formulae (45.8) for the canonical transformation we have
+H' E(I)+asoldt = E(I)+A, where A III (aso/ad)r. Hamilton's equations
+give
+ig = -
+(50.15)
+We average this equation over a time large compared with the fundamental
+periods of the system but small compared with the time during which the
+parameter A varies appreciably. Because of the latter condition we need not
+average 1 on the right-hand side, and in averaging the quantities we
+may regard the motion of the system as taking place at a constant value of A
+and therefore as having the properties of conditionally periodic motion
+described above.
+The action So is not a one-valued function of the co-ordinates: when q
+returns to its initial value, So increases by an integral multiple of 2I. The
+derivative A = (aso/ax), is a one-valued function, since the differentiation
+is effected for constant Ii, and there is therefore no increase in So. Hence A,
+expressed as a function of the angle variables Wr, is periodic. The mean value
+of the derivatives of such a function is zero, and therefore by (50.15)
+we have also
+which shows that the quantities Ii are adiabatic invariants.
+Finally, we may briefly discuss the properties of finite motion of closed
+systems with S degrees of freedom in the most general case, where the vari-
+ables in the Hamilton-Jacobi equation are not assumed to be separable.
+The fundamental property of systems with separable variables is that the
+integrals of the motion Ii, whose number is equal to the number of degrees
++ To simplify the formulae we assume that there is only one such parameter, but the proof
+is valid for any number.
+162
+The Canonical Equations
+§50
+of freedom, are one-valued. In the general case where the variables are not
+separable, however, the one-valued integrals of the motion include only
+those whose constancy is derived from the homogeneity and isotropy of space
+and time, namely energy, momentum and angular momentum.
+The phase path of the system traverses those regions of phase space which
+are defined by the given constant values of the one-valued integrals of the
+motion. For a system with separable variables and S one-valued integrals,
+these conditions define an s-dimensional manifold (hypersurface) in phase
+space. During a sufficient time, the path of the system passes arbitrarily close
+to every point on this hypersurface.
+In a system where the variables are not separable, however, the number
+of one-valued integrals is less than S, and the phase path occupies, completely
+or partly, a manifold of more than S dimensions in phase space.
+In degenerate systems, on the other hand, which have more than S integrals
+of the motion, the phase path occupies a manifold of fewer than S dimensions.
+If the Hamiltonian of the system differs only by small terms from one which
+allows separation of the variables, then the properties of the motion are close
+to those of a conditionally periodic motion, and the difference between the
+two is of a much higher order of smallness than that of the additional terms in
+the Hamiltonian.
+PROBLEM
+Calculate the action variables for elliptic motion in a field U = -a/r.
+SOLUTION. In polar co-ordinates r, in the plane of the motion we have
+'max
+= 1+av(m2)E)
+Hence the energy, expressed in terms of the action variables, is E = It
+depends only on the sum Ir+I, and the motion is therefore degenerate; the two funda-
+mental frequencies (in r and in b) coincide.
+The parameters P and e of the orbit (see (15.4)) are related to Ir and I by
+p=
+Since Ir and I are adiabatic invariants, when the coefficient a or the mass m varies slowly
+the eccentricity of the orbit remains unchanged, while its dimensions vary in inverse propor-
+tion to a and to m.
+INDEX
+Acceleration, 1
+Coriolis force, 128
+Action, 2, 138ff.
+Couple, 109
+abbreviated, 141
+Cross-section, effective, for scattering,
+variable, 157
+49ff.
+Additivity of
+C system, 41
+angular momentum, 19
+Cyclic co-ordinates, 30
+energy, 14
+integrals of the motion, 13
+d'Alembert's principle, 124
+Lagrangians, 4
+Damped oscillations, 74ff.
+mass, 17
+Damping
+momentum, 15
+aperiodic, 76
+Adiabatic invariants, 155, 161
+coefficient, 75
+Amplitude, 59
+decrement, 75
+complex, 59
+Degeneracy, 39, 69, 160f.
+Angle variable, 157
+complete, 160
+Angular momentum, 19ff.
+Degrees of freedom, 1
+of rigid body, 105ff.
+Disintegration of particles, 41ff.
+Angular velocity, 97f.
+Dispersion-type absorption, 79
+Area integral, 31n.
+Dissipative function, 76f.
+Dummy suffix, 99n.
+Beats, 63
+Brackets, Poisson, 135ff.
+Eccentricity, 36
+Eigenfrequencies, 67
+Canonical equations (VII), 131ff.
+Elastic collision, 44
+Canonical transformation, 143ff.
+Elliptic functions, 118f.
+Canonical variables, 157
+Elliptic integrals, 26, 118
+Canonically conjugate quantities, 145
+Energy, 14, 25f.
+Central field, 21, 30
+centrifugal, 32, 128
+motion in, 30ff.
+internal, 17
+Centrally symmetric field, 21
+kinetic, see Kinetic energy
+Centre of field, 21
+potential, see Potential energy
+Centre of mass, 17
+Equations of motion (I), 1ff.
+system, 41
+canonical (VII), 131ff.
+Centrifugal force, 128
+integration of (III), 25ff.
+Centrifugal potential, 32, 128
+of rigid body, 107ff.
+Characteristic equation, 67
+Eulerian angles, 110ff.
+Characteristic frequencies, 67
+Euler's equations, 115, 119
+Closed system, 8
+Collisions between particles (IV), 41ff.
+Finite motion, 25
+elastic, 44ff.
+Force, 9
+Combination frequencies, 85
+generalised, 16
+Complete integral, 148
+Foucault's pendulum, 129f.
+Conditionally periodic motion, 160
+Frame of reference, 4
+Conservation laws (II), 13ff.
+inertial, 5f.
+Conservative systems, 14
+non-inertial, 126ff.
+Conserved quantities, 13
+Freedom, degrees of, 1
+Constraints, 10
+Frequency, 59
+equations of, 123
+circular, 59
+holonomic, 123
+combination, 85
+Co-ordinates, 1
+Friction, 75, 122
+cyclic, 30
+generalised, 1ff.
+Galilean transformation, 6
+normal, 68f.
+Galileo's relativity principle, 6
+163
+164
+Index
+General integral, 148
+Mechanical similarity, 22ff.
+Generalised
+Molecules, vibrations of, 70ff.
+co-ordinates, 1ff.
+Moment
+forces, 16
+of force, 108
+momenta, 16
+of inertia, 99ff.
+velocities, 1ff.
+principal, 100ff.
+Generating function, 144
+Momentum, 15f.
+angular, see Angular momentum
+Half-width, 79
+generalised, 16
+Hamiltonian, 131f.
+moment of, see Angular momentum
+Hamilton-Jacobi equation, 147ff.
+Multi-dimensional motion, 158ff.
+Hamilton's equations, 132
+Hamilton's function, 131
+Hamilton's principle, 2ff.
+Newton's equations, 9
+Holonomic constraint, 123
+Newton's third law, 16
+Nodes, line of, 110
+Impact parameter, 48
+Non-holonomic constraint, 123
+Inertia
+Normal co-ordinates, 68f.
+law of, 5
+Normal oscillations, 68
+moments of, 99ff.
+Nutation, 113
+principal, 100ff.
+principal axes of, 100
+One-dimensional motion, 25ff., 58ff.
+tensor, 99
+Oscillations, see Small oscillations
+Inertial frames, 5f.
+Oscillator
+Infinite motion, 25
+one-dimensional, 58n.
+Instantaneous axis, 98
+space, 32, 70
+Integrals of the motion, 13, 135
+Jacobi's identity, 136
+Particle, 1
+Pendulums, 11f., 26, 33ff., 61, 70, 95,
+Kepler's problem, 35ff.
+102f., 129f.
+Kepler's second law, 31
+compound, 102f.
+Kepler's third law, 23
+conical, 34
+Kinetic energy, 8, 15
+Foucault's, 129f.
+of rigid body, 98f.
+spherical, 33f.
+Perihelion, 36
+Laboratory system, 41
+movement of, 40
+Lagrange's equations, 3f.
+Phase, 59
+Lagrangian, 2ff.
+path, 146
+for free motion, 5
+space, 146
+of free particle, 6ff.
+Point transformation, 143
+in non-inertial frame, 127
+Poisson brackets, 135ff.
+for one-dimensional motion, 25, 58
+Poisson's theorem, 137
+of rigid body, 99
+Polhodes, 117n.
+for small oscillations, 58, 61, 66, 69, 84
+Potential energy, 8, 15
+of system of particles, 8ff.
+centrifugal, 32, 128
+of two bodies, 29
+effective, 32, 94
+Latus rectum, 36
+from period of oscillation, 27ff.
+Least action, principle of, 2ff.
+Potential well, 26, 54f.
+Legendre's transformation, 131
+Precession, regular, 107
+Liouville's theorem, 147
+L system, 41
+Rapidly oscillating field, motion in, 93ff.
+Reactions, 122
+Mass, 7
+Reduced mass, 29
+additivity of, 17
+Resonance, 62, 79
+centre of, 17
+in non-linear oscillations, 87ff.
+reduced, 29
+parametric, 80ff.
+Mathieu's equation, 82n.
+Rest, system at, 17
+Maupertuis' principle, 141
+Reversibility of motion, 9
+Index
+165
+Rigid bodies, 96
+Space
+angular momentum of, 105ff.
+homogeneity of, 5, 15
+in contact, 122ff.
+isotropy of, 5, 18
+equations of motion of, 107ff.
+Space oscillator, 32, 70
+motion of (VI), 96ff.
+Rolling, 122
+Time
+Rotator, 101, 106
+homogeneity of, 5, 13ff.
+Rough surface, 122
+isotropy of, 8f.
+Routhian, 134f.
+Top
+Rutherford's formula, 53f.
+asymmetrical, 100, 116ff.
+"fast", 113f.
+spherical, 100, 106
+Scattering, 48ff.
+symmetrical, 100, 106f., 111f.
+cross-section, effective, 49ff.
+Torque, 108
+Rutherford's formula for, 53f.
+Turning points, 25, 32
+small-angle, 55ff.
+Two-body problem, 29
+Sectorial velocity, 31
+Separation of variables, 149ff.
+Uniform field, 10
+Similarity, mechanical, 22ff.
+Sliding, 122
+Variation, 2, 3
+Small oscillations, 22, (V) 58ff.
+first, 3
+anharmonic, 84ff.
+Velocity, 1
+damped, 74ff.
+angular, 97f.
+forced, 61ff., 77ff.
+sectorial, 31
+free, 58ff., 65ff.
+translational, 97
+linear, 84
+Virial, 23n.
+non-linear, 84ff.
+theorem, 23f.
+normal, 68
+Smooth surface, 122
+Well, potential, 26, 54f.
+PHYSICS
+The enormous increase in the number
+and size of scientific journals has led to a
+qualitative change in the problem of
+scientific communication. The policies
+of most journals are based on the old
+need to ensure that no valid science
+was lost to the scientific public by being
+rejected ; the problem now seems to be
+whether almost all good science will
+be buried among mountains of valid
+but mediocre work, or secreted in
+specialized publications. The scientist
+reads only a tiny fraction of physics,
+either sharply specialized or selected at
+random, by rumour or by the author's
+reputation.
+PHYSICS will help its readers to find
+at least some of the first-rate new work,
+particularly outside their speciality, it
+will help to maintain the unity of
+physics against an increasing tendency
+toward specialization and to keep high
+standards of presentation and possibly
+of creative scientific work.
+Write for an Information and Index
+Leaflet giving full details including
+subscription rates.
+Pergamon Press
+Headington Hill Hall, Oxford OX3 OBW
+Maxwell House, Fairview Park,
+Elmsford, New York 10523
+4 & 5 Fitzroy Square, London W1
+2 & 3 Teviot Place, Edinburgh 1
+207 Queen's Quay West, Toronto 1
+19A Boundary Street, Rushcutters Bay,
+N.S.W. 2011, Australia
+24 rue des Ecoles, Paris 5e
+Vieweg & Sohn GmbH, Burgplatz 1,
+Braunschweig
+Printed in Great Britain/Bradley
+COURSE OF THEORETICAL PHYSICS
+by L.D. LANDAU and E.M. LIFSHITZ
+Institute of Physical Problems, USSR Academy of Sciences
+The complete Course of Theoretical Physics by Landau and Lifshitz, recognized as two
+of the world's outstanding physicists, is being published in full by Pergamon Press. It
+comprises nine volumes, covering all branches of the subject translations from the Russian
+are by leading scientists.
+Typical of many statements made by experts reviewing the series, are the following
+"The titles of the volumes in this series cover a vast range of topics, and there seems to be
+little in physics on which the authors are not very well informed."
+Nature
+"The remarkable nine-volume Course of Theoretical Physics
+the
+clearness
+and
+accuracy
+of the authors' treatment of theoretical physics is well maintained."
+Proceedings of the Physical Society
+Of individual volumes, reviewers have written
+MECHANICS
+"The entire book is a masterpiece of scientific writing. There is not a superfluous sentence
+and the authors know exactly where they are going
+It is certain that this volume will
+be able to hold its own amongst more conventional texts in classical mechanisms, as a
+scholarly and economic exposition of the subject."
+Science Progress
+QUANTUM MECHANICS (Non-relativistic Theory)
+throughout the five hundred large pages, the authors' discussion proceeds with the
+clarity and succinctness typical of the very best works on theoretical physics."
+Technology
+FLUID MECHANICS
+"The ground covered includes ideal fluids, viscous fluids, turbulence, boundary layers,
+conduction and diffusion, surface phenomena and sound. Compressible fluids are treated
+under the headings of shock waves, one-dimensional gas flow and flow past finite bodies.
+There is a chapter on the fluid dynamics of combustion while unusual topics discussed are
+relativistic fluid dynamics, dynamics of superfluids and fluctuations of fluid dynamics
+a
+valuable addition to any library covering the mechanics of fluids."
+Science Progress
+THE CLASSICAL THEORY OF FIELDS (Second Edition)
+"This is an excellent and readable volume. It is a valuable and unique addition to the
+literature of theoretical physics."
+Science
+STATISTICAL PHYSICS
+stimulating reading, partly because of the clarity and compactness of some of the
+treatments put forward, and partly by reason of contrasts with texts on statistical mechanics
+and statistical thermodynamics better known to English sciences
+Other features
+attract attention since they do not always receive comparable mention in other textbooks."
+New Scientist
+THEORY OF ELASTICITY
+"I shall be surprised if this book does not come to be regarded as a masterpiece."
+Journal of the Royal Institute of Physics
+ELECTRODYNAMICS OF CONTINUOUS MEDIA
+"Within the volume one finds everything expected of a textbook on classical electricity
+and magnetism, and a great deal more. It is quite certain that this book will remain unique
+and indispensable for many years to come."
+Science Progress
+08 006466 3

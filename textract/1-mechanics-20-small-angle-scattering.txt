@@ -1,0 +1,114 @@
+Small-angle scattering
+55
+Finally, differentiating, we have the effective cross-section
+cos
+do.
+The angle X varies from zero (for p=0) to Xmax (for P = a), where cos 1xmax = 1/n.
+The total effective cross-section, obtained by integrating do over all angles within the cone
+Xmax, is, of course, equal to the geometrical cross-section 2
+a
+to
+a
+FIG. 21
+§20. Small-angle scattering
+The calculation of the effective cross-section is much simplified if only
+those collisions are considered for which the impact parameter is large, so
+that the field U is weak and the angles of deflection are small. The calculation
+can be carried out in the laboratory system, and the centre-of-mass system
+need not be used.
+We take the x-axis in the direction of the initial momentum of the scattered
+particle M1, and the xy-plane in the plane of scattering. Denoting by P1' the
+momentum of the particle after scattering, we evidently have sin 01 = P1y'/P1'.
+For small deflections, sin 01 may be approximately replaced by 01, and P1' in
+the denominator by the initial momentum P1 = MIUoo:
+(20.1)
+Next, since Py = Fy, the total increment of momentum in the y-direction is
+(20.2)
+The
+force Fy = - JULY (dU/dr)dr/dy = (dU/dr)y/r.
+Since the integral (20.2) already contains the small quantity U, it can be
+calculated, in the same approximation, by assuming that the particle is not
+deflected at all from its initial path, i.e. that it moves in a straight line y = p
+with uniform velocity Voo. Thus we put in (20.2) Fy = - (dU/dr)p/r,
+dt = dx/voo. The result is
+56
+Collisions Between Particles
+§20
+Finally, we change the integration over x to one over r. Since, for a straight
+path, r2 = x2+p2, when x varies from - 00 to + 80, r varies from 8 to P
+and back. The integral over x therefore becomes twice the integral over r
+from p to 80, and dx = r dr/v(r2-p2). The angle of scattering O1 is thus
+given byt
+(20.3)
+and this is the form of the function 01(p) for small deflections. The effective
+cross-section for scattering (in the L system) is obtained from (18.8) with 01
+instead of X, where sin 01 may now be replaced by A1:
+(20.4)
+PROBLEMS
+PROBLEM 1. Derive formula (20.3) from (18.4).
+SOLUTION. In order to avoid spurious divergences, we write (18.4) in the form
+PO
+and take as the upper limit some large finite quantity R, afterwards taking the value as R
+00.
+Since U is small, we expand the square root in powers of U, and approximately replace
+rmin by p:
+dr
+The first integral tends to 1/11 as R 00. The second integral is integrated by parts, giving
+=
+This is equivalent to (20.3).
+PROBLEM 2. Determine the effective cross-section for small-angle scattering in a field
+U=a/m(n) 0).
+t If the above derivation is applied in the C system, the expression obtained for X is the
+same with m in place of M1, in accordance with the fact that the small angles 01 and X are
+related by (see (17.4)) 01 = m2x/(m1 +m2).
+§20
+Small-angle scattering
+57
+SOLUTION. From (20.3) we have
+dr
+The substitution p2/r2 = U converts the integral to a beta function, which can be expressed
+in terms of gamma functions:
+Expressing P in terms of 01 and substituting in (20.4), we obtain
+do1.
+3
+CHAPTER V
+SMALL OSCILLATIONS
+$21. Free oscillations in one dimension
+A VERY common form of motion of mechanical systems is what are called
+small oscillations of a system about a position of stable equilibrium. We shall
+consider first of all the simplest case, that of a system with only one degree
+of freedom.
+Stable equilibrium corresponds to a position of the system in which its
+potential energy U(q) is a minimum. A movement away from this position
+results in the setting up of a force - dU/dq which tends to return the system
+to equilibrium. Let the equilibrium value of the generalised co-ordinate
+q be 90. For small deviations from the equilibrium position, it is sufficient
+to retain the first non-vanishing term in the expansion of the difference
+U(q) - U(90) in powers of q-qo. In general this is the second-order term:
+U(q) - U(q0) 112 1k(q-90)2, where k is a positive coefficient, the value of the
+second derivative U"(q) for q = 90. We shall measure the potential energy
+from its minimum value, i.e. put U(qo) = 0, and use the symbol
+x = q-90
+(21.1)
+for the deviation of the co-ordinate from its equilibrium value. Thus
+U(x) = .
+(21.2)
+The kinetic energy of a system with one degree of freedom is in general
+of the form 1a(q)q2 = 1a(q)x2. In the same approximation, it is sufficient to
+replace the function a(q) by its value at q = qo. Putting for brevity a(go) = m,
+we have the following expression for the Lagrangian of a system executing
+small oscillations in one dimension:
+L = 1mx2-1kx2.
+(21.3)
+The corresponding equation of motion is
+m+kx=0,
+(21.4)
+or
+w2x=0,
+(21.5)
+where
+w= ((k/m).
+(21.6)
++ It should be noticed that m is the mass only if x is the Cartesian co-ordinate.
++ Such a system is often called a one-dimensional oscillator.
+58

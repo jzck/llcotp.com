@@ -1,0 +1,80 @@
+PROBLEM 2. Determine the Poisson brackets formed from the components of M.
+SOLUTION. A direct calculation from formula (42.5) gives [Mx, My] = -M2, [My, M]
+= -Mx, [Mz, Mx] = -My.
+Since the momenta and co-ordinates of different particles are mutually independent variables,
+it is easy to see that the formulae derived in Problems 1 and 2 are valid also for the total
+momentum and angular momentum of any system of particles.
+PROBLEM 3. Show that [, M2] = 0, where is any function, spherically symmetrical
+about the origin, of the co-ordinates and momentum of a particle.
+SOLUTION. Such a function can depend on the components of the vectors r and p only
+through the combinations r2, p2, r. p. Hence
+and similarly for The required relation may be verified by direct calculation from
+formula (42.5), using these formulae for the partial derivatives.
+PROBLEM 4. Show that [f, M] = n xf, where f is a vector function of the co-ordinates
+and momentum of a particle, and n is a unit vector parallel to the z-axis.
+SOLUTION. An arbitrary vector f(r,p) may be written as f = where
+01, O2, 03 are scalar functions. The required relation may be verified by direct calculation
+from formulae (42.9), (42.11), (42.12) and the formula of Problem 3.
+$43. The action as a function of the co-ordinates
+In formulating the principle of least action, we have considered the integral
+(43.1)
+taken along a path between two given positions q(1) and q(2) which the system
+occupies at given instants t1 and t2. In varying the action, we compared the
+values of this integral for neighbouring paths with the same values of q(t1)
+and q(t2). Only one of these paths corresponds to the actual motion, namely
+the path for which the integral S has its minimum value.
+Let us now consider another aspect of the concept of action, regarding S
+as a quantity characterising the motion along the actual path, and compare
+the values of S for paths having a common beginning at q(t1) = q(1), but
+passing through different points at time t2. In other words, we consider the
+action integral for the true path as a function of the co-ordinates at the upper
+limit of integration.
+The change in the action from one path to a neighbouring path is given
+(if there is one degree of freedom) by the expression (2.5):
+8S =
+Since the paths of actual motion satisfy Lagrange's equations, the integral
+in 8S is zero. In the first term we put Sq(t1) = 0, and denote the value of
+§43
+The action as a function of the co-ordinates
+139
+8q(t2) by 8q simply. Replacing 0L/dq by p, we have finally 8S = pdq or, in
+the general case of any number of degrees of freedom,
+ES==Pisqu-
+(43.2)
+From this relation it follows that the partial derivatives of the action with
+respect to the co-ordinates are equal to the corresponding momenta:
+=
+(43.3)
+The action may similarly be regarded as an explicit function of time, by
+considering paths starting at a given instant t1 and at a given point q(1), and
+ending at a given point q(2) at various times t2 = t. The partial derivative
+asiat thus obtained may be found by an appropriate variation of the integral.
+It is simpler, however, to use formula (43.3), proceeding as follows.
+From the definition of the action, its total time derivative along the path is
+dS/dt = L.
+(43.4)
+Next, regarding S as a function of co-ordinates and time, in the sense des-
+cribed above, and using formula (43.3), we have
+dS
+A comparison gives asid = L- or
+(43.5)
+Formulae (43.3) and (43.5) may be represented by the expression
+(43.6)
+for the total differential of the action as a function of co-ordinates and time
+at the upper limit of integration in (43.1). Let us now suppose that the co-
+ordinates (and time) at the beginning of the motion, as well as at the end,
+are variable. It is evident that the corresponding change in S will be given
+by the difference of the expressions (43.6) for the beginning and end of the
+path, i.e.
+dsp
+(43.7)
+This relation shows that, whatever the external forces on the system during
+its motion, its final state cannot be an arbitrary function of its initial state;
+only those motions are possible for which the expression on the right-hand
+side of equation (43.7) is a perfect differential. Thus the existence of the
+principle of least action, quite apart from any particular form of the Lagran-
+gian, imposes certain restrictions on the range of possible motions. In parti-
+cular, it is possible to derive a number of general properties, independent
+of the external fields, for beams of particles diverging from given points in
+140
+The Canonical Equations

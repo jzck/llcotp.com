@@ -34,4 +34,14 @@ where
 
 is called the *reduced mass*. The function `1/13.3` is formally identical with the Lagrangian of a particle of mass $m$ moving in an external field $U(\v{r})$ which is symmetrical about a fixed origin.
 
-Thus the problem of the motion of two interacting particles is equivalent to that of the motion of one particle in a given external field $U(\v{r})$. From the solution $\v{r} = \v{r}(t)$ of this problem, the paths $\v{r}_1 = \v{r}_1(t)$ and $\v{r}_2 = \v{r}_2(t)$ of the two particles separately, relative to their common centre of mass, are obtained by means of formulae `1/13.2`.
+<!-- PROBLEM -->
+<!-- A system consists of one particle of mass M and n particles with equal masses m. Eliminate -->
+<!-- the motion of the centre of mass and so reduce the problem to one involving n particles. -->
+<!-- SOLUTION. Let R be the radius vector of the particle of mass M, and Ra (a = 1, 2, ..., n) -->
+<!-- those of the particles of mass m. We put ra = Ra-R and take the origin to be at the centre -->
+<!-- of mass: MR+mER = 0. Hence where =M + nm; Ra = R + ra. -->
+<!-- Substitution in the Lagrangian L = gives -->
+<!-- ra. -->
+<!-- The potential energy depends only on the distances between the particles, and so can be -->
+<!-- written as a function of the ra. -->
+<!-- Thus the problem of the motion of two interacting particles is equivalent to that of the motion of one particle in a given external field $U(\v{r})$. From the solution $\v{r} = \v{r}(t)$ of this problem, the paths $\v{r}_1 = \v{r}_1(t)$ and $\v{r}_2 = \v{r}_2(t)$ of the two particles separately, relative to their common centre of mass, are obtained by means of formulae `1/13.2`. -->

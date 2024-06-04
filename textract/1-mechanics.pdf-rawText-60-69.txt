@@ -1,0 +1,357 @@
+
+§18
+Scattering
+51
+For a sphere originally at rest, X = n-202 in all cases, and substitution in (1) gives
+do2 = a2|cos 02 do2.
+PROBLEM 2. Express the effective cross-section (Problem 1) as a function of the energy E
+lost by a scattered particle.
+SOLUTION. The energy lost by a particle of mass M1 is equal to that gained by the sphere of
+mass M2. From (17.5) and (17.7), € = E2' = [2m22m2/(m1+m2)2] voo2 sin21x = Emax sin21x,
+whence de = 1 mex sin X dx; substituting in (1), Problem 1, we have do = na2 de/emax. The
+scattered particles are uniformly distributed with respect to € in the range from zero to
+Emax.
+PROBLEM 3. Find the effective cross-section as a function of the velocity Uoo for particles
+scattered in a field U -rrn.
+SOLUTION. According to (10.3), if the potential energy is a homogeneous function of order
+k = -n, then similar paths are such that p ~v-2/n, or p = Voo-2/nf(x), the angles of deflec-
+tion X being equal for similar paths. Substitution in (18.6) gives do ~ Voo-4/n do.
+PROBLEM 4. Determine the effective cross-section for a particle to "fall" to the centre of
+a field U = -a/r2.
+SOLUTION. The particles which "fall" to the centre are those for which 2a > mp20002 (see
+(14.11)), i.e. for which the impact parameter does not exceed Pmax = (2a/mvoo). The
+effective cross-section is therefore o = Pmax2 = 2na/mvo².
+PROBLEM 5. The same as Problem 4, but for a field U = -a/rn (n 2, a > 0).
+SOLUTION. The effective potential energy Ueff = depends on r in the
+manner shown in Fig. 20. Its maximum value is
+Ueff
+U0
+FIG. 20
+The particles which "fall" to the centre are those for which U0 < E. The condition U0 = E
+gives Pmax, whence
+=
+PROBLEM 6. Determine the effective cross-section for particles of mass m1 to strike a sphere
+of mass m2 and radius R to which they are attracted in accordance with Newton's law.
+SOLUTION. The condition for a particle to reach the sphere is that rmin < R, where r'min
+is the point on the path which is nearest to the centre of the sphere. The greatest possible
+value of P is given by rmin = R; this is equivalent to Ueff(R) = E or
+= , where a = ymim2 (2 being the gravitational constant) and we have put m 22 M1 on
+the assumption that m2 > M1. Solving for pmax2, we finally obtain o = mR2(1+2ym2/Rvv3).
+52
+Collisions Between Particles
+§18
+When
+Voo
+8 the effective cross-section tends, of course, to the geometrical cross-section
+of the sphere.
+PROBLEM 7. Deduce the form of a scattering field U(r), given the effective cross-section
+as a function of the angle of scattering for a given energy E. It is assumed that U(r) decreases
+monotonically with r (a repulsive field), with U(0) > E and U(00) = 0 (O. B. FIRSOV 1953).
+SOLUTION. Integration of do with respect to the scattering angle gives, according to the
+formula
+(1)
+the square of the impact parameter, so that p(x) (and therefore x(p)) is known.
+We put
+s=1/r,
+=1/p2,
+[[1-(U|E)]
+(2)
+Then formulae (18.1), (18.2) become
+1/
+(3)
+where so(x) is the root of the equation xw2(so)-so2 = 0.
+Equation (3) is an integral equation for the function w(s), and may be solved by a method
+similar to that used in $12. Dividing both sides of (3) by (a-x) and integrating with respect
+to x from zero to a, we find
+so(a)
+dx ds
+so(a)
+ds
+or, integrating by parts on the left-hand side,
+This relation is differentiated with respect to a, and then so(a) is replaced by s simply;
+accordingly a is replaced by s2/w2, and the result is, in differential form,
+=
+(11/20)
+or
+dx
+This equation can be integrated immediately if the order of integration on the right-hand
+side is inverted. Since for S = 0 (i.e. r oo) we must have W = 1 (i.e. U = 0), we have,
+§19
+Rutherford's formula
+53
+on returning to the original variables r and P, the following two equivalent forms of the final
+result:
+=====
+(dx/dp)
+(4)
+This formula determines implicitly the function w(r) (and therefore U(r)) for all r > rmin,
+i.e. in the range of r which can be reached by a scattered particle of given energy E.
+§19. Rutherford's formula
+One of the most important applications of the formulae derived above is
+to the scattering of charged particles in a Coulomb field. Putting in (18.4)
+U = a/r and effecting the elementary integration, we obtain
+whence p2 = (a2/m2voo4) tan2oo, or, putting 00 = 1(-) from (18.1),
+p2 =
+(19.1)
+Differentiating this expression with respect to X and substituting in (18.7)
+or (18.8) gives
+do = (a/v2cosxdx/sin31
+(19.2)
+or
+do =
+(19.3)
+This is Rutherford's formula. It may be noted that the effective cross-section
+is independent of the sign of a, so that the result is equally valid for repulsive
+and attractive Coulomb fields.
+Formula (19.3) gives the effective cross-section in the frame of reference
+in which the centre of mass of the colliding particles is at rest. The trans-
+formation to the laboratory system is effected by means of formulae (17.4).
+For particles initially at rest we substitute X = 77 - 202 in (19.2) and obtain
+do2 = 2n(a/mvoo2)2 sin de2/cos302
+=
+(19.4)
+The same transformation for the incident particles leads, in general, to a very
+complex formula, and we shall merely note two particular cases.
+If the mass M2 of the scattering particle is large compared with the mass
+M1 of the scattered particle, then X 2 O1 and m 22 M1, SO that
+do1 = = (a/4E1)2do1/sin4301
+(19.5)
+where E1 = 1M1U..02 is the energy of the incident particle.
+54
+Collisions Between Particles
+§ 19
+If the masses of the two particles are equal (m1 = M2, m = 1M1), then by
+(17.9) X = 201, and substitution in (19.2) gives
+do1 = 2(/E1)2 cos 01 d01/sin³01
+=
+(19.6)
+If the particles are entirely identical, that which was initially at rest cannot
+be distinguished after the collision. The total effective cross-section for all
+particles is obtained by adding do1 and do2, and replacing A1 and O2 by their
+common value 0:
+do
+=
+do.
+(19.7)
+Let us return to the general formula (19.2) and use it to determine the
+distribution of the scattered particles with respect to the energy lost in the
+collision. When the masses of the scattered (m1) and scattering (m2) particles
+are arbitrary, the velocity acquired by the latter is given in terms of the angle
+of scattering in the C system by V2' = [2m1/(m1+m2)]%"00 sin 1x; see (17.5).
+The energy acquired by M2 and lost by M1 is therefore E = 1M2U2'2
+= (2m2/m2)/0002 sin21x. Expressing sin 1x in terms of E and substituting
+in (19.2), we obtain
+do = de/e2.
+(19.8)
+This is the required formula: it gives the effective cross-section as a function
+of the energy loss E, which takes values from zero to Emax = 2m2voo2/m2.
+PROBLEMS
+PROBLEM 1. Find the effective cross-section for scattering in a field U = a/r2 (a > 0).
+SOLUTION. The angle of deflection is
+The effective cross-section is
+do
+sin
+PROBLEM 2. Find the effective cross-section for scattering by a spherical "potential well"
+of radius a and "depth" U0 (i.e. a field with U = 0 for r > a and U = - U0 for r < a).
+SOLUTION. The particle moves in a straight line which is "refracted" on entering and leav- -
+ing the well. According to §7, Problem, the angle of incidence a and the angle of refraction
+B (Fig. 21) are such that sin x/sin B = n, where n = W(1+2U0/mVo2). The angle of deflection
+is X = 2(a-B). Hence
+=
+Eliminating a from this equation and the relation a sin a p, which is evident from the
+diagram, we find the relation between P and X:
+cos
+1x
+§20
+Small-angle scattering
+55
+Finally, differentiating, we have the effective cross-section
+cos
+do.
+The angle X varies from zero (for p=0) to Xmax (for P = a), where cos 1xmax = 1/n.
+The total effective cross-section, obtained by integrating do over all angles within the cone
+Xmax, is, of course, equal to the geometrical cross-section 2
+a
+to
+a
+FIG. 21
+§20. Small-angle scattering
+The calculation of the effective cross-section is much simplified if only
+those collisions are considered for which the impact parameter is large, so
+that the field U is weak and the angles of deflection are small. The calculation
+can be carried out in the laboratory system, and the centre-of-mass system
+need not be used.
+We take the x-axis in the direction of the initial momentum of the scattered
+particle M1, and the xy-plane in the plane of scattering. Denoting by P1' the
+momentum of the particle after scattering, we evidently have sin 01 = P1y'/P1'.
+For small deflections, sin 01 may be approximately replaced by 01, and P1' in
+the denominator by the initial momentum P1 = MIUoo:
+(20.1)
+Next, since Py = Fy, the total increment of momentum in the y-direction is
+(20.2)
+The
+force Fy = - JULY (dU/dr)dr/dy = (dU/dr)y/r.
+Since the integral (20.2) already contains the small quantity U, it can be
+calculated, in the same approximation, by assuming that the particle is not
+deflected at all from its initial path, i.e. that it moves in a straight line y = p
+with uniform velocity Voo. Thus we put in (20.2) Fy = - (dU/dr)p/r,
+dt = dx/voo. The result is
+56
+Collisions Between Particles
+§20
+Finally, we change the integration over x to one over r. Since, for a straight
+path, r2 = x2+p2, when x varies from - 00 to + 80, r varies from 8 to P
+and back. The integral over x therefore becomes twice the integral over r
+from p to 80, and dx = r dr/v(r2-p2). The angle of scattering O1 is thus
+given byt
+(20.3)
+and this is the form of the function 01(p) for small deflections. The effective
+cross-section for scattering (in the L system) is obtained from (18.8) with 01
+instead of X, where sin 01 may now be replaced by A1:
+(20.4)
+PROBLEMS
+PROBLEM 1. Derive formula (20.3) from (18.4).
+SOLUTION. In order to avoid spurious divergences, we write (18.4) in the form
+PO
+and take as the upper limit some large finite quantity R, afterwards taking the value as R
+00.
+Since U is small, we expand the square root in powers of U, and approximately replace
+rmin by p:
+dr
+The first integral tends to 1/11 as R 00. The second integral is integrated by parts, giving
+=
+This is equivalent to (20.3).
+PROBLEM 2. Determine the effective cross-section for small-angle scattering in a field
+U=a/m(n) 0).
+t If the above derivation is applied in the C system, the expression obtained for X is the
+same with m in place of M1, in accordance with the fact that the small angles 01 and X are
+related by (see (17.4)) 01 = m2x/(m1 +m2).
+§20
+Small-angle scattering
+57
+SOLUTION. From (20.3) we have
+dr
+The substitution p2/r2 = U converts the integral to a beta function, which can be expressed
+in terms of gamma functions:
+Expressing P in terms of 01 and substituting in (20.4), we obtain
+do1.
+3
+CHAPTER V
+SMALL OSCILLATIONS
+$21. Free oscillations in one dimension
+A VERY common form of motion of mechanical systems is what are called
+small oscillations of a system about a position of stable equilibrium. We shall
+consider first of all the simplest case, that of a system with only one degree
+of freedom.
+Stable equilibrium corresponds to a position of the system in which its
+potential energy U(q) is a minimum. A movement away from this position
+results in the setting up of a force - dU/dq which tends to return the system
+to equilibrium. Let the equilibrium value of the generalised co-ordinate
+q be 90. For small deviations from the equilibrium position, it is sufficient
+to retain the first non-vanishing term in the expansion of the difference
+U(q) - U(90) in powers of q-qo. In general this is the second-order term:
+U(q) - U(q0) 112 1k(q-90)2, where k is a positive coefficient, the value of the
+second derivative U"(q) for q = 90. We shall measure the potential energy
+from its minimum value, i.e. put U(qo) = 0, and use the symbol
+x = q-90
+(21.1)
+for the deviation of the co-ordinate from its equilibrium value. Thus
+U(x) = .
+(21.2)
+The kinetic energy of a system with one degree of freedom is in general
+of the form 1a(q)q2 = 1a(q)x2. In the same approximation, it is sufficient to
+replace the function a(q) by its value at q = qo. Putting for brevity a(go) = m,
+we have the following expression for the Lagrangian of a system executing
+small oscillations in one dimension:
+L = 1mx2-1kx2.
+(21.3)
+The corresponding equation of motion is
+m+kx=0,
+(21.4)
+or
+w2x=0,
+(21.5)
+where
+w= ((k/m).
+(21.6)
++ It should be noticed that m is the mass only if x is the Cartesian co-ordinate.
++ Such a system is often called a one-dimensional oscillator.
+58
+§21
+Free oscillations in one dimension
+59
+Two independent solutions of the linear differential equation (21.5) are
+cos wt and sin wt, and its general solution is therefore
+COS wt +C2 sin wt.
+(21.7)
+This expression can also be written
+x = a cos(wt + a).
+(21.8)
+Since cos(wt+a) = cos wt cos a - sin wt sin a, a comparison with (21.7)
+shows that the arbitrary constants a and a are related to C1 and C2 by
+tan a = - C2/C1.
+(21.9)
+Thus, near a position of stable equilibrium, a system executes harmonic
+oscillations. The coefficient a of the periodic factor in (21.8) is called the
+amplitude of the oscillations, and the argument of the cosine is their phase;
+a is the initial value of the phase, and evidently depends on the choice of
+the origin of time. The quantity w is called the angular frequency of the oscil-
+lations; in theoretical physics, however, it is usually called simply the fre-
+quency, and we shall use this name henceforward.
+The frequency is a fundamental characteristic of the oscillations, and is
+independent of the initial conditions of the motion. According to formula
+(21.6) it is entirely determined by the properties of the mechanical system
+itself. It should be emphasised, however, that this property of the frequency
+depends on the assumption that the oscillations are small, and ceases to hold
+in higher approximations. Mathematically, it depends on the fact that the
+potential energy is a quadratic function of the co-ordinate.
+The energy of a system executing small oscillations is E =
+= 1m(x2+w2x2) or, substituting (21.8),
+E =
+(21.10)
+It is proportional to the square of the amplitude.
+The time dependence of the co-ordinate of an oscillating system is often
+conveniently represented as the real part of a complex expression:
+x = re[A exp(iwt)],
+(21.11)
+where A is a complex constant; putting
+A = a exp(ix),
+(21.12)
+we return to the expression (21.8). The constant A is called the complex
+amplitude; its modulus is the ordinary amplitude, and its argument is the
+initial phase.
+The use of exponential factors is mathematically simpler than that of
+trigonometrical ones because they are unchanged in form by differentiation.
+t It therefore does not hold good if the function U(x) has at x = 0 a minimum of
+higher order, i.e. U ~ xn with n > 2; see §11, Problem 2(a).
+60
+Small Oscillations
+§21
+So long as all the operations concerned are linear (addition, multiplication
+by constants, differentiation, integration), we may omit the sign re through-
+out and take the real part of the final result.
+PROBLEMS
+PROBLEM 1. Express the amplitude and initial phase of the oscillations in terms of the
+initial co-ordinate xo and velocity vo.
+SOLUTION. a = (xx2+002/w2), tan a = -vo/wxo.
+PROBLEM 2. Find the ratio of frequencies w and w' of the oscillations of two diatomic
+molecules consisting of atoms of different isotopes, the masses of the atoms being M1, m2 and
+'M1', m2'.
+SOLUTION. Since the atoms of the isotopes interact in the same way, we have k = k'.
+The coefficients m in the kinetic energies of the molecules are their reduced masses. Accord-
+ing to (21.6) we therefore have
+PROBLEM 3. Find the frequency of oscillations of a particle of mass m which is free to
+move along a line and is attached to a spring whose other end is fixed at a point A (Fig. 22)
+at a distance l from the line. A force F is required to extend the spring to length l.
+A
+X
+FIG. 22
+SOLUTION. The potential energy of the spring is (to within higher-order terms) equal to
+the force F multiplied by the extension Sl of the spring. For x < l we have 81 = (12++2) -
+=
+x2/21, so that U = Fx2/21. Since the kinetic energy is 1mx2, we have = V(F/ml).
+PROBLEM 4. The same as Problem 3, but for a particle of mass m moving on a circle of
+radius r (Fig. 23).
+m
+&
+FIG. 23

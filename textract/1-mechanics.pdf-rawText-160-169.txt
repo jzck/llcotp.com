@@ -1,0 +1,407 @@
+
+§48
+Separation of the variables
+151
+To make the variables separable in the Hamilton-Jacobi equation the
+co-ordinates must be appropriately chosen. We shall consider some examples
+of separating the variables in different co-ordinates, which may be of
+physical interest in connection with problems of the motion of a particle in
+various external fields.
+(1) Spherical co-ordinates. In these co-ordinates (r, 0, ), the Hamiltonian is
+and the variables can be separated if
+U
+=
+where a(r), b(a), c(b) are arbitrary functions. The last term in this expression
+for U is unlikely to be of physical interest, and we shall therefore take
+U = a(r)+b(8)/r2.
+(48.8)
+In this case the Hamilton-Jacobi equation for the function So is
+1
+Since the co-ordinate is cyclic, we seek a solution in the form So
+Pot+S1(T)+S2(9), obtaining for the functions S1(r) andS 2(0) the equations
+(day)
+=
+E.
+Integration gives finally
+S = -
+(48.9)
+The arbitrary constants in (48.9) are Pp, B and E; on differentiating with
+respect to these and equating the results to other constants, we have the
+general solution of the equations of motion.
+(2) Parabolic co-ordinates. The passage from cylindrical co-ordinates
+(here denoted by p, o, 2) to parabolic co-ordinates E, N, o is effected by the
+formulae
+1(-n),pv(En).
+(48.10)
+The co-ordinates & and n take values from 0 to 00; the surfaces of constant
+$ and n are easily seen to be two families of paraboloids of revolution, with
+152
+The Canonical Equations
+§48
+the z-axis as the axis of symmetry. The equations (48.10) can also be written,
+in terms of
+r = =
+(48.11)
+(i.e. the radius in spherical co-ordinates), as
+$ = r++,
+= r Z.
+(48.12)
+Let us now derive the Lagrangian of a particle in the co-ordinates $, n, o.
+Differentiating the expressions (48.10) with respect to time and substituting
+in the Lagrangian in cylindrical co-ordinates
+L =
+we obtain
+L
+=
+(48.13)
+The = and
+the Hamiltonian is
+(48.14)
+The physically interesting cases of separable variables in these co-ordinates
+correspond to a potential energy of the form
+(48.15)
+The equation for So is
+2
+=
+E.
+The cyclic co-ordinate can be separated as a term PoO. Multiplying the equa-
+tion by m(s+n) and rearranging, we then have
+Putting So = P&O + S2(n), we obtain the two equations
+-B,
+§48
+Separation of the variables
+153
+integration of which gives finally
+S
+=
+dn.
+(48.16)
+Here the arbitrary constants are Ps, B and E.
+(3) Elliptic co-ordinates. These are E, n, o, defined by
+(48.17)
+The constant o is a parameter of the transformation. The co-ordinate $ takes
+values from 1 to 80, and n from - 1 to + 1. The definitions which are geo-
+metrically clearest+ are obtained in terms of the distances r1 and r2 to points
+A1 and A2 on the z-axis for which 2 = to: r1 = V[(2-0)2+p2],
+r2 = Substitution of (48.17) gives
+= o(s-n), r2 = o(+n),
+(48.18)
+& = (r2+r1)/2o, n = (r2-r1)/2o. =
+Transforming the Lagrangian from cylindrical to elliptic co-ordinates, we
+find
+L
+=
+(48.19)
+The Hamiltonian is therefore
+H
+=
+(48.20)
+The physically interesting cases of separable variables correspond to a
+potential energy
+(48.21)
+where a() and b(n) are arbitrary functions. The result of separating the
+variables in the Hamilton-Jacobi equation is
+S
+=
+1-n2
+t The surfaces of constant $ are the ellipsoids = 1, of which A1 and
+A2 are the foci; the surfaces of constant n are the hyperboloids 22/02/2-22/02(1-n2 = 1,
+also with foci A1 and A2.
+154
+The Canonical Equations
+§49
+PROBLEMS
+PROBLEM 1. Find a complete integral of the Hamilton-Jacobi equation for motion of a
+particle in a field U = a/r-Fz (a combination of a uniform field and a Coulomb field).
+SOLUTION. The field is of the type (48.15), with a(f)=a1F,b(n)a+Fn2 Formula
+(48.16) gives
+S
+=
+with arbitrary constants Po, E,B. The constant B has in this case the significance that the one-
+valued function of the co-ordinates and momenta of the particle
+B
+is conserved. The expression in the brackets is an integral of the motion for a pure Coulomb
+field (see $15).
+PROBLEM 2. The same as Problem 1, but for a field U = ai/r +az/r2 (the Coulomb field
+of two fixed points at a distance 2a apart).
+SOLUTION. This field is of the type (48.21), with a($) = (a1+az) /o, = (a1-az)n/o.
+From formula (48.22) we find
+S
+=
+The constant B here expresses the conservation of the quantity
+B = cos 01+ cos 02),
+where M is the total angular momentum of the particle, and 01 and O2 are the angles shown in
+Fig. 55.
+12
+r
+The
+20
+a
+FIG. 55
+$49. Adiabatic invariants
+Let us consider a mechanical system executing a finite motion in one dimen-
+sion and characterised by some parameter A which specifies the properties of
+the system or of the external field in which it is placed, and let us suppose that
+1 varies slowly (adiabatically) with time as the result of some external action;
+by a "slow" variation we mean one in which A varies only slightly during the
+period T of the motion:
+di/dt < A.
+(49.1)
+§49
+Adiabatic invariants
+155
+Such a system is not closed, and its energy E is not conserved. However, since
+A varies only slowly, the rate of change E of the energy is proportional to the
+rate of change 1 of the parameter. This means that the energy of the system
+behaves as some function of A when the latter varies. In other words, there
+is some combination of E and A which remains constant during the motion.
+This quantity is called an adiabatic invariant.
+Let H(p, q; A) be the Hamiltonian of the system, which depends on the
+parameter A. According to formula (40.5), the total time derivative of the
+energy of the system is dE/dt = OH/dt = (aH/dx)(d)/dt). In averaging this
+equation over the period of the motion, we need not average the second
+factor, since A (and therefore i) varies only slowly: dE/dt = (d)/dt)
+and in the averaged function 01/01 we can regard only P and q, and not A, as
+variable. That is, the averaging is taken over the motion which would occur
+if A remained constant.
+The averaging may be explicitly written
+dE dt
+According to Hamilton's equation q = OHOP, or dt = dq - (CH/OP). The
+integration with respect to time can therefore be replaced by one with respect
+to the co-ordinate, with the period T written as
+here the $ sign denotes an integration over the complete range of variation
+("there and back") of the co-ordinate during the period. Thus
+dq/(HHap)
+(49.2)
+dt $ dq/(HHdp)
+As has already been mentioned, the integrations in this formula must be
+taken over the path for a given constant value of A. Along such a path the
+Hamiltonian has a constant value E, and the momentum is a definite function
+of the variable co-ordinate q and of the two independent constant parameters
+E and A. Putting therefore P = p(q; E, 1) and differentiating with respect
+to A the equation H(p, q; X) )=E, we have = 0, or
+OH/OP ax ap
+t If the motion of the system is a rotation, and the co-ordinate q is an angle of rotation ,
+the integration with respect to must be taken over a "complete rotation", i.e. from 0 to 2nr.
+156
+The Canonical Equations
+§49
+Substituting this in the numerator of (49.2) and writing the integrand in the
+denominator as ap/dE, we obtain
+dt
+(49.3)
+dq
+or
+dt
+Finally, this may be written as
+dI/dt 0,
+(49.4)
+where
+(49.5)
+the integral being taken over the path for given E and A. This shows that, in
+the approximation here considered, I remains constant when the parameter A
+varies, i.e. I is an adiabatic invariant.
+The quantity I is a function of the energy of the system (and of the para-
+meter A). The partial derivative with respect to energy is given by 2m DI/DE
+= $ (ap/dE) dq (i.e. the integral in the denominator in (49.3)) and is, apart from
+a factor 2n, the period of the motion:
+(49.6)
+The integral (49.5) has a geometrical significance in terms of the phase
+path of the system. In the case considered (one degree of freedom), the phase
+space reduces to a two-dimensional space (i.e. a plane) with co-ordinates
+P, q, and the phase path of a system executing a periodic motion is a closed
+curve in the plane. The integral (49.5) taken round this curve is the area
+enclosed. It can evidently be written equally well as the line integral
+I = - $ q dp/2m and as the area integral I = II dp dq/2m.
+As an example, let us determine the adiabatic invariant for a one-dimen-
+sional oscillator. The Hamiltonian is H = where w is the
+frequency of the oscillator. The equation of the phase path is given by the
+law of conservation of energy H(p, q) = E. The path is an ellipse with semi-
+axes (2mE) and V(2E/mw2), and its area, divided by 2nr, is
+I=E/w.
+(49.7)
+t It can be shown that, if the function X(t) has no singularities, the difference of I from a
+constant value is exponentially small.
+§49
+Adiabatic invariants
+157
+The adiabatic invariance of I signifies that, when the parameters of the
+oscillator vary slowly, the energy is proportional to the frequency.
+The equations of motion of a closed system with constant parameters
+may be reformulated in terms of I. Let us effect a canonical transformation
+of the variables P and q, taking I as the new "momentum". The generating
+function is the abbreviated action So, expressed as a function of q and I. For
+So is defined for a given energy of the system; in a closed system, I is a func-
+tion of the energy alone, and so So can equally well be written as a function
+So(q, I). The partial derivative (So/dq)E is the same as the derivative
+( for constant I. Hence
+(49.8)
+corresponding to the first of the formulae (45.8) for a canonical trans-
+formation. The second of these formulae gives the new "co-ordinate",
+which we denote by W:
+W = aso(q,I)/aI.
+(49.9)
+The variables I and W are called canonical variables; I is called the action
+variable and W the angle variable.
+Since the generating function So(q, I) does not depend explicitly on time,
+the new Hamiltonian H' is just H expressed in terms of the new variables.
+In other words, H' is the energy E(I), expressed as a function of the action
+variable. Accordingly, Hamilton's equations in canonical variables are
+i = 0,
+w = dE(I)/dI.
+(49.10)
+The first of these shows that I is constant, as it should be; the energy is
+constant, and I is so too. From the second equation we see that the angle
+variable is a linear function of time:
+W = (dE/dI)t + constant.
+(49.11)
+The action So(q, I) is a many-valued function of the co-ordinate. During
+each period this function increases by
+(49.12)
+as is evident from the formula So = Spdq and the definition (49.5). During
+the same time the angle variable therefore increases by
+Aw = (S/I) =
+(49.13)
+t The exactness with which the adiabatic invariant (49.7) is conserved can be determined by
+establishing the relation between the coefficients C in the asymptotic (t + 00) expressions
+q = re[c exp(iw+t)] for the solution of the oscillator equation of motion q + w2(t) q = 0.
+Here the frequency w is a slowly varying function of time, tending to constant limits w as
+t
++ 00. The limiting values of I are given in terms of these coefficients by I = tw+/c+l2.
+The solution is known from quantum mechanics, on account of the formal resemblance
+between the above equation of motion and SCHRODINGER'S equation 4" + k2(x) 4 = 0 for
+one-dimensional motion of a particle above a slowly varying (quasi-classical) "potential
+barrier". The problem of finding the relation between the asymptotic (x + 00)
+expressions
+for & is equivalent to that of finding the "reflection coefficient" of the potential barrier; see
+Quantum Mechanics, $52, Pergamon Press, Oxford 1965.
+This method of determining the exactness of conservation of the adiabatic invariant for an
+oscillator is due to L. P. PITAEVSKII. The relevant calculations are given by A. M. DYKHNE,
+Soviet Physics JETP 11, 411, 1960. The analysis for the general case of an arbitrary finite
+motion in one dimension is given by A.A. SLUTSKIN, Soviet Physics JETP 18, 676, 1964.
+158
+The Canonical Equations
+§50
+as may also be seen directly from formula (49.11) and the expression (49.6)
+for the period.
+Conversely, if we express q and P, or any one-valued function F(p, q) of
+them, in terms of the canonical variables, then they remain unchanged when
+W increases by 2nd (with I constant). That is, any one-valued function F(p, q),
+when expressed in terms of the canonical variables, is a periodic function of W
+with period 2.
+$50. General properties of motion in S dimensions
+Let us consider a system with any number of degrees of freedom, executing
+a motion finite in all the co-ordinates, and assume that the variables can be
+completely separated in the Hamilton-Jacobi treatment. This means that,
+when the co-ordinates are appropriately chosen, the abbreviated action
+can be written in the form
+(50.1)
+as a sum of functions each depending on only one co-ordinate.
+Since the generalised momenta are Pi = aso/dqi = dSi/dqi, each function
+Si can be written
+(50.2)
+These are many-valued functions. Since the motion is finite, each co-ordinate
+can take values only in a finite range. When qi varies "there and back" in this
+range, the action increases by
+(50.3)
+where
+(50.4)
+the integral being taken over the variation of qi just mentioned.
+Let us now effect a canonical transformation similar to that used in 49,
+for the case of a single degree of freedom. The new variables are "action vari-
+ables" Ii and "angle variables"
+w(a(q
+(50.5)
++ It should be emphasised, however, that this refers to the formal variation of the co-
+ordinate qi over the whole possible range of values, not to its variation during the period of
+the actual motion as in the case of motion in one dimension. An actual finite motion of a
+system with several degrees of freedom not only is not in general periodic as a whole, but
+does not even involve a periodic time variation of each co-ordinate separately (see below).
+§50
+General properties of motion in S dimensions
+159
+where the generating function is again the action expressed as a function of
+the co-ordinates and the Ii. The equations of motion in these variables are
+Ii = 0, w = de(I)/I, which give
+I=constant,
+(50.6)
++ constant.
+(50.7)
+We also find, analogously to (49.13), that a variation "there and back" of
+the co-ordinate qi corresponds to a change of 2n in Wi:
+Awi==2m
+(50.8)
+In other words, the quantities Wi(q, I) are many-valued functions of the co-
+ordinates: when the latter vary and return to their original values, the Wi
+may vary by any integral multiple of 2. This property may also be formulated
+as a property of the function Wi(P, q), expressed in terms of the co-ordinates
+and momenta, in the phase space of the system. Since the Ii, expressed in
+terms of P and q, are one-valued functions, substitution of Ii(p, q) in wi(q, I)
+gives a function wilp, q) which may vary by any integral multiple of 2n
+(including zero) on passing round any closed path in phase space.
+Hence it follows that any one-valued function F(P, q) of the state of the
+system, if expressed in terms of the canonical variables, is a periodic function
+of the angle variables, and its period in each variable is 2nr. It can be expanded
+as a multiple Fourier series:
+(50.9)
+ls==
+where l1, l2, ls are integers. Substituting the angle variables as functions
+of time, we find that the time dependence of F is given by a sum of the form
+(50.10)
+lg==
+Each term in this sum is a periodic function of time, with frequency
+(50.11)
+Since these frequencies are not in general commensurable, the sum itself is
+not a periodic function, nor, in particular, are the co-ordinates q and
+momenta P of the system.
+Thus the motion of the system is in general not strictly periodic either as a
+whole or in any co-ordinate. This means that, having passed through a given
+state, the system does not return to that state in a finite time. We can say,
+t Rotational co-ordinates (see the first footnote to 49) are not in one-to-one relation
+with the state of the system, since the position of the latter is the same for all values of
+differing by an integral multiple of 2nr. If the co-ordinates q include such angles, therefore,
+these can appear in the function F(P, q) only in such expressions as cos and sin , which
+are in one-to-one relation with the state of the system.
+160
+The Canonical Equations
+§50
+however, that in the course of a sufficient time the system passes arbitrarily
+close to the given state. For this reason such a motion is said to be conditionally
+periodic.
+In certain particular cases, two or more of the fundamental frequencies
+Wi = DE/DI are commensurable for arbitrary values of the Ii. This is called
+degeneracy, and if all S frequencies are commensurable, the motion of the
+system is said to be completely degenerate. In the latter case the motion is
+evidently periodic, and the path of every particle is closed.
+The existence of degeneracy leads, first of all, to a reduction in the number
+of independent quantities Ii on which the energy of the system depends.
+If two frequencies W1 and W2 are such that
+(50.12)
+where N1 and N2 are integers, then it follows that I1 and I2 appear in the energy
+only as the sum n2I1+n1I2.
+A very important property of degenerate motion is the increase in the
+number of one-valued integrals of the motion over their number for a general
+non-degenerate system with the same number of degrees of freedom. In the
+latter case, of the 2s-1 integrals of the motion, only s functions of the state
+of the system are one-valued; these may be, for example, the S quantities I
+The remaining S - 1 integrals may be written as differences
+(50.13)
+The constancy of these quantities follows immediately from formula (50.7),
+but they are not one-valued functions of the state of the system, because the
+angle variables are not one-valued.
+When there is degeneracy, the situation is different. For example, the rela-
+tion (50.12) shows that, although the integral
+WIN1-W2N2
+(50.14)
+is not one-valued, it is so except for the addition of an arbitrary integral
+multiple of 2nr. Hence we need only take a trigonometrical function of this
+quantity to obtain a further one-valued integral of the motion.
+An example of degeneracy is motion in a field U = -a/r (see Problem).
+There is consequently a further one-valued integral of the motion (15.17)
+peculiar to this field, besides the two (since the motion is two-dimensional)
+ordinary one-valued integrals, the angular momentum M and the energy E,
+which hold for motion in any central field.
+It may also be noted that the existence of further one-valued integrals
+leads in turn to another property of degenerate motions: they allow a complete
+separation of the variables for several (and not only one+) choices of the co-
+t We ignore such trivial changes in the co-ordinates as q1' = q1'(q1), q2' = 92'(92).

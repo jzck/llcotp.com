@@ -1,0 +1,166 @@
+The differential of the Lagrangian L(q, $, q, §) is
+dL = dq + (al/dg) ds (0L/as) d
+d,
+whence
+= (0L/d) d.
+If we define the Routhian as
+= pq-L,
+(41.1)
+in which the velocity q is expressed in terms of the momentum P by means
+of the equation P = 0L/dq, then its differential is
+dR = - ds - (aL/a)
+(41.2)
+Hence
+DRIP, p = OR/dq,
+(41.3)
+(41.4)
+Substituting these equations in the Lagrangian for the co-ordinate $, we have
+(41.5)
+Thus the Routhian is a Hamiltonian with respect to the co-ordinate q
+(equations (41.3)) and a Lagrangian with respect to the co-ordinate $ (equation
+(41.5)).
+According to the general definition the energy of the system is
+E -p-L =
+In terms of the Routhian it is
+E=R-R,
+(41.6)
+as we find by substituting (41.1) and (41.4).
+The generalisation of the above formulae to the case of several co-ordinates
+q and & is evident.
+The use of the Routhian may be convenient, in particular, when some of
+the co-ordinates are cyclic. If the co-ordinates q are cyclic, they do not appear
+in the Lagrangian, nor therefore in the Routhian, so that the latter is a func-
+tion of P, $ and $. The momenta P corresponding to cyclic co-ordinates are
+constant, as follows also from the second equation (41.3), which in this sense
+contains no new information. When the momenta P are replaced by their
+given constant values, equations (41.5) (d/dt) JR(p, $, 5)108 = JR(P, &, §) 128
+become equations containing only the co-ordinates $, so that the cyclic co-
+ordinates are entirely eliminated. If these equations are solved for the func-
+tions (t), substitution of the latter on the right-hand sides of the equations
+q = JR(p, $, E) gives the functions q(t) by direct integration.
+PROBLEM
+Find the Routhian for a symmetrical top in an external field U(, 0), eliminating the cyclic
+co-ordinate 4 (where 4, , 0 are Eulerian angles).
+§42
+Poisson brackets
+135
+SOLUTION. The Lagrangian is = see
+§35, Problem 1. The Routhian is
+R = cos 0);
+the first term is a constant and may be omitted.
+42. Poisson brackets
+Let f (p, q, t) be some function of co-ordinates, momenta and time. Its
+total time derivative is
+df
+Substitution of the values of and Pk given by Hamilton's equations (40.4)
+leads to the expression
+(42.1)
+where
+(42.2)
+dqk
+This expression is called the Poisson bracket of the quantities H and f.
+Those functions of the dynamical variables which remain constant during
+the motion of the system are, as we know, called integrals of the motion.
+We see from (42.1) that the condition for the quantity f to be an integral of
+the motion (df/dt = 0) can be written
+af(dt+[H,f]=0
+(42.3)
+If the integral of the motion is not explicitly dependent on the time, then
+[H,f] = 0,
+(42.4)
+i.e. the Poisson bracket of the integral and the Hamiltonian must be zero.
+For any two quantities f and g, the Poisson bracket is defined analogously
+to (42.2):
+(42.5)
+The Poisson bracket has the following properties, which are easily derived
+from its definition.
+If the two functions are interchanged, the bracket changes sign; if one of
+the functions is a constant c, the bracket is zero:
+(42.6)
+[f,c]=0.
+(42.7)
+Also
+[f1+f2,g]=[f1,g)+[f2,g]
+(42.8)
+[f1f2,g] ]=fi[fa,8]+f2[f1,8] =
+(42.9)
+Taking the partial derivative of (42.5) with respect to time, we obtain
+(42.10)
+136
+The Canonical Equations
+§42
+If one of the functions f and g is one of the momenta or co-ordinates, the
+Poisson bracket reduces to a partial derivative:
+(42.11)
+(42.12)
+Formula (42.11), for example, may be obtained by putting g = qk in (42.5);
+the sum reduces to a single term, since dqk/dqi = 8kl and dqk/dpi = 0. Put-
+ting in (42.11) and (42.12) the function f equal to qi and Pi we have, in parti-
+cular,
+[qi,qk] = [Pi, Pk] =0, [Pi, 9k] = Sik.
+(42.13)
+The relation
+[f,[g,h]]+[g,[h,f]]+[h,[f,g]] = 0,
+(42.14)
+known as Jacobi's identity, holds between the Poisson brackets formed from
+three functions f, g and h. To prove it, we first note the following result.
+According to the definition (42.5), the Poisson bracket [f,g] is a bilinear
+homogeneous function of the first derivatives of f and g. Hence the bracket
+[h,[f,g]], for example, is a linear homogeneous function of the second
+derivatives of f and g. The left-hand side of equation (42.14) is therefore a
+linear homogeneous function of the second derivatives of all three functions
+f, g and h. Let us collect the terms involving the second derivatives of f.
+The first bracket contains no such terms, since it involves only the first
+derivatives of f. The sum of the second and third brackets may be symboli-
+cally written in terms of the linear differential operators D1 and D2, defined by
+D1() = [g, ], D2(b) = [h, ]. Then
+3,[h,f]]+[h,[f,g]] = [g, [h,f]]-[h,[g,f]
+= D1[D2(f)]-D2[D1(f)]
+= (D1D2-D2D1)f.
+It is easy to see that this combination of linear differential operators cannot
+involve the second derivatives of f. The general form of the linear differential
+operators is
+where & and Nk are arbitrary functions of the variables .... Then
+and the difference of these,
+§42
+Poisson brackets
+137
+is again an operator involving only single differentiations. Thus the terms in
+the second derivatives of f on the left-hand side of equation (42.14) cancel
+and, since the same is of course true of g and h, the whole expression is identi-
+cally zero.
+An important property of the Poisson bracket is that, if f and g are two
+integrals of the motion, their Poisson bracket is likewise an integral of the
+motion:
+[f,g] = constant. =
+(42.15)
+This is Poisson's theorem. The proof is very simple if f and g do not depend
+explicitly on the time. Putting h = H in Jacobi's identity, we obtain
+[H,[f,g]]+[f,[g,H]]+[g,[H,fl]=0.
+Hence, if [H, g] =0 and [H,f] = 0, then [H,[f,g]] = 0, which is the
+required result.
+If the integrals f and g of the motion are explicitly time-dependent, we
+put, from (42.1),
+Using formula (42.10) and expressing the bracket [H, [f,g]] in terms of two
+others by means of Jacobi's identity, we find
+d
+[
+(42.16)
+which evidently proves Poisson's theorem.
+Of course, Poisson's theorem does not always supply further integrals of
+the motion, since there are only 2s-1 - of these (s being the number of degrees
+of freedom). In some cases the result is trivial, the Poisson bracket being a
+constant. In other cases the integral obtained is simply a function of the ori-
+ginal integrals f and g. If neither of these two possibilities occurs, however,
+then the Poisson bracket is a further integral of the motion.
+PROBLEMS
+PROBLEM 1. Determine the Poisson brackets formed from the Cartesian components of
+the momentum p and the angular momentum M = rxp of a particle.
+SOLUTION. Formula (42.12) gives [Mx, Py] = -MM/Dy = -d(yp:-2py)/dy
+=
+-Pz,
+and similarly [Mx, Px] = 0, [Mx, P2] = Py. The remaining brackets are obtained by cyclically
+permuting the suffixes x, y, Z.
+6
+138
+The Canonical Equations

@@ -1,0 +1,425 @@
+
+§27
+Parametric resonance
+81
+constants: x1(t+T) = 1x1(t), x2(t+T) = u2x2(t). The most general functions
+having this property are
+(t) = 111t/TII1(t), x2(t) = M2t/T112(t),
+(27.3)
+where II1(t), II2(t) are purely periodic functions of time with period T.
+The constants 1 and 2 in these functions must be related in a certain way.
+Multiplying the equations +2(t)x1 = 0, 2+w2(t)x2 = 0 by X2 and X1
+respectively and subtracting, we = = 0, or
+X1X2-XIX2 = constant.
+(27.4)
+For any functions x1(t), x2(t) of the form (27.3), the expression on the left-
+hand side of (27.4) is multiplied by H1U2 when t is replaced by t + T. Hence
+it is clear that, if equation (27.4) is to hold, we must have
+M1M2=1.
+(27.5)
+Further information about the constants M1, 2 can be obtained from the
+fact that the coefficients in equation (27.2) are real. If x(t) is any integral of
+such an equation, then the complex conjugate function x* (t) must also be
+an integral. Hence it follows that U1, 2 must be the same as M1*, M2*, i.e.
+either 1 = M2* or 1 and 2 are both real. In the former case, (27.5) gives
+M1 = 1/1*, i.e. /1112 = 1/22/2 = 1: the constants M1 and 2 are of modulus
+unity.
+In the other case, two independent integrals of equation (27.2) are
+x2(t) = -/I2(t),
+(27.6)
+with a positive or negative real value of u (Iu/ # 1). One of these functions
+(x1 or X2 according as /x/ > 1 or /u/ <1) increases exponentially with time.
+This means that the system at rest in equilibrium (x = 0) is unstable: any
+deviation from this state, however small, is sufficient to lead to a rapidly
+increasing displacement X. This is called parametric resonance.
+It should be noticed that, when the initial values of x and x are exactly
+zero, they remain zero, unlike what happens in ordinary resonance (§22),
+in which the displacement increases with time (proportionally to t) even from
+initial values of zero.
+Let us determine the conditions for parametric resonance to occur in the
+important case where the function w(t) differs only slightly from a constant
+value wo and is a simple periodic function:
+w2(1) = con2(1+h cosyt)
+(27.7)
+where
+the
+constant h 1; we shall suppose h positive, as may always be
+done by suitably choosing the origin of time. As we shall see below, para-
+metric resonance is strongest if the frequency of the function w(t) is nearly
+twice wo. Hence we put y = 2wo+e, where E < wo.
+82
+Small Oscillations
+§27
+The solution of equation of motion+
++wo2[1+hcos(2wot)t]x
+(27.8)
+may be sought in the form
+(27.9)
+where a(t) and b(t) are functions of time which vary slowly in comparison
+with the trigonometrical factors. This form of solution is, of course, not
+exact. In reality, the function x(t) also involves terms with frequencies which
+differ from wother by integral multiples of 2wo+e; these terms are, how-
+ever, of a higher order of smallness with respect to h, and may be neglected
+in a first approximation (see Problem 1).
+We substitute (27.9) in (27.8) and retain only terms of the first order in
+€, assuming that à ea, b ~ eb; the correctness of this assumption under
+resonance conditions is confirmed by the result. The products of trigono-
+metrical functions may be replaced by sums:
+cos(wot1e)t.cos(2wote)t =
+etc., and in accordance with what was said above we omit terms with fre-
+quency 3(wo+1e). The result is
+= 0.
+If this equation is to be justified, the coefficients of the sine and cosine must
+both be zero. This gives two linear differential equations for the functions
+a(t) and b(t). As usual, we seek solutions proportional to exp(st). Then
+= 0, 1(e-thwo)a- - sb = 0, and the compatibility condition
+for these two algebraic equations gives
+(27.10)
+The condition for parametric resonance is that S is real, i.e. s2 > 0.1 Thus
+parametric resonance occurs in the range
+(27.11)
+on either side of the frequency 2wo.ll The width of this range is proportional
+to h, and the values of the amplification coefficient S of the oscillations in the
+range are of the order of h also.
+Parametric resonance also occurs when the frequency y with which the
+parameter varies is close to any value 2wo/n with n integral. The width of the
+t An equation of this form (with arbitrary y and h) is called in mathematical physics
+Mathieu's equation.
++ The constant u in (27.6) is related to s by u = - exp(sn/wo); when t is replaced by
+t+2n/2wo, the sine and cosine in (27.9) change sign.
+II If we are interested only in the range of resonance, and not in the values of S in that
+range, the calculations may be simplified by noting that S = 0 at the ends of the range, i.e.
+the coefficients a and b in (27.9) are constants. This gives immediately € = thwo as in
+(27.11).
+§27
+Parametric resonance
+83
+resonance range (region of instability) decreases rapidly with increasing N,
+however, namely as hn (see Problem 2, footnote). The amplification co-
+efficient of the oscillations also decreases.
+The phenomenon of parametric resonance is maintained in the presence
+of slight friction, but the region of instability becomes somewhat narrower.
+As we have seen in §25, friction results in a damping of the amplitude of
+oscillations as exp(- - At). Hence the amplification of the oscillations in para-
+metric resonance is as exp[(s-1)t] with the positive S given by the solution
+for the frictionless case, and the limit of the region of instability is given by
+the equation - X = 0. Thus, with S given by (27.10), we have for the resonance
+range, instead of (27.11),
+(27.12)
+It should be noticed that resonance is now possible not for arbitrarily
+small amplitudes h, but only when h exceeds a "threshold" value hk. When
+(27.12) holds, hk = 4X/wo. It can be shown that, for resonance near the fre-
+quency 2wo/n, the threshold hk is proportional to X1/n, i.e. it increases with n.
+PROBLEMS
+PROBLEM 1. Obtain an expression correct as far as the term in h2 for the limits of the region
+of instability for resonance near 2 = 2wo.
+SOLUTION. We seek the solution of equation (27.8) in the form
+x = ao cos(wo+1e)t +bo (wo+le)t +a1 cos 3( (wo+le)t +b1 sin 3(wo+le)t,
+which includes terms of one higher order in h than (27.9). Since only the limits of the region
+of instability are required, we treat the coefficients ao, bo, a1, b1 as constants in accordance
+with the last footnote. Substituting in (27.8), we convert the products of trigonometrical
+functions into sums and omit the terms of frequency 5(wo+1) in this approximation. The
+result is
+[
+- cos(wo+l)
+cos 3(wo+1e)tt
+sin 3(wo+1e)t = 0.
+In the terms of frequency wothe we retain terms of the second order of smallness, but in
+those of frequency 3( (wo+1) only the first-order terms. Each of the expressions in brackets
+must separately vanish. The last two give a1 = hao/16, b1 = hbo/16, and then the first two
+give woe +thwo2+1e2-h2wo2/32 = 0.
+Solving this as far as terms of order h2, we obtain the required limits of E:
+= theo-h20003.
+PROBLEM 2. Determine the limits of the region of instability in resonance near y = wo.
+SOLUTION. Putting y = wote, we obtain the equation of motion
+0.
+Since the required limiting values of ~~h2, we seek a solution in the form
+ao cos(wote)t sin(wote)t cos 2(wo+e)t +b1 sin 2(wo+e)t- +C1,
+84
+Small Oscillations
+§28
+which includes terms of the first two orders. To determine the limits of instability, we again
+treat the coefficients as constants, obtaining
+cos(wote)t-
++[-2woebo+thwo861] sin(wo+e)t.
++[-30002a1+thanoPao] cos 2(wote)t+
+sin 2(wote)t+[c1wo+thwo2ao] 0.
+Hence a1 = hao/6, b1 = hbo/6, C1 = -thao, and the limits aret € = -5h2wo/24, € = h2wo/24.
+PROBLEM 3. Find the conditions for parametric resonance in small oscillations of a simple
+pendulum whose point of support oscillates vertically.
+SOLUTION. The Lagrangian derived in §5, Problem 3(c), gives for small oscillations
+( < 1) the equation of motion + wo2[1+(4a/1) cos(2wo+t)) = 0, where wo2 = g/l.
+Hence we see that the parameter h is here represented by 4all. The condition (27.11), for
+example, becomes |
+§28. Anharmonic oscillations
+The whole of the theory of small oscillations discussed above is based on
+the expansion of the potential and kinetic energies of the system in terms of
+the co-ordinates and velocities, retaining only the second-order terms. The
+equations of motion are then linear, and in this approximation we speak of
+linear oscillations. Although such an expansion is entirely legitimate when
+the amplitude of the oscillations is sufficiently small, in higher approxima-
+tions (called anharmonic or non-linear oscillations) some minor but qualitatively
+different properties of the motion appear.
+Let us consider the expansion of the Lagrangian as far as the third-order
+terms. In the potential energy there appear terms of degree three in the co-
+ordinates Xi, and in the kinetic energy terms containing products of velocities
+and co-ordinates, of the form XEXKXI. This difference from the previous
+expression (23.3) is due to the retention of terms linear in x in the expansion
+of the functions aik(q). Thus the Lagrangian is of the form
+(28.1)
+where Nikl, liki are further constant coefficients.
+If we change from arbitrary co-ordinates Xi to the normal co-ordinates Qx
+of the linear approximation, then, because this transformation is linear, the
+third and fourth sums in (28.1) become similar sums with Qx and Qa in place
+t
+Generally, the width AE of the region of instability in resonance near the frequency
+2wo/n is given by
+AE =
+a result due to M. BELL (Proceedings of the Glasgow Mathematical Association 3, 132, 1957).
+§28
+Anharmonic oscillations
+85
+of the co-ordinates Xi and the velocities Xr. Denoting the coefficients in these
+new sums by dapy and Hapy's we have the Lagrangian in the form
+(28.2)
+a
+a,B,Y
+We shall not pause to write out in their entirety the equations of motion
+derived from this Lagrangian. The important feature of these equations is
+that they are of the form
+(28.3)
+where fa are homogeneous functions, of degree two, of the co-ordinates Q
+and their time derivatives.
+Using the method of successive approximations, we seek a solution of
+these equations in the form
+(28.4)
+where Qa2, and the Qx(1) satisfy the "unperturbed" equations
+i.e. they are ordinary harmonic oscillations:
+(28.5)
+Retaining only the second-order terms on the right-hand side of (28.3) in
+the next approximation, we have for the Qx(2) the equations
+(28.6)
+where (28.5) is to be substituted on the right. This gives a set of inhomo-
+geneous linear differential equations, in which the right-hand sides can be
+represented as sums of simple periodic functions. For example,
+cos(wpt + ag)
+Thus the right-hand sides of equations (28.6) contain terms corresponding
+to oscillations whose frequencies are the sums and differences of the eigen-
+frequencies of the system. The solution of these equations must be sought
+in a form involving similar periodic factors, and so we conclude that, in the
+second approximation, additional oscillations with frequencies
+wa+w
+(28.7)
+including the double frequencies 2wa and the frequency zero (corresponding
+to a constant displacement), are superposed on the normal oscillations of the
+system. These are called combination frequencies. The corresponding ampli-
+tudes are proportional to the products Axap (or the squares aa2) of the cor-
+responding normal amplitudes.
+In higher approximations, when further terms are included in the expan-
+sion of the Lagrangian, combination frequencies occur which are the sums
+and differences of more than two Wa; and a further phenomenon also appears.
+86
+Small Oscillations
+§28
+In the third approximation, the combination frequencies include some which
+coincide with the original frequencies W Wa+wp-wp). When the method
+described above is used, the right-hand sides of the equations of motion there-
+fore include resonance terms, which lead to terms in the solution whose
+amplitude increases with time. It is physically evident, however, that the
+magnitude of the oscillations cannot increase of itself in a closed system
+with no external source of energy.
+In reality, the fundamental frequencies Wa in higher approximations are
+not equal to their "unperturbed" values wa(0) which appear in the quadratic
+expression for the potential energy. The increasing terms in the solution
+arise from an expansion of the type
+which is obviously not legitimate when t is sufficiently large.
+In going to higher approximations, therefore, the method of successive
+approximations must be modified so that the periodic factors in the solution
+shall contain the exact and not approximate values of the frequencies. The
+necessary changes in the frequencies are found by solving the equations and
+requiring that resonance terms should not in fact appear.
+We may illustrate this method by taking the example of anharmonic oscil-
+lations in one dimension, and writing the Lagrangian in the form
+L =
+(28.8)
+The corresponding equation of motion is
+(28.9)
+We shall seek the solution as a series of successive approximations:
+where
+x(1) = a cos wt,
+(28.10)
+with the exact value of w, which in turn we express as w=wotw1)+w(2)+....
+(The initial phase in x(1) can always be made zero by a suitable choice of the
+origin of time.) The form (28.9) of the equation of motion is not the most
+convenient, since, when (28.10) is substituted in (28.9), the left-hand side is
+not exactly zero. We therefore rewrite it as
+(28.11)
+Putting x(1)+x(2), w wotwi and omitting terms of above the
+second order of smallness, we obtain for x(2) the equation
+= aa2 cos2wt+2wowlda cos wt
+= 1xa2-1xa2 cos 2wt + 2wow1)a cos wt.
+The condition for the resonance term to be absent from the right-hand side
+is simply w(1) = 0, in agreement with the second approximation discussed
+§29
+Resonance in non-linear oscillations
+87
+at the beginning of this section. Solving the inhomogeneous linear equation
+in the usual way, we have
+(28.12)
+Putting in (28.11) X wo+w(2), we obtain the equa-
+tion for x(3)
+= -
+or, substituting on the right-hand side (28.10) and (28.12) and effecting
+simple transformation,
+wt.
+Equating to zero the coefficient of the resonance term cos wt, we find the
+correction to the fundamental frequency, which is proportional to the squared
+amplitude of the oscillations:
+(28.13)
+The combination oscillation of the third order is
+(28.14)
+$29. Resonance in non-linear oscillations
+When the anharmonic terms in forced oscillations of a system are taken
+into account, the phenomena of resonance acquire new properties.
+Adding to the right-hand side of equation (28.9) an external periodic force
+of frequency y, we have
++2x+wo2x=(fm)cos = yt - ax2-Bx3;
+(29.1)
+here the frictional force, with damping coefficient A (assumed small) has also
+been included. Strictly speaking, when non-linear terms are included in the
+equation of free oscillations, the terms of higher order in the amplitude of
+the external force (such as occur if it depends on the displacement x) should
+also be included. We shall omit these terms merely to simplify the formulae;
+they do not affect the qualitative results.
+Let y = wote with E small, i.e. y be near the resonance value. To ascertain
+the resulting type of motion, it is not necessary to consider equation (29.1)
+if we argue as follows. In the linear approximation, the amplitude b is given
+88
+Small Oscillations
+§29
+near resonance, as a function of the amplitude f and frequency r of the
+external force, by formula (26.7), which we write as
+(29.2)
+The non-linearity of the oscillations results in the appearance of an ampli-
+tude dependence of the eigenfrequency, which we write as
+wo+kb2,
+(29.3)
+the constant K being a definite function of the anharmonic coefficients (see
+(28.13)). Accordingly, we replace wo by wo + kb2 in formula (29.2) (or, more
+precisely, in the small difference y-wo). With y-wo=e, the resulting
+equation is
+=
+(29.4)
+or
+Equation (29.4) is a cubic equation in b2, and its real roots give the ampli-
+tude of the forced oscillations. Let us consider how this amplitude depends
+on the frequency of the external force for a given amplitude f of that force.
+When f is sufficiently small, the amplitude b is also small, so that powers
+of b above the second may be neglected in (29.4), and we return to the form
+of b(e) given by (29.2), represented by a symmetrical curve with a maximum
+at the point E = 0 (Fig. 32a). As f increases, the curve changes its shape,
+though at first it retains its single maximum, which moves to positive E if
+K > 0 (Fig. 32b). At this stage only one of the three roots of equation (29.4)
+is real.
+When f reaches a certain value f k (to be determined below), however, the
+nature of the curve changes. For all f > fk there is a range of frequencies in
+which equation (29.4) has three real roots, corresponding to the portion
+BCDE in Fig. 32c.
+The limits of this range are determined by the condition db/de = 8 which
+holds at the points D and C. Differentiating equation (29.4) with respect to
+€, we have
+db/de =
+Hence the points D and C are determined by the simultaneous solution of
+the equations
+2-4kb2e+3k264+2 0
+(29.5)
+and (29.4). The corresponding values of E are both positive. The greatest
+amplitude is reached where db/de = 0. This gives E = kb2, and from (29.4)
+we have
+bmax = f/2mwod;
+(29.6)
+this is the same as the maximum value given by (29.2).
+§29
+Resonance in non-linear oscillations
+89
+It may be shown (though we shall not pause to do so heret) that, of the
+three real roots of equation (29.4), the middle one (represented by the dotted
+part CD of the curve in Fig. 32c) corresponds to unstable oscillations of the
+system: any action, no matter how slight, on a system in such a state causes
+it to oscillate in a manner corresponding to the largest or smallest root (BC
+or DE). Thus only the branches ABC and DEF correspond to actual oscil-
+lations of the system. A remarkable feature here is the existence of a range of
+frequencies in which two different amplitudes of oscillation are possible. For
+example, as the frequency of the external force gradually increases, the ampli-
+tude of the forced oscillations increases along ABC. At C there is a dis-
+continuity of the amplitude, which falls abruptly to the value corresponding
+to E, afterwards decreasing along the curve EF as the frequency increases
+further. If the frequency is now diminished, the amplitude of the forced
+oscillations varies along FD, afterwards increasing discontinuously from D
+to B and then decreasing along BA.
+b
+(a)
+to
+b
+(b)
+f<f
+b
+(c)
+f>tp
+B
+C
+Di
+A
+E
+F
+€
+FIG. 32
+To calculate the value of fk, we notice that it is the value of f for which
+the two roots of the quadratic equation in b2 (29.5) coincide; for f = f16, the
+section CD reduces to a point of inflection. Equating to zero the discriminant
+t The proof is given by, for example, N.N. BOGOLIUBOV and Y.A. MITROPOLSKY, Asymp-
+totic Methods in the Theory of Non-Linear Oscillations, Hindustan Publishing Corporation,
+Delhi 1961.
+4
+90
+Small Oscillations
+§29
+of (29.5), we find E2 = 3X², and the corresponding double root is kb2 = 2e/3.
+Substitution of these values of b and E in (29.4) gives
+32m2wo2x3/31/3k.
+(29.7)
+Besides the change in the nature of the phenomena of resonance at fre-
+quencies y 22 wo, the non-linearity of the oscillations leads also to new
+resonances in which oscillations of frequency close to wo are excited by an
+external force of frequency considerably different from wo.
+Let the frequency of the external force y 22 two, i.e. y = two+e. In the
+first (linear) approximation, it causes oscillations of the system with the same
+frequency and with amplitude proportional to that of the force:
+x(1)= (4f/3mwo2) cos(two+e)t
+(see (22.4)). When the non-linear terms are included (second approximation),
+these oscillations give rise to terms of frequency 2y 22 wo on the right-hand
+side of the equation of motion (29.1). Substituting x(1) in the equation
+= -
+using the cosine of the double angle and retaining only the resonance term
+on the right-hand side, we have
+= - (8xf2/9m2w04) cos(wo+2e)t.
+(29.8)
+This equation differs from (29.1) only in that the amplitude f of the force is
+replaced by an expression proportional to f2. This means that the resulting
+resonance is of the same type as that considered above for frequencies
+y 22 wo, but is less strong. The function b(e) is obtained by replacing f by
+- 8xf2/9mwo4, and E by 2e, in (29.4):
+62[(2e-kb2)2+12] = 16x2f4/81m4w010.
+(29.9)
+Next, let the frequency of the external force be 2= 2wote In the first
+approximation, we have x(1) = - (f/3mwo2) cos(2wo+e)t. On substituting
+in equation (29.1), we do not obtain terms representing an
+external force in resonance such as occurred in the previous case. There is,
+however, a parametric resonance resulting from the third-order term pro-
+portional to the product x(1)x(2). If only this is retained out of the non-linear
+terms, the equation for x(2) is
+=
+or
+(29.10)
+i.e. an equation of the type (27.8) (including friction), which leads, as we
+have seen, to an instability of the oscillations in a certain range of frequencies.
