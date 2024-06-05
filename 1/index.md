@@ -23,12 +23,12 @@ III.  INTEGRATION OF THE EQUATIONS OF MOTION
 12. [Determination of the potential energy from the period of oscillation](12-determination-of-the-potential-energy-from-the-period-of-oscillation.html)
 13. [The reduced mass](13-the-reduced-mass.html)
 14. [Motion in a central field](14-motion-in-a-central-field.html)
+15. [Kepler's problem](15-keplers-problem.html)
 
 <span style="background-color: yellow; color: white: width: 100%;">
 🚧 WORK IN PROGRESS BELOW THIS POINT 🚧
 </span>
 
-15. [Kepler's problem](15-keplers-problem.html)
 IV.  COLLISION BETWEEN PARTICLES
 16. [Disintegration of particles](16-disintegration-of-particles.html)
 17. [Elastic collisions](17-elastic-collisions.html)

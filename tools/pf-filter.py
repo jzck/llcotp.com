@@ -40,7 +40,7 @@ def action(elem, doc):
             return elem
         else:
             # section ref
-            _pnum = text
+            pnum = text
             try:
                 slug = [f for f in os.listdir(book) if f.startswith(pnum)][0]
             except:

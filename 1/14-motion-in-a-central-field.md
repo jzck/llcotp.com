@@ -161,3 +161,11 @@ to $-1/r^n$ with $n > 2$.
 <!-- (m1+m2)x+m2) sin = constant, -->
 <!-- (2) -->
 <!-- which expresses the fact that the centre of mass of the system does not move horizontally. -->
+<!-- Using (1), we find the energy in the form -->
+<!-- E -->
+<!-- (3) -->
+<!-- Hence -->
+<!-- Expressing the co-ordinates X2 sin o, y = l cos of the particle m2 in terms of -->
+<!-- by means of (2), we find that its path is an arc of an ellipse with horizontal semi- -->
+<!-- axis lm1/(m1+m2) and vertical semi-axis l. As M1 8 we return to the familiar simple pen- -->
+<!-- dulum, which moves in an arc of a circle. -->
