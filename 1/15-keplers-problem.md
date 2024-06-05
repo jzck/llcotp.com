@@ -1,8 +1,6 @@
 ---
-title: 15-keplers-problem
+title: 15 Kepler's problem
 ---
-Kepler's problem
-35
 Using (1), we find the energy in the form
 E
 (3)

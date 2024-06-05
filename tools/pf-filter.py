@@ -1,6 +1,7 @@
 import panflute as pf
 import subprocess
 import os
+import re
 
 def prepare(doc):
     pass
@@ -14,15 +15,20 @@ def action(elem, doc):
     #     elem.url = '../' + elem.url[:-3] + '.html'
     #     return elem
 
+
     # reference
     if isinstance(elem, pf.Code):
         # todo sketchy if/else, replace with regex
-        if '.' in elem.text:
+        if '/' in elem.text:
+            book, text = elem.text.split('/')
+        else:
+            book = '1'
+            text = elem.text
+        if '.' in text:
             # equation ref
-            book, eq = elem.text.split('/')
+            eq = text
             res = subprocess.run(["./tools/tex_to_html.sh", "inline", f"{book}/equations/{eq}.tex"], capture_output=True)
             tooltiptext = res.stdout.decode('utf-8')
-            book, eq = elem.text.split('/')
             html = f'''
             <span class="tooltip" class="math inline">
             ({eq})
@@ -32,9 +38,9 @@ def action(elem, doc):
             # <span class="tooltiptext">{tooltiptext}</span>
             elem = pf.RawInline(html, format='html')
             return elem
-        elif '/' in elem.text:
+        else:
             # section ref
-            book, pnum = elem.text.split('/')
+            _pnum = text
             try:
                 slug = [f for f in os.listdir(book) if f.startswith(pnum)][0]
             except:
@@ -45,14 +51,16 @@ def action(elem, doc):
             html = f'<a href="{slug}">§{title.strip('\n')}</a>'
             elem = pf.RawInline(html, format='html')
             return elem
-        else:
-            # todo reference to whole book
-            return elem
 
     # load equation
     if isinstance(elem, pf.CodeBlock):
+        if '/' in elem.text:
+            book, text = elem.text.split('/')
+        else:
+            book = '1'
+            text = elem.text
         if 'load' in elem.classes:
-            book, eq = elem.text.split('/')
+            eq = text
             res = subprocess.run(["./tools/tex_to_html.sh", "block", f"{book}/equations/{eq}.tex"], capture_output=True)
             html = res.stdout.decode('utf-8')
             elem = pf.RawBlock(html, format='html')

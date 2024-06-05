@@ -2,8 +2,7 @@
 title: 2. The principle of least action
 ---
 
-The most general formulation of the law governing the motion of mech-
-anical systems is the principle of least action or Hamilton's principle, according to which every mechanical system is characterised by a definite function
+The most general formulation of the law governing the motion of mechanical systems is the principle of least action or Hamilton's principle, according to which every mechanical system is characterised by a definite function
 $L(q_1,q_2,q_s,...,\dot{q}_1,\dot{q}_2,\dot{q}_s,t)$, or briefly $L(q,\dot{q},t)$, and the motion of the system is such that a certain condition is satisfied.
 
 Let the system occupy, at the instants $t_1$ and $t_2$, positions defined by two
