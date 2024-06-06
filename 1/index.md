@@ -24,14 +24,14 @@ III.  INTEGRATION OF THE EQUATIONS OF MOTION
 13. [The reduced mass](13-the-reduced-mass.html)
 14. [Motion in a central field](14-motion-in-a-central-field.html)
 15. [Kepler's problem](15-keplers-problem.html)
+IV.  COLLISION BETWEEN PARTICLES
+16. [Disintegration of particles](16-disintegration-of-particles.html)
+17. [Elastic collisions](17-elastic-collisions.html)
 
 <span style="background-color: yellow; color: white: width: 100%;">
 🚧 WORK IN PROGRESS BELOW THIS POINT 🚧
 </span>
 
-IV.  COLLISION BETWEEN PARTICLES
-16. [Disintegration of particles](16-disintegration-of-particles.html)
-17. [Elastic collisions](17-elastic-collisions.html)
 18. [Scattering](18-scattering.html)
 19. [Rutherford's formula](19-rutherfords-formula.html)
 20. [Small-angle scattering](20-small-angle-scattering.html)

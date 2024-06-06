@@ -1,165 +1,98 @@
 ---
-title: 17-elastic-collisions
+title: 17 Elastic collisions
 ---
-form the sum of their squares, which is unity. Since V10/2.20 = m2/m1, we have finally, using
-(16.2),
-(m2/m1) sin202+(m1/m2) sin201-2 sin O1 sin O2 cos(A1+6
-PROBLEM 2. Find the angular distribution of the resulting particles in the L system.
-SOLUTION. When vo > V, we substitute (16.6), with the plus sign of the radical, in (16.7),
-obtaining
-(0  .
-When vo < V, both possible relations between Oo and 0 must be taken into account. Since,
-when 0 increases, one value of Oo increases and the other decreases, the difference (not the
-sum) of the expressions d cos Oo with the two signs of the radical in (16.6) must be taken.
-The result is
-(0    max).
-PROBLEM 3. Determine the range of possible values of the angle 0 between the directions
-of motion of the two resulting particles in the L system.
-SOLUTION. The angle 0 = 01+02, where 01 and O2 are the angles defined by formula (16.5)
-(see Problem 1), and it is simplest to calculate the tangent of 0. A consideration of the extrema
-of the resulting expression gives the following ranges of 0, depending on the relative magni-
-tudes of V, V10 and V20 (for definiteness, we assume V20 > V10): 0 0 77 if V10
-< 0 < TT if V V V10, 0 < Oo if V > U20. The value of Oo is given by
-sin =
-§17. Elastic collisions
-A collision between two particles is said to be elastic if it involves no change
-in their internal state. Accordingly, when the law of conservation of energy
-is applied to such a collision, the internal energy of the particles may be
-neglected.
-The collision is most simply described in a frame of reference in which the
-centre of mass of the two particles is at rest (the C system). As in $16, we
-distinguish by the suffix 0 the values of quantities in that system. The velo-
-cities of the particles before the collision are related to their velocities V1 and
-V2 in the laboratory system by V10 = M2V/(m1+m2), V20 = -m1V/(m1+m2),
-where V = V1-V2; see (13.2).
-Because of the law of conservation of momentum, the momenta of the two
-particles remain equal and opposite after the collision, and are also unchanged
-in magnitude, by the law of conservation of energy. Thus, in the C system
-the collision simply rotates the velocities, which remain opposite in direction
-and unchanged in magnitude. If we denote by no a unit vector in the direc-
-tion of the velocity of the particle M1 after the collision, then the velocities
-of the two particles after the collision (distinguished by primes) are
-V10' m20120/(m1+m2), V20' = -mjono/(m1+m2).
-(17.1)
-§17
-Elastic collisions
-45
-In order to return to the L system, we must add to these expressions the
-velocity V of the centre of mass. The velocities in the L system after the
-collision are therefore
-V1' =
-(17.2)
-V2' =
-No further information about the collision can be obtained from the laws
-of conservation of momentum and energy. The direction of the vector no
-depends on the law of interaction of the particles and on their relative position
-during the collision.
-The results obtained above may be interpreted geometrically. Here it is
-more convenient to use momenta instead of velocities. Multiplying equations
-(17.2) by M1 and M2 respectively, we obtain
-(17.3)
-P2' muno+m2(p1+p2)/(m1+m2)
-where m = m1m2/(m1+m2) is the reduced mass. We draw a circle of radius
-mv and use the construction shown in Fig. 15. If the unit vector no is along
-OC, the vectors AC and CB give the momenta P1' and P2' respectively.
-When p1 and P2 are given, the radius of the circle and the points A and B
-are fixed, but the point C may be anywhere on the circle.
-C
-p'
-no
-P'2
-B
-A
-FIG. 15
-Let us consider in more detail the case where one of the particles (m2, say) is
-at rest before the collision. In that case the distance OB = m2p1/(m1+m2) = mv
-is equal to the radius, i.e. B lies on the circle. The vector AB is equal to the
-momentum P1 of the particle M1 before the collision. The point A lies inside
-or outside the circle, according as M1 < M2 or M1 > M2. The corresponding
-46
-Collisions Between Particles
-§17
-diagrams are shown in Figs. 16a, b. The angles 01 and O2 in these diagrams
-are the angles between the directions of motion after the collision and the
-direction of impact (i.e. of P1). The angle at the centre, denoted by X, which
-gives the direction of no, is the angle through which the direction of motion
-of m1 is turned in the C system. It is evident from the figure that 01 and O2
-can be expressed in terms of X by
-(17.4)
-C
-p'
-P2
-pi
-P2
-0
-max
-10,
-X
-O2
-O2
-B
-B
-A
-0
-A
-Q
-0
-(a) m < m2
-(b) m, m m m
-AB=p : AO/OB= m/m2
-FIG. 16
-We may give also the formulae for the magnitudes of the velocities of the
-two particles after the collision, likewise expressed in terms of X:
-ib
-(17.5)
-The sum A1 + O2 is the angle between the directions of motion of the
-particles after the collision. Evidently 01 + O2 > 1/1 if M1 < M2, and 01+O2 < 1st
-if M1 > M2.
-When the two particles are moving afterwards in the same or in opposite
-directions (head-on collision), we have X=TT, i.e. the point C lies on the
-diameter through A, and is on OA (Fig. 16b ; P1' and P2' in the same direc-
-tion) or on OA produced (Fig. 16a; P1' and P2' in opposite directions).
+
+A collision between two particles is said to be *elastic* if it involves no change in their internal state. Accordingly, when the law of conservation of energy is applied to such a collision, the internal energy of the particles may be neglected.
+
+The collision is most simply described in a frame of reference in which the centre of mass of the two particles is at rest (the $C$ system). As in `16`, we distinguish by the suffix $0$ the values of quantities in that system. The velocities of the particles before the collision are related to their velocities $\v{v}_1$ and $\v{v}_2$ in the laboratory system by $\v{v}_{10} = m_2\v{v}/(m_1+m_2), \v{v}_{20} = -m_1\v{v}/(m_1+m_2)$, where $\v{v} = \v{v}_1-\v{v}_2$; see `13.2`.
+
+Because of the law of conservation of momentum, the momenta of the two particles remain equal and opposite after the collision, and are also unchanged in magnitude, by the law of conservation of energy. Thus, in the $C$ system the collision simply rotates the velocities, which remain opposite in direction and unchanged in magnitude. If we denote by $\v{n}_0$ a unit vector in the direction of the velocity of the particle $m_1$ after the collision, then the velocities of the two particles after the collision (distinguished by primes) are
+
+```load
+17.1
+```
+
+In order to return to the $L$ system, we must add to these expressions the velocity $\v{V}$ of the centre of mass. The velocities in the $L$ system after the collision are therefore
+
+```load
+17.2
+```
+
+No further information about the collision can be obtained from the laws of conservation of momentum and energy. The direction of the vector $\v{n}_0$ depends on the law of interaction of the particles and on their relative position during the collision.
+
+The results obtained above may be interpreted geometrically. Here it is more convenient to use momenta instead of velocities. Multiplying equations `17.2` by $m_1$ and $m_2$ respectively, we obtain
+
+```load
+17.3
+```
+
+where $m = m_1m_2/(m_1+m_2)$ is the reduced mass. We draw a circle of radius $mv$ and use the construction shown in `fig15`. If the unit vector $\v{n}_0$ is along $OC$, the vectors $AC$ and $CB$ give the momenta $\v{p}_1'$ and $\v{p}_2'$ respectively.  When $\v{p}_1$ and $\v{p}_2$ are given, the radius of the circle and the points $A$ and $B$ are fixed, but the point $C$ may be anywhere on the circle.
+
+```fig
+15
+```
+
+Let us consider in more detail the case where one of the particles ($m_2$, say) is at rest before the collision. In that case the distance $OB = m_2p_1/(m_1+m_2) = mv$ is equal to the radius, i.e. $B$ lies on the circle. The vector $AB$ is equal to the momentum $\v{p}_1$ of the particle $m_1$ before the collision. The point A lies inside or outside the circle, according as $m_1\lt m_2$ or $m_1\gt m_2$. The corresponding diagrams are shown in `Figs. 16a, b`. The angles $\theta_1$ and $\theta_2$ in these diagrams are the angles between the directions of motion after the collision and the direction of impact (i.e. of $\v{p}_1$). The angle at the centre, denoted by $\chi$, which gives the direction of $\v{n}_0$, is the angle through which the direction of motion of $m_1$ is turned in the $C$ system. It is evident from the figure that $\theta_1$ and $\theta_2$ can be expressed in terms of $\chi$ by
+
+```load
+17.4
+```
+
+```fig
+16
+```
+
+We may give also the formulae for the magnitudes of the velocities of the two particles after the collision, likewise expressed in terms of $\chi$:
+
+```load
+17.5
+```
+
+The sum $\theta_1 + \theta_2$ is the angle between the directions of motion of the particles after the collision. Evidently $\theta_1 + \theta_2 > \mfrac{1}{2}\pi$ if $m_1\lt m_2$, and $\theta_1+\theta_2\lt\mfrac{1}{2}\pi$ if $m_1\gt m_2$.
+
+When the two particles are moving afterwards in the same or in opposite directions (head-on collision), we have $\chi=\pi$, i.e. the point $C$ lies on the diameter through $A$, and is on $OA$ (`Fig. 16b` ; $\v{p}_1'$ and $\v{p}_2'$ in the same direction) or on $OA$ produced (`Fig. 16a`; $\v{p}_1'$ and $\v{p}_2'$ in opposite directions).
+
 In this case the velocities after the collision are
-(17.6)
-This value of V2' has the greatest possible magnitude, and the maximum
-§17
-Elastic collisions
-47
-energy which can be acquired in the collision by a particle originally at rest
-is therefore
-(17.7)
-where E1 = 1M1U12 is the initial energy of the incident particle.
-If M1 < M2, the velocity of M1 after the collision can have any direction.
-If M1 > M2, however, this particle can be deflected only through an angle
-not exceeding Omax from its original direction; this maximum value of A1
-corresponds to the position of C for which AC is a tangent to the circle
-(Fig. 16b). Evidently
-sin Omax = OC|OA = M2/M1.
-(17.8)
-The collision of two particles of equal mass, of which one is initially at
-rest, is especially simple. In this case both B and A lie on the circle (Fig. 17).
-C
-p'
-P2
-Q2
-B
-A
-0
-FIG. 17
+
+```load
+17.6
+```
+
+This value of $\v{v}_2'$ has the greatest possible magnitude, and the maximum energy which can be acquired in the collision by a particle originally at rest is therefore
+
+```load
+17.7
+```
+
+where $E_1 = \mfrac{1}{2}m_1{v_1}^2$ is the initial energy of the incident particle.
+
+If $m_1\lt m_2$, the velocity of $m_1$ after the collision can have any direction.  If $m_1 > m_2$, however, this particle can be deflected only through an angle not exceeding $\theta_\max$ from its original direction; this maximum value of $\theta_1$ corresponds to the position of $C$ for which $AC$ is a tangent to the circle `Fig. 16b`. Evidently
+
+```load
+17.8
+```
+
+The collision of two particles of equal mass, of which one is initially at rest, is especially simple. In this case both $B$ and $A$ lie on the circle `Fig. 17`.
+
+```fig
+17
+```
+
 Then
-01=1x,
-A2 = 1(-x),
-(17.9)
-12
-=
-(17.10)
+
+```load
+17.9
+```
+```load
+17.10
+```
+
 After the collision the particles move at right angles to each other.
-PROBLEM
-Express the velocity of each particle after a collision between a moving particle (m1) and
-another at rest (m2) in terms of their directions of motion in the L system.
-SOLUTION. From Fig. 16 we have P2' = 20B cos O2 or V2' = 2v(m/m2) cos O2. The momen-
-tum P1' = AC is given by OC2 = AO2tp12-2AO.p cos or
-Hence
-for m1 > M2 the radical may have either sign, but for M2 > M1 it must be taken positive.
-48
-Collisions Between Particles
+
+<!-- PROBLEM -->
+<!-- Express the velocity of each particle after a collision between a moving particle (m1) and -->
+<!-- another at rest (m2) in terms of their directions of motion in the $L$ system. -->
+<!-- SOLUTION. From Fig. 16 we have P2' = 20B cos O2 or V2' = 2v(m/m2) cos O2. The momen- -->
+<!-- tum P1' = AC is given by OC2 = AO2tp12-2AO.p cos or -->
+<!-- Hence -->
+<!-- for m1 > M2 the radical may have either sign, but for M2 > M1 it must be taken positive. -->
